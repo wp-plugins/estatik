@@ -61,11 +61,17 @@ Please check these pages >> http://estatik.net/estatik-plugin-documentation/.
 == Screenshots ==
 
 
-1. Dashboard
-2. Data manager
-3. Add property
-4. Properties list view
-5. Single property page view
+1. List view
+2. Single page
+3. Table view
+4. Property submit page
+5. Agents list
+6. Admin - Listings
+7. Listings - Features
+8. Add new property
+9. Add new property - address
+10. Admin - Media
+11. Agents
 
 
 == Changelog ==
