@@ -1,0 +1,5 @@
+prop_title,prop_price,prop_bedrooms,prop_bathrooms,prop_floors,prop_area,prop_lotsize,prop_builtin,prop_description,prop_type,prop_category,prop_status,prop_featured,prop_hot,prop_open_house,prop_foreclosure,prop_period
+title 1,500,6,6,2,4000,5000,2014,prop description,appartment,for rent,open,yes,yes,yes,yes,per day
+title 2,500,6,6,2,4000,5000,2014,prop description,office,for sale,open,no,no,no,no,
+title 1,500,6,6,2,4000,5000,2014,prop description,appartment,for rent,open,yes,yes,yes,yes,per day
+title 2,500,6,6,2,4000,5000,2014,prop description,office,for sale,open,no,no,no,no,
