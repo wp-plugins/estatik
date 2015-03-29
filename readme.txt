@@ -1,7 +1,7 @@
 ===Estatik===
 Contributors: Estatik
 Donate link: http://estatik.net/
-Tags: wordpress real estate plugin, property listing, mls, idx, property import, real estate agent, real estate website, property management
+Tags: wordpress real estate, property, properties, estate, real estate, listing, listings, property listing, realtor, agent, house, wordpress real estate plugin, broker, mls, idx, property import, real estate agent, real estate website, property management
 Requires at least: 4.0
 Tested up to: 4.1
 Stable tag: trunk
