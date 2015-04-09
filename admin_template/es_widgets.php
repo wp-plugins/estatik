@@ -3,7 +3,7 @@
 class es_search extends WP_Widget {
 	// constructor
 	function es_search() {
-	        parent::WP_Widget(false, $name = __('Estatik Search', 'wp_es_search') );
+	        parent::WP_Widget(false, $name = __('Estatik Search', 'es-plugin') );
 	}
 	// widget form creation
 	function form($instance) {
@@ -19,7 +19,6 @@ class es_search extends WP_Widget {
 			$search_type 		= esc_attr($instance['search_type']);
 			$search_sqft 		= esc_attr($instance['search_sqft']);
 			$search_lotsize 	= esc_attr($instance['search_lotsize']);
-			$search_agent 		= esc_attr($instance['search_agent']);
 			$search_keywords 	= esc_attr($instance['search_keywords']);
 			$search_layout 		= esc_attr($instance['search_layout']);
 	 
@@ -44,71 +43,65 @@ class es_search extends WP_Widget {
 		} 
 		?>
         <p>
-			<label><?php _e('Search Title:'); ?></label><br />
+			<label><?php _e('Search Title:', 'es-plugin'); ?></label><br />
 			<input class="widefat" name="<?php echo $this->get_field_name('search_title'); ?>" type="text" value="<?php if(isset($search_title)) { echo $search_title; }else{ echo ''; } ?>"/>
 		</p>  
         <p>
-			<label><?php _e('Address:'); ?></label><br />
+			<label><?php _e('Address:', 'es-plugin'); ?></label><br />
             <?php $search_address = (isset($search_address)) ? $search_address : '1'; ?> 
-			<label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_address'); ?>" type="radio" value="1" <?php checked( '1', $search_address ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_address'); ?>" type="radio" value="0" <?php checked( '0', $search_address ); ?>/><?php _e('No'); ?></label>
+			<label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_address'); ?>" type="radio" value="1" <?php checked( '1', $search_address ); ?>/><?php _e('Yes', 'es-plugin'); ?></label>
+			<label><input name="<?php echo $this->get_field_name('search_address'); ?>" type="radio" value="0" <?php checked( '0', $search_address ); ?>/><?php _e('No', 'es-plugin'); ?></label>
 		</p> 
 		<p>
-			<label><?php _e('Price:'); ?></label><br />
+			<label><?php _e('Price:', 'es-plugin'); ?></label><br />
 			<?php $search_price = (isset($search_price)) ? $search_price : '1'; ?> 
-            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_price'); ?>" type="radio" value="1" <?php checked( '1', $search_price ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_price'); ?>" type="radio" value="0" <?php checked( '0', $search_price ); ?>/><?php _e('No'); ?></label>
+            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_price'); ?>" type="radio" value="1" <?php checked( '1', $search_price ); ?>/><?php _e('Yes', 'es-plugin'); ?></label>
+			<label><input name="<?php echo $this->get_field_name('search_price'); ?>" type="radio" value="0" <?php checked( '0', $search_price ); ?>/><?php _e('No', 'es-plugin'); ?></label>
 		</p>  
 		<p>
-			<label><?php _e('Bedrooms:'); ?></label><br />
+			<label><?php _e('Bedrooms:', 'es-plugin'); ?></label><br />
             <?php $search_bedrooms = (isset($search_bedrooms)) ? $search_bedrooms : '1'; ?> 
-			<label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_bedrooms'); ?>" type="radio" value="1" <?php checked( '1', $search_bedrooms ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_bedrooms'); ?>" type="radio" value="0" <?php checked( '0', $search_bedrooms ); ?>/><?php _e('No'); ?></label>
+			<label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_bedrooms'); ?>" type="radio" value="1" <?php checked( '1', $search_bedrooms ); ?>/><?php _e('Yes', 'es-plugin'); ?></label>
+			<label><input name="<?php echo $this->get_field_name('search_bedrooms'); ?>" type="radio" value="0" <?php checked( '0', $search_bedrooms ); ?>/><?php _e('No', 'es-plugin'); ?></label>
 		</p>  
 		<p>
-			<label><?php _e('Bathrooms:'); ?></label><br />
+			<label><?php _e('Bathrooms:', 'es-plugin'); ?></label><br />
 			<?php $search_bathrooms = (isset($search_bathrooms)) ? $search_bathrooms : '1'; ?> 
-            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_bathrooms'); ?>" type="radio" value="1" <?php checked( '1', $search_bathrooms ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_bathrooms'); ?>" type="radio" value="0" <?php checked( '0', $search_bathrooms ); ?>/><?php _e('No'); ?></label>
+            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_bathrooms'); ?>" type="radio" value="1" <?php checked( '1', $search_bathrooms ); ?>/><?php _e('Yes', 'es-plugin'); ?></label>
+			<label><input name="<?php echo $this->get_field_name('search_bathrooms'); ?>" type="radio" value="0" <?php checked( '0', $search_bathrooms ); ?>/><?php _e('No', 'es-plugin'); ?></label>
 		</p>  
 		<p>
-			<label><?php _e('Category:'); ?></label><br />
+			<label><?php _e('Category:', 'es-plugin'); ?></label><br />
 			<?php $search_category = (isset($search_category)) ? $search_category : '1'; ?> 
-            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_category'); ?>" type="radio" value="1" <?php checked( '1', $search_category ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_category'); ?>" type="radio" value="0" <?php checked( '0', $search_category ); ?>/><?php _e('No'); ?></label>
+            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_category'); ?>" type="radio" value="1" <?php checked( '1', $search_category ); ?>/><?php _e('Yes', 'es-plugin'); ?></label>
+			<label><input name="<?php echo $this->get_field_name('search_category'); ?>" type="radio" value="0" <?php checked( '0', $search_category ); ?>/><?php _e('No', 'es-plugin'); ?></label>
 		</p>  
 		<p>
-			<label><?php _e('Type:'); ?></label><br />
+			<label><?php _e('Type:', 'es-plugin'); ?></label><br />
 			<?php $search_type = (isset($search_type)) ? $search_type : '1'; ?> 
-            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_type'); ?>" type="radio" value="1" <?php checked( '1', $search_type ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_type'); ?>" type="radio" value="0" <?php checked( '0', $search_type ); ?>/><?php _e('No'); ?></label>
+            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_type'); ?>" type="radio" value="1" <?php checked( '1', $search_type ); ?>/><?php _e('Yes', 'es-plugin'); ?></label>
+			<label><input name="<?php echo $this->get_field_name('search_type'); ?>" type="radio" value="0" <?php checked( '0', $search_type ); ?>/><?php _e('No', 'es-plugin'); ?></label>
 		</p> 
 		<p>
-			<label><?php _e('Sqft:'); ?></label><br />
+			<label><?php _e('Sqft:', 'es-plugin'); ?></label><br />
 			<?php $search_sqft = (isset($search_sqft)) ? $search_sqft : '1'; ?> 
-            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_sqft'); ?>" type="radio" value="1" <?php checked( '1', $search_sqft ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_sqft'); ?>" type="radio" value="0" <?php checked( '0', $search_sqft ); ?>/><?php _e('No'); ?></label>
+            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_sqft'); ?>" type="radio" value="1" <?php checked( '1', $search_sqft ); ?>/><?php _e('Yes', 'es-plugin'); ?></label>
+			<label><input name="<?php echo $this->get_field_name('search_sqft'); ?>" type="radio" value="0" <?php checked( '0', $search_sqft ); ?>/><?php _e('No', 'es-plugin'); ?></label>
 		</p> 
 		<p>
-			<label><?php _e('Lot size:'); ?></label><br />
+			<label><?php _e('Lot size:', 'es-plugin'); ?></label><br />
 			<?php $search_lotsize = (isset($search_lotsize)) ? $search_lotsize : '1'; ?>
-            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_lotsize'); ?>" type="radio" value="1" <?php checked( '1', $search_lotsize ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_lotsize'); ?>" type="radio" value="0" <?php checked( '0', $search_lotsize ); ?>/><?php _e('No'); ?></label>
+            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_lotsize'); ?>" type="radio" value="1" <?php checked( '1', $search_lotsize ); ?>/><?php _e('Yes', 'es-plugin'); ?></label>
+			<label><input name="<?php echo $this->get_field_name('search_lotsize'); ?>" type="radio" value="0" <?php checked( '0', $search_lotsize ); ?>/><?php _e('No', 'es-plugin'); ?></label>
 		</p>  
 		<p>
-			<label><?php _e('Agent:'); ?></label><br />
-			<?php $search_agent = (isset($search_agent)) ? $search_agent : '1'; ?>
-            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_agent'); ?>" type="radio" value="1" <?php checked( '1', $search_agent ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_agent'); ?>" type="radio" value="0" <?php checked( '0', $search_agent ); ?>/><?php _e('No'); ?></label>
-		</p> 
-		<p>
-			<label><?php _e('Keywords:'); ?></label><br />
+			<label><?php _e('Keywords:', 'es-plugin'); ?></label><br />
 			<?php $search_keywords = (isset($search_keywords)) ? $search_keywords : '1'; ?>
-            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_keywords'); ?>" type="radio" value="1" <?php checked( '1', $search_keywords ); ?>/><?php _e('Yes'); ?></label>
-			<label><input name="<?php echo $this->get_field_name('search_keywords'); ?>" type="radio" value="0" <?php checked( '0', $search_keywords ); ?>/><?php _e('No'); ?></label>
+            <label style="margin-right:10px;"><input name="<?php echo $this->get_field_name('search_keywords'); ?>" type="radio" value="1" <?php checked( '1', $search_keywords ); ?>/><?php _e('Yes', 'es-plugin'); ?></label>
+			<label><input name="<?php echo $this->get_field_name('search_keywords'); ?>" type="radio" value="0" <?php checked( '0', $search_keywords ); ?>/><?php _e('No', 'es-plugin'); ?></label>
 		</p>
 		<p>
-			<label for="<?php echo $this->get_field_id('search_layout'); ?>"><?php _e('Layout'); ?></label>
+			<label for="<?php echo $this->get_field_id('search_layout'); ?>"><?php _e('Layout', 'es-plugin'); ?></label>
 			<?php $search_layout = (isset($search_layout)) ? $search_layout : 'horizontal'; ?>
             <select name="<?php echo $this->get_field_name('search_layout'); ?>" id="<?php echo $this->get_field_id('search_layout'); ?>" class="widefat">
 				<?php
@@ -121,7 +114,7 @@ class es_search extends WP_Widget {
 		</p> 
         
         <p>
-			<label for="<?php echo $this->get_field_id('show_on_pages'); ?>"><?php _e('Show On Pages'); ?></label>
+			<label for="<?php echo $this->get_field_id('show_on_pages'); ?>"><?php _e('Show On Pages', 'es-plugin'); ?></label>
 			<?php $show_on_pages = (isset($show_on_pages)) ? $show_on_pages : 'all_pages'; ?>
             <select name="<?php echo $this->get_field_name('show_on_pages'); ?>" id="<?php echo $this->get_field_id('show_on_pages'); ?>" class="widefat">
 				<?php
@@ -133,11 +126,9 @@ class es_search extends WP_Widget {
 			</select>
 		</p> 
         <p> 
-			<label><?php _e('Select Pages'); ?></label>
+			<label><?php _e('Select Pages', 'es-plugin'); ?></label>
         </p>
-		
 		<div style="height: 200px; overflow-x: hidden; margin-bottom:10px; overflow-y: scroll; padding-top: 2px;">
-        
 			<?php
             $pages_args = array(
                 'sort_order' => 'ASC',
@@ -159,27 +150,26 @@ class es_search extends WP_Widget {
             
             <p>
                 <?php $archive_page = (isset($archive_page)) ? $archive_page : '0'; ?>
-                <label><input name="<?php echo $this->get_field_name('archive_page'); ?>" type="checkbox" value="archive_page" <?php checked( 'archive_page', $archive_page ); ?>/><?php _e('Archive Page'); ?></label>
+                <label><input name="<?php echo $this->get_field_name('archive_page'); ?>" type="checkbox" value="archive_page" <?php checked( 'archive_page', $archive_page ); ?>/><?php _e('Archive Page', 'es-plugin'); ?></label>
             </p>
             <p>
                 <?php $single_page = (isset($single_page)) ? $single_page : '0'; ?>
-                <label><input name="<?php echo $this->get_field_name('single_page'); ?>" type="checkbox" value="single_page" <?php checked( 'single_page', $single_page ); ?>/><?php _e('Single Page'); ?></label>
+                <label><input name="<?php echo $this->get_field_name('single_page'); ?>" type="checkbox" value="single_page" <?php checked( 'single_page', $single_page ); ?>/><?php _e('Single Page', 'es-plugin'); ?></label>
             </p>
             <p>
                 <?php $category_page = (isset($category_page)) ? $category_page : '0'; ?>
-                <label><input name="<?php echo $this->get_field_name('category_page'); ?>" type="checkbox" value="category_page" <?php checked( 'category_page', $category_page ); ?>/><?php _e('Category Page'); ?></label>
+                <label><input name="<?php echo $this->get_field_name('category_page'); ?>" type="checkbox" value="category_page" <?php checked( 'category_page', $category_page ); ?>/><?php _e('Category Page', 'es-plugin'); ?></label>
             </p>
             <p>
                 <?php $search_page = (isset($search_page)) ? $search_page : '0'; ?>
-                <label><input name="<?php echo $this->get_field_name('search_page'); ?>" type="checkbox" value="search_page" <?php checked( 'search_page', $search_page ); ?>/><?php _e('Search Page'); ?></label>
+                <label><input name="<?php echo $this->get_field_name('search_page'); ?>" type="checkbox" value="search_page" <?php checked( 'search_page', $search_page ); ?>/><?php _e('Search Page', 'es-plugin'); ?></label>
             </p>
             <p>
                 <?php $author_page = (isset($author_page)) ? $author_page : '0'; ?>
-                <label><input name="<?php echo $this->get_field_name('author_page'); ?>" type="checkbox" value="author_page" <?php checked( 'author_page', $author_page ); ?>/><?php _e('Author Page'); ?></label>
+                <label><input name="<?php echo $this->get_field_name('author_page'); ?>" type="checkbox" value="author_page" <?php checked( 'author_page', $author_page ); ?>/><?php _e('Author Page', 'es-plugin'); ?></label>
             </p>
         
         </div>
-        
         
         
 <?php  }
@@ -196,7 +186,6 @@ class es_search extends WP_Widget {
 		$instance['search_type'] 		= strip_tags($new_instance['search_type']);
 		$instance['search_sqft'] 		= strip_tags($new_instance['search_sqft']);
 		$instance['search_lotsize'] 	= strip_tags($new_instance['search_lotsize']);
-		$instance['search_agent'] 		= strip_tags($new_instance['search_agent']);
 		$instance['search_keywords'] 	= strip_tags($new_instance['search_keywords']);
 		$instance['search_layout'] 		= strip_tags($new_instance['search_layout']);
 		
@@ -233,7 +222,6 @@ class es_search extends WP_Widget {
 		$search_type 		= esc_attr($instance['search_type']);
 		$search_sqft 		= esc_attr($instance['search_sqft']);
 		$search_lotsize 	= esc_attr($instance['search_lotsize']);
-		$search_agent 		= esc_attr($instance['search_agent']);
 		$search_keywords 	= esc_attr($instance['search_keywords']);
 		$search_layout 		= esc_attr($instance['search_layout']);
 		

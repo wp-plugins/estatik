@@ -17,6 +17,6 @@
 
 <?php } else { ?>
 
-<p>No record found. Please add new one.</p>
+<p><?php _e( "No record found. Please add new one.", "es-plugin" ); ?></p>
 
 <?php } ?>

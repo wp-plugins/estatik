@@ -70,17 +70,17 @@
                         <div class="es_my_list_pic">
                             <?php if($es_settings->labels==1){ ?>
                                 <div class="prop_labels">
-                                    <?php if($list->prop_featured==1){ ?>
-                                        <label class="clearfix es_featured">Featured</label><br />
+                                   <?php if($list->prop_featured==1){ ?>
+                                        <label class="clearfix es_featured"><?php _e("Featured", 'es-plugin'); ?></label><br />
                                     <?php } ?>
                                     <?php if($list->prop_hot==1){ ?>
-                                        <label class="clearfix es_hot">hot</label><br />
+                                        <label class="clearfix es_hot"><?php _e("hot", 'es-plugin'); ?></label><br />
                                     <?php } ?>
                                     <?php if($list->prop_open_house==1){ ?>
-                                        <label class="clearfix es_openhouse">openhouse</label><br />
+                                        <label class="clearfix es_openhouse"><?php _e("openhouse", 'es-plugin'); ?></label><br />
                                     <?php } ?>
                                     <?php if($list->prop_foreclosure==1){ ?>
-                                        <label class="clearfix es_foreclosure">foreclosure</label>
+                                        <label class="clearfix es_foreclosure"><?php _e("foreclosure", 'es-plugin'); ?></label>
                                     <?php } ?>
                                 </div>    
                             <?php } ?>
@@ -119,7 +119,7 @@
                                 ?>
                                     <img src="<?php echo $upload_dir['baseurl']?><?php echo $image_url?>" alt="" />
                                 <?php } else{
-                                    echo '<p>No Image</p>';
+                                    echo '<p>'.__("No Image", 'es-plugin').'</p>';
                                 } ?>
                                 <span><small>
                                 <?php if(!empty($upload_image_data)) { ?>
@@ -143,12 +143,12 @@
                          
                         <div class="es_my_list_specs clearfix">
                             <span class="es_dimen"><?php if($list->prop_area!=0) { ?><?php echo $list->prop_area?><?php } ?> <?php echo $es_dimension->dimension_title;?></span>
-                            <span class="es_bd"><?php if($list->prop_bedrooms!=0) { ?><?php echo $list->prop_bedrooms?><?php } ?> beds</span>
-                            <span class="es_bth"><?php if($list->prop_bathrooms!=0) { ?><?php echo $list->prop_bathrooms?><?php } ?> bath</span>
+                            <span class="es_bd"><?php if($list->prop_bedrooms!=0) { ?><?php echo $list->prop_bedrooms?><?php } ?> <?php _e("beds", 'es-plugin'); ?></span>
+                            <span class="es_bth"><?php if($list->prop_bathrooms!=0) { ?><?php echo $list->prop_bathrooms?><?php } ?> <?php _e("bath", 'es-plugin'); ?></span>
                         </div>
                         <div class="es_my_list_more clearfix"> 
-                            <a onclick="es_map_view_click(this); return false;" href="<?php if($list->prop_latitude!="" && $list->prop_longitude!="") { ?><?php echo $list->prop_latitude?>,<?php echo $list->prop_longitude; }?>" class="es_map_view">View on map</a>
-                            <a href="<?php echo get_permalink($list->prop_id);?>" class="es_detail_btn">Details</a>
+                            <a onclick="es_map_view_click(this); return false;" href="<?php if($list->prop_latitude!="" && $list->prop_longitude!="") { ?><?php echo $list->prop_latitude?>,<?php echo $list->prop_longitude; }?>" class="es_map_view"><?php _e("View on map", 'es-plugin'); ?></a>
+                            <a href="<?php echo get_permalink($list->prop_id);?>" class="es_detail_btn"><?php _e("Details", 'es-plugin'); ?></a>
                         </div>
                     </div>
                 </li>
@@ -159,7 +159,7 @@
             else
             {
             
-                echo '<li class="es_no_record">No record Found.</li>';	
+                echo '<li class="es_no_record">'.__("No record found.", 'es-plugin').'</li>';
         
             } 
             ?>
@@ -168,7 +168,7 @@
     
     <div id="es_map_pop_outer">
     	<div id="es_map_pop">
-        	<h2>Map<a id="es_closePop" href="javascript:void(0)">×</a></h2>
+        	<h2><?php _e("Map", 'es-plugin'); ?><a id="es_closePop" href="javascript:void(0)">×</a></h2>
             <div id="es_map"></div>
         </div>
     </div>
@@ -179,7 +179,7 @@
  
     <?php if($es_settings->powered_by_link==1) { ?>
         <div class="es_powred_by">
-            <p>Powered by <a href="http://www.estatik.net" target="_blank">Estatik</a></p>
+            <p><?php _e("Powered by", 'es-plugin'); ?> <a href="http://www.estatik.net" target="_blank">Estatik</a></p>
         </div>    
     <?php } ?>
     

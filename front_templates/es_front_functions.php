@@ -35,24 +35,24 @@ function es_print_scripts() {
 		if(is_singular('properties')){
 		
 		echo "jQuery(window).load(function(e) { 
-			  	var navPos = parseInt($('.es_prop_single_tabs').offset().top);
-				$(window).scroll(function(e) { 
-					if($(this).scrollTop()>=navPos) $('.es_prop_single_tabs').addClass('fixed');		
-					else $('.es_prop_single_tabs').removeClass('fixed');
+			  	var navPos = parseInt(jQuery('.es_prop_single_tabs').offset().top);
+				jQuery(window).scroll(function(e) { 
+					if(jQuery(this).scrollTop()>=navPos) jQuery('.es_prop_single_tabs').addClass('fixed');		
+					else jQuery('.es_prop_single_tabs').removeClass('fixed');
 				});
 			  });";
 			}
 			
-			echo "  $(document).ready(function(e) { 
-					var pagerWidth = $('#es_prop_single_pager_outer').width()/".$es_settings->prop_singleview_photo_thumb_width.";
-					$('.es_prop_single_pics').bxSlider({
+			echo "  jQuery(document).ready(function(e) { 
+					var pagerWidth = jQuery('#es_prop_single_pager_outer').width()/".$es_settings->prop_singleview_photo_thumb_width.";
+					jQuery('.es_prop_single_pics').bxSlider({
 					  slideMargin: 0,
 					  controls: false,
 					  infiniteLoop: false,
 					  maxSlides: 1,
 					  pagerCustom: '.es_prop_single_pager'
 					});
-					$('.es_prop_single_pager').bxSlider({
+					jQuery('.es_prop_single_pager').bxSlider({
 					  slideWidth: ".$es_settings->prop_singleview_photo_thumb_width.",
 					  slideMargin: 10,
 					  pager: false,
@@ -60,8 +60,8 @@ function es_print_scripts() {
 					  minSlides: parseInt(pagerWidth),
 					  maxSlides: parseInt(pagerWidth),
 					});
-					$('.es_prop_single_pager li a').each(function(index, element) {
-						$(this).attr('data-slide-index',index);
+					jQuery('.es_prop_single_pager li a').each(function(index, element) {
+						jQuery(this).attr('data-slide-index',index);
 					});
 				});";
 			  	
@@ -107,7 +107,7 @@ function es_google_map() {
 				  var marker = new google.maps.Marker({
 					  position: myLatlng,	  
 					  map: map,
-					  title: '".$es_prop_single->prop_title."'
+					  title: '".str_replace('\'','',$es_prop_single->prop_title)."'
 				  });
 				}
 				google.maps.event.addDomListener(window, 'load', initialize);

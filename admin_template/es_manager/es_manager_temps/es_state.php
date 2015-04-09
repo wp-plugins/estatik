@@ -42,7 +42,7 @@
 
 ?>
 	
-	<p class="es_no_record">No record found. Please add new one.</p>
+	<p><?php _e( "No record found. Please add new one.", "es-plugin" ); ?></p>
 	
 <?php } ?>
 

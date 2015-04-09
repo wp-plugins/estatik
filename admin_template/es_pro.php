@@ -27,16 +27,16 @@ if(isset($_POST['es_pro_submit'])){
 <div class="es_wrapper"> 
  	
     <div class="es_header clearFix">
- 		<h2>Upload Downloaded Estatik Pro</h2>
-        <h3><img src="<?php echo DIR_URL.'admin_template/';?>images/estatik_simple.png" alt="#" /><small>Ver. 1.0</small></h3>
+ 		<h2><?php _e('Upload Downloaded Estatik Pro', 'es-plugin'); ?></h2>
+        <h3><img src="<?php echo DIR_URL.'admin_template/';?>images/estatik_simple.png" alt="#" /><small>Ver. <?php echo es_plugin_version(); ?></small></h3>
     </div>
     
     <form method="post" action="" enctype="multipart/form-data">
         
         <div class="esHead clearFix">
-            <p><a href="http://estatik.net/product/estatik-professional/" target="_blank">Estatik Pro</a> Full advanced version with extra portal management option, social sharing, additionl widgets support, etc. <br />
-            Please upload your <a href="http://estatik.net/product/estatik-professional/" target="_blank">Estatik Pro</a> version in zip format and click upload to finish for update to pro Version.</p>
-            <input type="submit" value="Upload" name="es_pro_submit" />
+            <p><a href="http://estatik.net/product/estatik-professional/" target="_blank">Estatik Pro</a> <?php _e('Full advanced version with extra portal management option, social sharing, additional widgets support, etc.', 'es-plugin'); ?> <br />
+            <?php _e('Please upload your', 'es-plugin'); ?> <a href="http://estatik.net/product/estatik-professional/" target="_blank">Estatik Pro</a> <?php _e('version in zip format and click upload to finish for update to pro Version.', 'es-plugin'); ?></p>
+            <input type="submit" value="<?php _e('Upload', 'es-plugin'); ?>" name="es_pro_submit" />
         </div>
         
         <div class="es_content_in addNewProp">
@@ -45,7 +45,7 @@ if(isset($_POST['es_pro_submit'])){
         <div class="es_tabs_contents clearFix">
  
             <div class="new_prop_csv clearFix">
-                <span>Upload Zip:</span>
+                <span><?php _e('Upload Zip', 'es-plugin'); ?>:</span>
                 <input type="file" name="estatik_pro" value="" />
             </div>
  

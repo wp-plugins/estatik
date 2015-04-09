@@ -63,12 +63,12 @@
                 <div class="es_prop_single_tabs clearfix">
                     <div class="es_prop_single_tabs_in clearfix">
                         <ul>
-                            <li><a class="active" href="#es_single_basic_facts">Basic facts</a></li>
+                            <li><a class="active" href="#es_single_basic_facts"><?php _e("Basic facts", 'es-plugin'); ?></a></li>
                             <?php if($es_prop_single->prop_latitude!='') { ?>
-                            	<li><a href="#es_single_neigh">View on map</a></li>
+                            	<li><a href="#es_single_neigh"><?php _e("View on map", 'es-plugin'); ?></a></li>
                             <?php } ?>
                             <?php if(!empty($es_prop_features) || !empty($es_prop_appliances)){ ?>
-                            	<li><a href="#es_single_features">Features</a></li>
+                            	<li><a href="#es_single_features"><?php _e("Features", 'es-plugin'); ?></a></li>
                             <?php } ?>
                         </ul>
                     </div>
@@ -132,28 +132,29 @@
                                
                                 <?php if($es_prop_single->prop_date_added!=0){ ?>
                                 <li>
-                                    <strong>Date added:</strong>
+                                    <strong><?php _e("Date added", 'es-plugin'); ?>:</strong>
                                     <span><?php echo date($es_settings->dare_format,$es_prop_single->prop_date_added)?></span>
                                 </li>
                                 <?php } ?> 
                                 
 								<?php if($es_prop_single->prop_area!=0){ ?>
                                 <li>
-                                    <strong>Area size:</strong>
+                                    <strong><?php _e("Area size", 'es-plugin'); ?>:</strong>
                                     <span><?php echo $es_prop_single->prop_area?> <?php echo $dimension->dimension_title?></span>
                                 </li>
                                 <?php } ?> 
                                 
                                 <?php if($es_prop_single->prop_lotsize!=0){ ?>
                                 <li>
-                                    <strong>Lot size:</strong>
+                                    <strong><?php _e("Lot size", 'es-plugin'); ?>:</strong>
                                     <span><?php echo $es_prop_single->prop_lotsize?> <?php echo $dimension->dimension_title?></span>
                                 </li>
                                 <?php } ?>
                                 
+                                
 								<?php if(!empty($prop_cat) && $prop_cat->cat_title!="" && strpos($prop_cat->cat_title,"rent")!=""){ ?>
                                 <li>
-                                    <strong>Rent Period:</strong>
+                                    <strong><?php _e("Rent Period", 'es-plugin'); ?>:</strong>
                                     <span><?php echo $prop_rent->period_title?></span>
                                 </li>
                                 <?php } ?>
@@ -162,7 +163,7 @@
                                 <?php 
 								if(isset($prop_type->type_title)){ ?>
                                 <li>
-                                    <strong>Type:</strong>
+                                    <strong><?php _e("Type", 'es-plugin'); ?>:</strong>
                                     <span><?php echo $prop_type->type_title?></span>
                                 </li>
                                 <?php } ?>
@@ -170,35 +171,35 @@
                                 <?php
 								if(isset($prop_status->status_title)){ ?>
                                 <li>
-                                    <strong>Status:</strong>
+                                    <strong><?php _e("Status", 'es-plugin'); ?>:</strong>
                                     <span><?php echo $prop_status->status_title?></span>
                                 </li>
                                 <?php } ?>
                                 
                                 <?php if($es_prop_single->prop_bedrooms!=0){ ?>
                                 <li>
-                                    <strong>Bedrooms </strong>
+                                    <strong><?php _e("Bedrooms", 'es-plugin'); ?> </strong>
                                     <span><?php echo $es_prop_single->prop_bedrooms?></span>
                                 </li>
                                 <?php } ?>
  								
                                 <?php if($es_prop_single->prop_bathrooms!=0){ ?>
                                 <li>
-                                    <strong>Bathrooms:</strong>
+                                    <strong><?php _e("Bathrooms", 'es-plugin'); ?>:</strong>
                                     <span><?php echo $es_prop_single->prop_bathrooms?></span>
                                 </li>
                                 <?php } ?>
                                 
                                 <?php if($es_prop_single->prop_floors!=0){ ?>
                                 <li>
-                                    <strong>Floors:</strong>
+                                    <strong><?php _e("Floors", 'es-plugin'); ?>:</strong>
                                     <span><?php echo $es_prop_single->prop_floors?></span>
                                 </li>
                                 <?php } ?>
                                 
                                 <?php if(isset($es_prop_single->prop_builtin) && $es_prop_single->prop_builtin!=""){ ?>
                                 <li>
-                                    <strong>Built in</strong>
+                                    <strong><?php _e("Built in", 'es-plugin'); ?></strong>
                                     <span><?php echo $es_prop_single->prop_builtin?></span>
                                 </li>
                                 <?php } ?>
@@ -229,7 +230,7 @@
                 
                 <?php if(isset($es_prop_single->prop_description) && $es_prop_single->prop_description!=""){ ?>
                 <div class="es_prop_single_basic_facts_desc">
-                	<h3>Description</h3>
+                	<h3><?php _e("Description", 'es-plugin'); ?></h3>
                     <p><?php echo $es_prop_single->prop_description?></p>
                 </div>
                 <?php } ?>
@@ -240,7 +241,7 @@
 			   if($es_prop_single->prop_latitude!='') {	
 			?>
                 <div class="es_prop_single_view_map_neigh " id="es_single_neigh">
-                    <h3>View on map</h3>
+                    <h3><?php _e("View on map", 'es-plugin'); ?></h3>
                     
                     <?php if($es_prop_single->prop_latitude!='' && $es_prop_single->prop_longitude!='') { ?> 
  						 
@@ -257,11 +258,11 @@
 			?>
             
                 <div class="es_prop_single_features  clearfix" id="es_single_features">
-                    <h3>Features</h3>
+                    <h3><?php _e("Features", 'es-plugin'); ?></h3>
                     
                     <?php if(!empty($es_prop_features)){ ?>
                         <div class="es_prop_single_features_in">
-                            <label>Features:</label>
+                            <label><?php _e("Features", 'es-plugin'); ?>:</label>
                             <ul>
                                 <?php
                                 foreach($es_prop_features as $es_prop_feature) {
@@ -275,7 +276,7 @@
                     
                     <?php if(!empty($es_prop_appliances)){ ?>
                         <div class="es_prop_single_features_in">
-                            <label>Amenities:</label>
+                            <label><?php _e("Amenities", 'es-plugin'); ?>:</label>
                             <ul>
                                 <?php
                                 foreach($es_prop_appliances as $es_prop_appliance) {
@@ -292,12 +293,12 @@
  
 		
         <div id="es_toTop" class="clearfix"> 
-        	<a href="javascript:void(0)">To top</a>
+        	<a href="javascript:void(0)"><?php _e("To top", 'es-plugin'); ?></a>
         </div>
         
 		<?php if($es_settings->powered_by_link==1) { ?>
             <div class="es_powred_by">
-                <p>Powered by <a href="http://www.estatik.net" target="_blank">Estatik</a></p>
+                <p><?php _e("Powered by", 'es-plugin'); ?> <a href="http://www.estatik.net" target="_blank">Estatik</a></p>
             </div>    
         <?php } ?>
         

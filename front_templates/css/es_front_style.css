@@ -683,6 +683,8 @@ a#es_content .es_more_props_btn,
 
 #es_content .es_prop_single_basic_info ul li{ padding-bottom:4px; }
 
+#es_content .es_prop_single_basic_info ul li:after{ content:""; clear:both; display:block; height:0; }
+
 #es_content .es_prop_single_basic_info ul li strong, #es_content .es_prop_single_basic_info ul li span{ text-transform:capitalize; float:left; width:50%; font-size:16px; }
 
 #es_content .es_prop_single_basic_info ul li strong{ font-weight:700;  }

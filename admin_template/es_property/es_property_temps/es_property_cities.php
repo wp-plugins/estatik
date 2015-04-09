@@ -20,7 +20,7 @@ if(!empty($es_cities_listing)) {
 		echo '<option '.$selected.' value="'.$list->city_id.'">'.$list->city_title.'</option>';	
 	}
 }else{
-	echo '<option value="">No City</option>';
+	echo '<option value="">'.__( "No City", "es-plugin" ).'</option>';
 }
 	 
 	 

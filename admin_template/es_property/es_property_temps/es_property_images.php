@@ -40,6 +40,6 @@
 
 <?php } else { ?>
 
-	<p>No record found. please add new one.</p>
+	<p><?php _e( "No record found. please add new one.", "es-plugin" ); ?></p>
 
 <?php } ?>

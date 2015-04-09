@@ -5,18 +5,18 @@
 	
 	if(isset($search_page) && $search_page==1){?>
     	
-        <h1>Search</h1>
+        <h1><?php _e("Search", 'es-plugin'); ?></h1>
         
 	<?php } else if(isset($category_page) && $category_page==1){ ?>
     	
         <?php if($queried_object->name!=""){ ?>
-			<div class="queriedHead"><h1><?php echo $queried_object->name?> Properties</h1></div>
+			<div class="queriedHead"><h1><?php echo $queried_object->name?> <?php _e("Properties", 'es-plugin'); ?></h1></div>
 		<?php } ?>
         
     <?php } else if(isset($author_page) && $author_page==1){ ?>
     	 
 		<?php if($queried_object->user_login!=""){ ?>
-			<div class="queriedHead"><h1>Properties by Agent <?php echo $queried_object->user_login?></h1></div>
+			<div class="queriedHead"><h1><?php _e("Properties by Agent", 'es-plugin'); ?> <?php echo $queried_object->user_login?></h1></div>
 		<?php } ?>
         
     <?php } else { ?>
@@ -26,7 +26,7 @@
     <?php } ?>
     
     <div class="es_view_list clearfix">
-        <label>View first:</label>
+        <label><?php _e("View first", 'es-plugin'); ?>:</label>
         <div class="es_view_list_links clearfix">
             <?php
 				$menu = wp_nav_menu(
@@ -47,7 +47,7 @@
 				{
 					echo $menu;
 				}else{
-					echo "<p>Menu is empty.</p>";	
+					echo "<p>".__("Menu is empty.", 'es-plugin')."</p>";
 				}
 				 
 			 ?>

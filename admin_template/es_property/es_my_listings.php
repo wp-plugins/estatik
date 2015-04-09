@@ -191,22 +191,25 @@ if(isset($_POST['prop_id'])){
 	
 	}
 }
-
-
-
-
-
-
-
 ?>
 <div class="es_wrapper"> 
- 	
+ 
+    <input type="hidden" value="<?php _e( "Please select properties you want to copy.", "es-plugin" ); ?>" id="selPropertiesToCopy"  />
+    <input type="hidden" value="<?php _e( "Please select properties you want to delete.", "es-plugin" ); ?>" id="selPropertiesToDelete"  />
+    <input type="hidden" value="<?php _e( "Please select properties you want to publish.", "es-plugin" ); ?>" id="selPropertiesToPublish"  />
+    <input type="hidden" value="<?php _e( "Please select properties you want to unpublish.", "es-plugin" ); ?>" id="selPropertiesToUnPublish"  />
+    
+    <input type="hidden" value="<?php _e( "Are you sure you want to Copy it?", "es-plugin" ); ?>" id="sureToCopy"  />
+    <input type="hidden" value="<?php _e( "Are you sure you want to delete it?", "es-plugin" ); ?>" id="sureToDelete"  />
+    <input type="hidden" value="<?php _e( "Are you sure you want to publish it?", "es-plugin" ); ?>" id="sureToPublish"  />
+    <input type="hidden" value="<?php _e( "Are you sure you want to unpublish it?", "es-plugin" ); ?>" id="sureToUnPublish"  />
+    
     <div class="es_alert_popup" id="select_popup">
     	<div class="es_alert_popup_overlay"></div>
         <div class="es_alert_popup_in boxSizing">
-        	<p>Please select properties you want to copy</p>
+        	<p></p>
             <ul>
-            	<li><a class="es_ok" href="javascript:void(0)">Ok</a></li>
+            	<li><a class="es_ok" href="javascript:void(0)"><?php _e( "OK", "es-plugin" ); ?></a></li>
             </ul>
             <a href="javascript:void(0)" class="es_close_popup"></a>
         </div>
@@ -215,18 +218,18 @@ if(isset($_POST['prop_id'])){
     <div class="es_alert_popup" id="sure_popup">
     	<div class="es_alert_popup_overlay"></div>
         <div class="es_alert_popup_in boxSizing">
-        	<p>Are you sure you want to delete it?</p>
+        	<p></p>
             <ul>
-            	<li><a class="es_ok" href="javascript:void(0)">Ok</a></li>
-                <li><a class="es_cancel" href="javascript:void(0)">Cancel</a></li>
+            	<li><a class="es_ok" href="javascript:void(0)"><?php _e( "OK", "es-plugin" ); ?></a></li>
+                <li><a class="es_cancel" href="javascript:void(0)"><?php _e( "Cancel", "es-plugin" ); ?></a></li>
             </ul>
             <a href="javascript:void(0)" class="es_close_popup"></a>
         </div>
     </div>
     
     <div class="es_header clearFix">
-        <h2>My Listings</h2>
-        <h3><img src="<?php echo DIR_URL.'admin_template/';?>images/estatik_simple.png" alt="#" /><small>Ver. 1.0</small></h3>
+        <h2><?php _e( "My Listings", "es-plugin" ); ?></h2>
+        <h3><img src="<?php echo DIR_URL.'admin_template/';?>images/estatik_simple.png" alt="#" /><small>Ver. <?php echo es_plugin_version(); ?></small></h3>
     </div>
     
     <div class="es_all_listing_search clearFix">
@@ -234,9 +237,9 @@ if(isset($_POST['prop_id'])){
         <div class="es_all_listing_search_upper">
         	<form method="post" action="<?php echo admin_url()?>admin.php?page=es_my_listings">
                 <div class="es_search_filter clearFix">
-                    <label>Filter by:</label>
+                    <label><?php _e( "Filter by", "es-plugin" ); ?>:</label>
                     <select name="es_cat">
-                            <option value="">Category</option>
+                            <option value=""><?php _e( "Category", "es-plugin" ); ?></option>
 							<?php $sql = 'SELECT * FROM '.$wpdb->prefix.'estatik_manager_categories';
 								$es_category_listing = $wpdb->get_results($sql);
 								if(!empty($es_category_listing)) {	
@@ -248,7 +251,7 @@ if(isset($_POST['prop_id'])){
 							 ?>
                     </select>
                     <select name="es_status">
-                            <option value="">Status</option>
+                             <option value=""><?php _e( "Status", "es-plugin" ); ?></option>
 							<?php $sql = 'SELECT * FROM '.$wpdb->prefix.'estatik_manager_status';
 								$es_state_listing = $wpdb->get_results($sql);
 								if(!empty($es_state_listing)) {	
@@ -260,7 +263,7 @@ if(isset($_POST['prop_id'])){
 							 ?>
                     </select>
                     <select name="es_type">
-                            <option value="">Type</option>
+                            <option value=""><?php _e( "Type", "es-plugin" ); ?></option>
 							<?php $sql = 'SELECT * FROM '.$wpdb->prefix.'estatik_manager_types';
 								$es_type_listing = $wpdb->get_results($sql);
 								if(!empty($es_type_listing)) {	
@@ -273,11 +276,11 @@ if(isset($_POST['prop_id'])){
                     </select>
                 </div>
                 <div class="es_search_prop clearFix">
-                    <label>Property ID:</label>
+                    <label><?php _e( "Property ID", "es-plugin" ); ?>:</label>
                     <input name="es_prop_id" value="<?php if (isset($_POST['es_prop_id'])) { echo $_POST["es_prop_id"]; } ?>" type="text" />
-                    <label>Address:</label>
+                    <label><?php _e( "Address", "es-plugin" ); ?>:</label>
                     <input name="es_address" value="<?php if (isset($_POST['es_address'])) { echo $_POST["es_address"]; } ?>" type="text" />
-                    <label>Date added:</label>
+                    <label><?php _e( "Date added", "es-plugin" ); ?>:</label>
                     <input name="es_date_added" id="es_date_added" value="<?php if (isset($_POST['es_date_added'])) { echo $_POST["es_date_added"]; } ?>" type="text" /> 
                     <input type="submit" name="search_list" value="Search" />
                     <input type="button" value="Reset" onclick="window.location='admin.php?page=es_my_listings'" />
@@ -286,41 +289,41 @@ if(isset($_POST['prop_id'])){
         </div>
         
         <div class="es_manage_listing clearFix">
-        	<label>Manage:</label>
+        	<label><?php _e( "Manage", "es-plugin" ); ?>:</label>
             <ul>
-                <li><a href="javascript:void(0)" id="es_listing_select_all">Select all</a></li>
-                <li><a href="javascript:void(0)" id="es_listing_undo_selection">Undo selection</a></li>
-                <li><a href="javascript:void(0)" id="es_listing_copy">Copy</a></li>
-                <li><a href="javascript:void(0)" id="es_listing_del">Delete</a></li>
-                <li><a href="javascript:void(0)" id="es_listing_publish">Publish</a></li>
-                <li><a href="javascript:void(0)" id="es_listing_unpublish">Unpublish</a></li>
+                <li><a href="javascript:void(0)" id="es_listing_select_all"><?php _e( "Select all", "es-plugin" ); ?></a></li>
+                <li><a href="javascript:void(0)" id="es_listing_undo_selection"><?php _e( "Undo selection", "es-plugin" ); ?></a></li>
+                <li><a href="javascript:void(0)" id="es_listing_copy"><?php _e( "Copy", "es-plugin" ); ?></a></li>
+                <li><a href="javascript:void(0)" id="es_listing_del"><?php _e( "Delete", "es-plugin" ); ?></a></li>
+                <li><a href="javascript:void(0)" id="es_listing_publish"><?php _e( "Publish", "es-plugin" ); ?></a></li>
+                <li><a href="javascript:void(0)" id="es_listing_unpublish"><?php _e( "Unpublish", "es-plugin" ); ?></a></li>
             </ul>
         </div>
         
     </div>
     
     <?php if(isset($_GET['del']) && !isset($_POST['es_selcted_copy']) && !isset($_POST['es_selcted_del']) && !isset($_POST['es_selcted_publish']) && !isset($_POST['es_selcted_unpublish'])){ ?>
-        <div class="es_success">property has been deleted.</div>	 
+        <div class="es_success"><?php _e( "Property has been deleted.", "es-plugin" ); ?></div>	 	 
 	<?php } ?>
     
     <?php if(isset($_POST['es_selcted_copy']) && ($_POST['es_selcted_copy']=='yes')){ ?>
-        <div class="es_success">Selected properties have been copied.</div>	 
+        <div class="es_success"><?php _e( "Selected properties have been copied.", "es-plugin" ); ?></div>	 
 	<?php } ?>
 	
     <?php if(isset($_POST['es_selcted_del']) && ($_POST['es_selcted_del']=='yes')){ ?>
-        <div class="es_success">Selected properties have been deleted.</div>	 
+        <div class="es_success"><?php _e( "Selected properties have been deleted.", "es-plugin" ); ?></div>	 
 	<?php } ?>
     
     <?php if(isset($_POST['es_selcted_publish']) && ($_POST['es_selcted_publish']=='yes')){ ?>
-        <div class="es_success">Selected properties have been published.</div>	 
+        <div class="es_success"><?php _e( "Selected properties have been published.", "es-plugin" ); ?></div>	 
 	<?php } ?>
     
     <?php if(isset($_POST['es_selcted_unpublish']) && ($_POST['es_selcted_unpublish']=='yes')){ ?>
-        <div class="es_success">Selected properties have been unpublished.</div>	 
+        <div class="es_success"><?php _e( "Selected properties have been unpublished.", "es-plugin" ); ?></div>	 
 	<?php } ?>
     
 	<?php if(isset($_POST['search_list'])){ ?>
-        <div class="es_success">Your search results.</div>	 
+        <div class="es_success"><?php _e( "Your search results.", "es-plugin" ); ?></div>	 
 	<?php } ?>
     
     
@@ -331,28 +334,28 @@ if(isset($_POST['prop_id'])){
             	<input type="checkbox" value=""  />
             </div>
             <div>
-            	Property ID
+            	<?php _e( "Property ID", "es-plugin" ); ?>
             </div>
             <div class="hide-ipad hide-phone">
-            	Image
+            	<?php _e( "Image", "es-plugin" ); ?>
             </div>
             <div>
-            	Title
+            	<?php _e( "Title", "es-plugin" ); ?>
             </div>
             <div class="hide-phone">
-            	Date added
+            	<?php _e( "Date added", "es-plugin" ); ?>
             </div>
             <div class="hide-ipad hide-phone">
-            	Address
+            	<?php _e( "Address", "es-plugin" ); ?>
             </div>
             <div class="hide-phone">
-            	Category
+            	<?php _e( "Category", "es-plugin" ); ?>
             </div>
             <div class="hide-phone">
-            	Type
+            	<?php _e( "Type", "es-plugin" ); ?>
             </div>
             <div class="hide-phone">
-            	Status
+            	<?php _e( "Status", "es-plugin" ); ?>
             </div>
         </div>
         
@@ -441,7 +444,7 @@ if(isset($_POST['prop_id'])){
 											$upload_dir = wp_upload_dir(); ?>
                                         		<img src="<?php echo $upload_dir['baseurl']?><?php echo $image_url?>" alt="" />
                                         	<?php } else{
-												echo '<p>No Image</p>';
+												echo '<p>'.__( "No Image", "es-plugin" ).'</p>';
 											} ?>
                                         
                                     </div>
@@ -477,8 +480,8 @@ if(isset($_POST['prop_id'])){
                                     </div>
                                     
                                     <span class="es_list_edit_del">
-                                        <a href="<?php echo admin_url();?>admin.php?page=es_add_new_property&prop_id=<?php echo $list->prop_id?>">Edit</a>
-                                        <a href="<?php echo admin_url();?>admin.php?page=es_my_listings&del=<?php echo $list->prop_id?>">Delete</a>
+                                        <a href="<?php echo admin_url();?>admin.php?page=es_add_new_property&prop_id=<?php echo $list->prop_id?>"><?php _e( "Edit", "es-plugin" ); ?></a>
+                                        <a href="<?php echo admin_url();?>admin.php?page=es_my_listings&del=<?php echo $list->prop_id?>"><?php _e( "Delete", "es-plugin" ); ?></a>
                                     </span>
                                     
                                 </li>
@@ -488,7 +491,7 @@ if(isset($_POST['prop_id'])){
                             
                         } else {
                     
-                        echo '<li class="es_no_record">No record Found.</li>';	
+                        	echo '<li class="es_no_record">'.__( "No record found.", "es-plugin" ).'</li>';	
                     
                         } 
                         ?> 

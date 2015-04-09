@@ -207,8 +207,8 @@ function es_admin_inline_js(){
 	}
 	
 	if(isset($_GET['page']) && $_GET['page']=='es_my_listings'){
-		echo "$(function() {
-				$('#es_date_added').datepicker({
+		echo "jQuery(function() {
+				jQuery('#es_date_added').datepicker({
 					showOn: 'button',
 					buttonImage: '".DIR_URL."admin_template/images/es_calender_icon.jpg',
 					buttonImageOnly: true,
@@ -237,9 +237,9 @@ function es_admin_inline_js(){
 			  var firstLoc;
 			  function myGeocodeFirst() {
 				geocoder = new google.maps.Geocoder();
-				var es_adress = $('#prop_street').val()+', '+ $('#es_cities option:selected').text()+', '+ $('#es_states option:selected').text()+', '+ $('#es_country option:selected').text();
-				if($('#es_cities option:selected').val()!=''){
-					$('#prop_address').val(es_adress);
+				var es_adress = jQuery('#prop_street').val()+', '+ jQuery('#es_cities option:selected').text()+', '+ jQuery('#es_states option:selected').text()+', '+ jQuery('#es_country option:selected').text();
+				if(jQuery('#es_cities option:selected').val()!=''){
+					jQuery('#prop_address').val(es_adress);
 				}
 				//console.log(es_adress);
 				geocoder.geocode( {'address': es_adress },
@@ -314,7 +314,6 @@ function es_crop($file,$saveAs=NULL,$width=100,$height=100)
 	$img->saveToFile($saveAs);
 }
 
-
 require_once("es_manager/es_manager_functions.php");
 
 require_once("es_property/es_property_functions.php");
@@ -322,6 +321,3 @@ require_once("es_property/es_property_functions.php");
 require_once("es_widgets.php");
 
 require_once("es_defualt_insertion.php");
-
-
- 

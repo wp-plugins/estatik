@@ -119,10 +119,10 @@ in_array($widget_id,$choosed_pages)
             
             <div class="es_my_listing_search_upper clearfix">
                 <?php if ( $search_address == 1 ) { ?>
-                	<input type="text" class="es_address_auto" name="address" value="<?php if (isset($_POST['address'])) { echo $_POST["address"]; } ?>" placeholder="Address, City, ZIP" />
+                	<input type="text" class="es_address_auto" name="address" value="<?php if (isset($_POST['address'])) { echo $_POST["address"]; } ?>" placeholder="<?php _e('Address, City, ZIP', 'es-plugin'); ?>" />
                 <?php } ?>
-                <input type="reset" value="Reset" name="reset" />
-                <input type="submit" value="Search" name="es_search" />
+                <input type="reset" value="<?php _e('Reset', 'es-plugin'); ?>" name="reset" />
+                <input type="submit" value="<?php _e('Search', 'es-plugin'); ?>" name="es_search" />
             </div>
              
             <?php if ( $search_price == 1 || $search_bedrooms == 1 || $search_bathrooms == 1 || $search_sqft == 1 || $search_lotsize == 1 || $search_category == 1 || $search_type == 1 || $search_agent == 1 || $search_keywords == 1 ) { ?>
@@ -130,50 +130,50 @@ in_array($widget_id,$choosed_pages)
             <div class="es_my_listing_search_lower clearfix">
                 <?php if ( $search_price == 1 ) { ?>
                 <div class="es_my_listing_search_field">
-                    <label>Price</label>          
-                    <input type="text" name="price_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["price_min"]; } ?>" placeholder="min" />
+                    <label><?php _e('Price', 'es-plugin'); ?></label>          
+                    <input type="text" name="price_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["price_min"]; } ?>" placeholder="<?php _e('min', 'es-plugin'); ?>" />
                     <i>-</i>
-                    <input type="text" name="price_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["price_max"]; } ?>" placeholder="max"  />
+                    <input type="text" name="price_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["price_max"]; } ?>" placeholder="<?php _e('max', 'es-plugin'); ?>"  />
                 </div>
                 <?php } ?>
                 <?php if ( $search_bedrooms == 1 ) { ?>
                 <div class="es_my_listing_search_field">
-                    <label>Bedrooms</label>          
-                    <input type="text" name="bedrooms_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["bedrooms_min"]; } ?>" placeholder="min" />
+                    <label><?php _e('Bedrooms', 'es-plugin'); ?></label>          
+                    <input type="text" name="bedrooms_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["bedrooms_min"]; } ?>" placeholder="<?php _e('min', 'es-plugin'); ?>" />
                     <i>-</i>
-                    <input type="text" name="bedrooms_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["bedrooms_max"]; } ?>" placeholder="max"  />
+                    <input type="text" name="bedrooms_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["bedrooms_max"]; } ?>" placeholder="<?php _e('max', 'es-plugin'); ?>"  />
                 </div>
                 <?php } ?>
                 <?php if ( $search_bathrooms == 1 ) { ?>
                 <div class="es_my_listing_search_field">
-                    <label>Bathrooms</label>          
-                    <input type="text" name="bathrooms_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["bathrooms_min"]; } ?>" placeholder="min" />
+                    <label><?php _e('Bathrooms', 'es-plugin'); ?></label>          
+                    <input type="text" name="bathrooms_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["bathrooms_min"]; } ?>" placeholder="<?php _e('min', 'es-plugin'); ?>" />
                     <i>-</i>
-                    <input type="text" name="bathrooms_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["bathrooms_max"]; } ?>" placeholder="max"  />
+                    <input type="text" name="bathrooms_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["bathrooms_max"]; } ?>" placeholder="<?php _e('max', 'es-plugin'); ?>"  />
                 </div>
                 <?php } ?>
                 
                 <?php if ( $search_sqft == 1 ) { ?>
                 <div class="es_my_listing_search_field">
-                    <label>Sq ft</label>          
-                    <input type="text" name="area_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["area_min"]; } ?>" placeholder="min" />
+                    <label><?php _e('Sq ft', 'es-plugin'); ?></label>          
+                    <input type="text" name="area_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["area_min"]; } ?>" placeholder="<?php _e('min', 'es-plugin'); ?>" />
                     <i>-</i>
-                    <input type="text" name="area_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["area_max"]; } ?>" placeholder="max"  />
+                    <input type="text" name="area_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["area_max"]; } ?>" placeholder="<?php _e('max', 'es-plugin'); ?>"  />
                 </div>
                 <?php } ?>
                 <?php if ( $search_lotsize == 1 ) { ?>
                 <div class="es_my_listing_search_field">
-                    <label>Lot size</label>          
-                    <input type="text" name="lotsize_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["lotsize_min"]; } ?>" placeholder="min" />
+                    <label><?php _e('Lot size', 'es-plugin'); ?></label>          
+                    <input type="text" name="lotsize_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["lotsize_min"]; } ?>" placeholder="<?php _e('min', 'es-plugin'); ?>" />
                     <i>-</i>
-                    <input type="text" name="lotsize_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["lotsize_max"]; } ?>" placeholder="max"  />
+                    <input type="text" name="lotsize_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["lotsize_max"]; } ?>" placeholder="<?php _e('max', 'es-plugin'); ?>"  />
                 </div>
                 <?php } ?> 
                 <?php if ( $search_category == 1 ) { ?>
                 <div class="es_my_listing_search_field">
-                    <label>Category</label>          
+                    <label><?php _e('Category', 'es-plugin'); ?></label>          
                     <div class="es_search_select">
-                    	<span>Category</span>
+                    	<span><?php _e('Category', 'es-plugin'); ?></span>
                         <small></small>
                         <ul>
                         	<?php $es_category_listing = $wpdb->get_results( 'SELECT * FROM '.$wpdb->prefix.'estatik_manager_categories' );	
@@ -191,9 +191,9 @@ in_array($widget_id,$choosed_pages)
                 
                 <?php if ( $search_type == 1 ) { ?>
                 <div class="es_my_listing_search_field">
-                    <label>Type</label>          
+                    <label><?php _e('Type', 'es-plugin'); ?></label>          
                     <div class="es_search_select">
-                    	<span>Type</span>
+                    	<span><?php _e('Type', 'es-plugin'); ?></span>
                         <small></small>
                         <ul>
                         	<?php $es_type_listing = $wpdb->get_results( 'SELECT * FROM '.$wpdb->prefix.'estatik_manager_types' );
@@ -208,29 +208,9 @@ in_array($widget_id,$choosed_pages)
                     </div>
                 </div>
                 <?php } ?>
-                <?php if ( $search_agent == 1 ) { ?> 
-                <div class="es_my_listing_search_field">
-                    <label>Agent</label>          
-                    <div class="es_search_select">
-                    	<span>Agent</span>
-                        <small></small>
-                        <ul>
-                        	<?php $sql = 'SELECT agent_id,agent_name FROM '.$wpdb->prefix.'estatik_agents order by agent_id desc';
-                            $es_agent_listing = $wpdb->get_results($sql); 
-                            if(!empty($es_agent_listing)) {
-                                foreach($es_agent_listing as $list) {	
-									$selected = (isset($_POST['agent']) && $_POST['agent']==$list->agent_id) ? 'selected' : "";
-									echo'<li class="'.$selected.'" value="'.$list->agent_id.'">'.$list->agent_name.'</li>';
-								}
-							} ?>
-                        </ul>
-                        <input type="hidden" name="agent" value="<?php if(isset($_POST['agent'])){ echo $_POST['agent']; }?>" />
-                    </div>
-                </div>
-                <?php } ?>
                 <?php if ( $search_keywords == 1 ) { ?> 
                 <div class="es_my_listing_search_field">
-                    <label>Key words</label>          
+                    <label><?php _e('Key words', 'es-plugin'); ?></label>          
                     <input type="text" name="key_words" value="<?php if (isset($_POST['key_words'])) { echo $_POST["key_words"]; } ?>" />
                 </div>
                 <?php } ?>

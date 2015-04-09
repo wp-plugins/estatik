@@ -1,16 +1,15 @@
-var $ = jQuery;
 
-$(document).ready(function(e) { 
+jQuery(document).ready(function(e) { 
  
-	$('.es_message').click(function(){
-		$(this).removeClass('es_error es_success').text('');
+	jQuery('.es_message').click(function(){
+		jQuery(this).removeClass('es_error es_success').text('');
 	});
  
 	
-	$('.new_prop_field input[type="radio"]').click(function(){
-		if($(this).prop('checked')==true){
-			$(this).parents('.new_prop_field').find('label').removeClass('active');
-			$(this).parent('label').addClass('active');	
+	jQuery('.new_prop_field input[type="radio"]').click(function(){
+		if(jQuery(this).prop('checked')==true){
+			jQuery(this).parents('.new_prop_field').find('label').removeClass('active');
+			jQuery(this).parent('label').addClass('active');	
 		}		
 	});
 	
@@ -18,17 +17,17 @@ $(document).ready(function(e) {
 	var type ="";
 	var id_url ="";
 	
-	$('.es_tabs ul li a').click(function(){
+	jQuery('.es_tabs ul li a').click(function(){
 		
-		$('.es_tabs ul li a').removeClass('active');
+		jQuery('.es_tabs ul li a').removeClass('active');
 		
-		$(this).addClass('active');
+		jQuery(this).addClass('active');
 			
-		$('.es_tabs_content_in').hide();
+		jQuery('.es_tabs_content_in').hide();
 		
-		var current_id=$(this).attr('href');
+		var current_id=jQuery(this).attr('href');
 		
-		$(current_id).show();
+		jQuery(current_id).show();
 		
 		type = current_id.replace("#", ""); 
 		
@@ -42,17 +41,17 @@ $(document).ready(function(e) {
 		
 	});
 	
-	$('.es_media_tabs ul li a').click(function(){
+	jQuery('.es_media_tabs ul li a').click(function(){
 		
-		$('.es_media_tabs ul li a').removeClass('active');
+		jQuery('.es_media_tabs ul li a').removeClass('active');
 		
-		$(this).addClass('active');
+		jQuery(this).addClass('active');
 		
-		var current_id=$(this).attr('href');
+		var current_id=jQuery(this).attr('href');
 		
-		$('.es_media_contents').hide();
+		jQuery('.es_media_contents').hide();
 		
-		$(current_id).show();
+		jQuery(current_id).show();
 		
 		var media = current_id.replace("#", ""); 
  		
@@ -68,33 +67,33 @@ $(document).ready(function(e) {
 	});
 	
 	
-	if($('#es_show_period option:selected').text().indexOf("rent")!=-1){
+	if(jQuery('#es_show_period option:selected').text().indexOf("rent")!=-1){
 		
-		$("#es_period_for_rent").show();
+		jQuery("#es_period_for_rent").show();
 		
 	}
 	
-	$("#es_show_period").change(function(){
+	jQuery("#es_show_period").change(function(){
  
-		if($('#es_show_period option:selected').text().indexOf("rent")==-1){
+		if(jQuery('#es_show_period option:selected').text().indexOf("rent")==-1){
 		
-			$("#es_period_for_rent").hide();
+			jQuery("#es_period_for_rent").hide();
 			
 		}else{
 			
-			$("#es_period_for_rent").show();
+			jQuery("#es_period_for_rent").show();
 			
 		}
 			
 	});
 	
 	
-	$("#prop_price").keydown(function (e) {
+	jQuery("#prop_price").keydown(function (e) {
         
-		$(this).siblings('p').text(''); 
+		jQuery(this).siblings('p').text(''); 
 		
 		// Allow: backspace, delete, tab, escape, enter and .
-        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+        if (jQuery.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
              // Allow: Ctrl+A
             (e.keyCode == 65 && e.ctrlKey === true) || 
              // Allow: home, end, left, right
@@ -108,7 +107,7 @@ $(document).ready(function(e) {
         if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
             e.preventDefault();
 			
-			$(this).siblings('p').text('Please enter numbers only.');
+			jQuery(this).siblings('p').text(jQuery('#pleaseNumbersOnly').val());
 			
 			//console.log('ali');
 			
@@ -116,15 +115,15 @@ $(document).ready(function(e) {
     });
  
  
-	$( "#es_media_images_listing ul" ).sortable();	 
-	$( "#es_media_images_listing ul, #es_media_images_listing ul li" ).disableSelection();	
+	jQuery( "#es_media_images_listing ul" ).sortable();	 
+	jQuery( "#es_media_images_listing ul, #es_media_images_listing ul li" ).disableSelection();	
  
 });
  
 
 function es_neigh_prop_text(obj){
 	
-	$(obj).parents('.es_manager_lists ul li').find('input[type="checkbox"]').prop('checked',true)
+	jQuery(obj).parents('.es_manager_lists ul li').find('input[type="checkbox"]').prop('checked',true)
 	
 	if(obj.value == 'text/number') { obj.value = ''; }
 	
@@ -133,11 +132,11 @@ function es_neigh_prop_text(obj){
  
 function es_media_image_del(obj){
 	
-	var es_image_del_val = $(obj).parents('#es_media_images_listing ul li').find('input').val();
+	var es_image_del_val = jQuery(obj).parents('#es_media_images_listing ul li').find('input').val();
 	 
-	$(obj).parents('#es_media_images_listing li').remove();
+	jQuery(obj).parents('#es_media_images_listing li').remove();
  	
-	$('#es_media_image_del').append("<input type='hidden' value='"+es_image_del_val+"' name='es_image_del_val[]' />");
+	jQuery('#es_media_image_del').append("<input type='hidden' value='"+es_image_del_val+"' name='es_image_del_val[]' />");
 	
 }
 
@@ -148,13 +147,13 @@ function es_media_image_del(obj){
 
 function es_media_image_upload(obj){
 	
-	var es_media_images = $(obj).val();
-	var es_prop_id = $('#prop_id').val();
+	var es_media_images = jQuery(obj).val();
+	var es_prop_id = jQuery('#prop_id').val();
  
 	
-	$("#es_media_images_loader").show();
+	jQuery("#es_media_images_loader").show();
   	
-	var formData = new FormData($("#es_prop_insertion")[0]);
+	var formData = new FormData(jQuery("#es_prop_insertion")[0]);
 	jQuery.ajax({
 		type: 'POST',   // Adding Post method
 		url: estatik_ajax.ajaxurl+'?action=es_prop_media_images&es_prop_id='+es_prop_id, // Including ajax file
@@ -162,11 +161,11 @@ function es_media_image_upload(obj){
 		processData: false,
     	contentType: false, 
 		success: function(data){ // Show returned data using the function.
-			$("#es_media_images_loader").hide();
-			$("#es_media_images_listing").html(data);
+			jQuery("#es_media_images_loader").hide();
+			jQuery("#es_media_images_listing").html(data);
 			
-			$( "#es_media_images_listing ul" ).sortable();	 
-			$( "#es_media_images_listing ul, #es_media_images_listing ul li" ).disableSelection();
+			jQuery( "#es_media_images_listing ul" ).sortable();	 
+			jQuery( "#es_media_images_listing ul, #es_media_images_listing ul li" ).disableSelection();
 			
 		}
 	});
@@ -178,25 +177,25 @@ function es_media_image_upload(obj){
 
 function es_prop_detail_add_new(){
 		
-		var prop_detail_add_new_title = $("#es_basic_info_Add_new_title").val();
+		var prop_detail_add_new_title = jQuery("#es_basic_info_Add_new_title").val();
 
 		if((prop_detail_add_new_title=="") || (document.getElementById("es_basic_info_Add_new_title").defaultValue == prop_detail_add_new_title)){
-			$("#es_basic_info_Add_new_error").addClass('es_error').text('pleae fill your field.');
+			jQuery("#es_basic_info_Add_new_error").addClass('es_error').text(jQuery("#pleasefillfield").val());
 			return false;
 		} 
 		
-		$('.es_message').removeClass('es_error').text('');
+		jQuery('.es_message').removeClass('es_error').text('');
 		
-		$("#es_basic_info_in").append('<div class="new_prop_field clearFix"><span>'+prop_detail_add_new_title+':</span><input type="text" name="prop_data[\''+prop_detail_add_new_title+'\']" value=""><a href="javascript:void(0)" onclick="es_field_del(this)" class="field_del"></a></div>')
+		jQuery("#es_basic_info_in").append('<div class="new_prop_field clearFix"><span>'+prop_detail_add_new_title+':</span><input type="text" name="prop_data[\''+prop_detail_add_new_title+'\']" value=""><a href="javascript:void(0)" onclick="es_field_del(this)" class="field_del"></a></div>')
 		
-		$("#es_basic_info_Add_new_title").val(document.getElementById("es_basic_info_Add_new_title").defaultValue);
+		jQuery("#es_basic_info_Add_new_title").val(document.getElementById("es_basic_info_Add_new_title").defaultValue);
 		
 }
 
 
 function es_field_del(obj){
 	
-	$(obj).parents('.new_prop_field').remove();
+	jQuery(obj).parents('.new_prop_field').remove();
 	
 }
 
@@ -205,9 +204,9 @@ function es_field_del(obj){
 
 function es_prop_country_states(obj){
 	
-	var es_country_id = $(obj).val();
+	var es_country_id = jQuery(obj).val();
 	
-	$("#es_states_loader").show();
+	jQuery("#es_states_loader").show();
   
 	jQuery.ajax({
 		type: 'POST',   // Adding Post method
@@ -215,9 +214,9 @@ function es_prop_country_states(obj){
 		data: {"action": "es_prop_country_states", "es_country_id":es_country_id}, 
 		success: function(data){ // Show returned data using the function.
 			
-			$("#es_states_loader").hide();
-			$("#es_states").html(data);
-			$("#es_states").next('.es_select_arow').text($("#es_states option:first-child").text());
+			jQuery("#es_states_loader").hide();
+			jQuery("#es_states").html(data);
+			jQuery("#es_states").next('.es_select_arow').text(jQuery("#es_states option:first-child").text());
 
 		}
 		});
@@ -227,9 +226,9 @@ function es_prop_country_states(obj){
 
 function es_prop_states_cities(obj){
 	
-	var es_state_id = $(obj).val();
+	var es_state_id = jQuery(obj).val();
 	
-	$("#es_cities_loader").show();
+	jQuery("#es_cities_loader").show();
   
 	jQuery.ajax({
 		type: 'POST',   // Adding Post method
@@ -237,19 +236,19 @@ function es_prop_states_cities(obj){
 		data: {"action": "es_prop_states_cities", "es_state_id":es_state_id}, 
 		success: function(data){ // Show returned data using the function.
 			
-			$("#es_cities_loader").hide();
+			jQuery("#es_cities_loader").hide();
 			
-			$("#es_cities").html(data);
+			jQuery("#es_cities").html(data);
 			
-			$("#es_cities").next('.es_select_arow').text($("#es_cities option:first-child").text());
+			jQuery("#es_cities").next('.es_select_arow').text(jQuery("#es_cities option:first-child").text());
 
 		}
 		});
 }
 
-$(function() {
-	$( "#es_media_images_listing ul" ).sortable();	 
-	$( "#es_media_images_listing ul, #es_media_images_listing ul li" ).disableSelection();
+jQuery(function() {
+	jQuery( "#es_media_images_listing ul" ).sortable();	 
+	jQuery( "#es_media_images_listing ul, #es_media_images_listing ul li" ).disableSelection();
 });
  
 

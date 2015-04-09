@@ -83,7 +83,11 @@ Please check these pages >> http://estatik.net/estatik-plugin-documentation/.
 == Changelog ==
 
 
-= 1.0 =
+= 1.0.0 =
 * Data manager is added.
 * Property listings shortcodes are added.
 * Search widget is added.
+
+= 1.0.1 =
+* jQuery conflicts fixed
+* language files added

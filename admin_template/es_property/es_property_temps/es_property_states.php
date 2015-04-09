@@ -27,7 +27,7 @@ if(!empty($es_state_listing)) {
 
 }else{
 	
-	echo '<option value="">No State</option>';
+	echo '<option value="">'.__( "No State", "es-plugin" ).'</option>';
 		
 }
 	 
