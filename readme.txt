@@ -20,7 +20,7 @@ Estatik Pro features:
 
 * listing manager (unlimited categories/types/statuses, sorting)
 * frontend property management (submitting properties after admin approval)
-"* responsive layouts (table/list/2 columns view - for list view; image right, left, center - single property view)"
+* responsive layouts (table/list/2 columns view - for list view; image right, left, center - single property view)
 * agents support (agent profile, ratings, contact information)
 * meta information fields 
 * CSV import
