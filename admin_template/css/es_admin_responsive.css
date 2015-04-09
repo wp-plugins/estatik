@@ -1,0 +1,236 @@
+
+
+.hide-desktop{ display:none; }
+
+
+@media only screen 
+and (max-device-width : 960px) 
+{
+
+	.es_wrapper{ padding-right:10px; }
+	
+	.es_manager_lists ul li input[type="checkbox"]{ left:6px; top:7px; }  	
+	
+	select, input[type="text"], input[type="number"]{ font-size:14px !important; } 
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 960px) 
+{
+	
+	
+	.show-ipad{ display:block; }
+		
+	.hide-ipad{ display:none !important; }
+	
+	.es_search_filter select{ width:198px; }
+	
+	.es_all_listing_search input[type="submit"]{ width:85px; }
+	
+	.es_all_listing_search input[type="button"]{ width:85px !important; }
+	
+	.es_manage_listing ul li a:before{ left:8px; }
+	
+	.es_manage_listing ul li a{ padding:0 10px 0 30px; }
+	
+	.es_all_listing_head div, .es_all_listing div{ width:15.8%; }
+	
+	.es_manager_lists ul li input[type="checkbox"]{ left:6px; top:7px; }
+	
+	.es_manager_lists{ width:49%; }
+	
+	.es_manager_lists:nth-child(2){ border-right:0px; margin-right:0px !important; }
+	
+	
+	#es_agent_listing .es_all_listing_head div, #es_agent_listing .es_all_listing div{ width:14%; }
+	
+	#es_agent_listing .es_all_listing_head div:nth-child(2),
+	#es_agent_listing .es_all_listing_head div:nth-child(3),
+	#es_agent_listing .es_all_listing_head div:nth-child(8){ width:14%; }
+	
+	#es_agent_listing .es_all_listing_head div:nth-child(5){ width:25%; }
+	
+	#es_agent_listing .es_all_listing_head div:nth-child(6){ width:18%; } 
+	
+	#es_agent_listing .es_all_listing_head div:nth-child(9){ width:8%; }
+	
+	
+	#es_agent_listing .es_all_listing div, #es_agent_listing .es_all_listing div{ width:14%; }
+	
+	#es_agent_listing .es_all_listing div:nth-child(2),
+	#es_agent_listing .es_all_listing div:nth-child(3),
+	#es_agent_listing .es_all_listing div:nth-child(8){ width:14%; }
+	
+	#es_agent_listing .es_all_listing div:nth-child(5){ width:25%; }
+	
+	#es_agent_listing .es_all_listing div:nth-child(6){ width:18%; } 
+	
+	#es_agent_listing .es_all_listing div:nth-child(9){ width:8%; }
+	
+	.es_layout label small{ width:180px; height:134px; }
+	
+	.es_layout label:hover small, .es_layout label.active small{ background-position:0px -134px !important; }
+	
+	 
+	 .es_search_filter .es_select{  margin-right: 15px; width: 202px; }
+	 
+}
+
+
+@media only screen 
+and (max-device-width : 767px) 
+{	
+	
+	.esHead p{ float:none; padding-bottom:10px; }
+	
+	.hide-phone{ display:none !important; }
+	
+	.es_dashboard_menu ul li{ float:none; width:auto; }
+	
+	.es_dashboard_menu ul li a{ border-bottom: 1px solid #f2f5f8; border-right: 0px; padding-bottom:10px; }
+	
+	.es_dashboard_menu ul li:last-child a{ border-bottom:0px; }
+	
+	
+	.es_dashboard_get_support ul li{ float:none; width:auto; margin-bottom:12px; }
+	
+	.es_dashboard_get_support ul li a{ margin-right:0px; }
+	
+	
+	.es_all_listing_search_upper label{ float:none; display:block; }
+	
+	.es_search_filter .es_select{ float:none; margin-right:0px; margin-bottom:10px; width:100%; }
+	
+	.es_search_prop input{ float:none; margin-right:0px; width:100% !important; }
+	
+	.es_search_prop .ui-datepicker-trigger{ margin:0px; position:absolute; right:10px; bottom:81px; }
+	
+	.es_all_listing_search input[type="submit"]{ margin-right:0px; margin-top:15px; margin-bottom:10px; }
+	
+	.es_all_listing_search input[type="button"]{ width:100% !important; }
+	
+	.es_manage_listing label{ float:none; padding-bottom:5px; } 
+	
+	.es_manage_listing ul{ margin:0px; }
+	
+	.es_manage_listing ul li{ float:none; margin:0; margin-bottom:10px; }
+	
+	.es_manage_listing ul li a{ text-align:left; }
+	
+	
+	.es_all_listing_head div:nth-child(1),
+	.es_all_listing div:nth-child(1){ width:10% !important; }
+	
+	.es_all_listing_head div,
+	.es_all_listing div{ width:45%; }
+	
+	
+	.es_tabs ul li{ float:none !important; width:auto !important; }
+	
+	.new_prop_field span{ display:block; float:none; width:auto; }
+	
+	.new_prop_fields_wrap input[type="text"], .new_prop_fields_wrap select{ width:100%; float:none; }
+	
+	.new_prop_fields_wrap .es_select{ width:100%; float:none; }
+	
+	.addnew_prop_add_btom{ display:block; }
+	
+	.new_prop_fields_wrap input[type="number"]{ width:100%; float:none; }
+	
+	.es_new_prop_error{ left:0px; top:49px; }
+	
+	.new_prop_fields_wrap textarea{ float:none; width:100%; }
+	
+	.es_add_newfield.full{ display:block !important; }
+	
+	.es_add_newfield.full input{ width:100% !important; margin-bottom:10px; float:none !important; }
+	
+	.es_add_newfield.full .es_add_newfield_btn{ width:auto !important; float:none !important; display:block !important; margin:0px!important; }
+	
+	.new_prop_loader{ left:101%; top:30px; }
+	
+	
+	.es_manager_lists{ float:none; width:100% !important; margin-right:0px !important; padding-right:0px !important; border-right:0px !important;  }
+	
+	#es_neighboarhood .es_manager_lists ul li input[type="text"]{ width:30%; }
+	
+	.es_media_images_field{ display:block; }
+	
+	.es_media_images_field input{ float:none; width:auto; margin-bottom:10px; }
+	
+	.es_media_images_field a{ float:none; margin:auto; }
+	
+	
+	.es_media_video_embed{ display:block; padding:4px 10px 10px; }
+	
+	.es_media_video_embed label{ display:block; float:none; }
+	
+	.es_media_video_embed input{ float:none; width:100%; }
+	
+	
+	#es_agent_listing .es_all_listing_head div:nth-child(2),
+	#es_agent_listing .es_all_listing_head div:nth-child(3),
+	#es_agent_listing .es_all_listing_head div:nth-child(8){ width:40%; }
+	
+	#es_agent_listing .es_all_listing div:nth-child(2),
+	#es_agent_listing .es_all_listing div:nth-child(3),
+	#es_agent_listing .es_all_listing div:nth-child(8){ width:40%; }
+	
+	#es_agent_listing .es_all_listing_head div:nth-child(5){ width:50%; }
+	
+	#es_agent_listing .es_all_listing div:nth-child(5){ width:50%; }
+	
+	
+	.es_agent_field label{ float:none; display:block; width:auto; }
+	
+	.es_agent_info input[type="text"], .es_agent_info select, .es_agent_info input[type="number"], .es_agent_info textarea{ width:100%; float:none; }
+	
+	.es_agent_error{ left:0px; top:49px; position:static; }
+	
+	
+	.es_settings_field span{ display:block; float:none; width:auto; }
+	
+	.es_settings_field input[type="text"], .es_settings_field select, .es_settings_field input[type="number"]{ width:100%; float:none; }
+	
+	.es_layout{ text-align:center; padding-bottom:10px; }
+	
+	.es_layout span{ text-align:left; display:block; float:none; margin-bottom:15px; width:auto; }
+	
+	.es_layout label{ margin:0; float:none; display:inline-block; margin-bottom:20px; }
+	
+	.es_layout label small{ margin-bottom:10px; }
+	
+	
+	.es_images_setting_head h2{ float:none; }
+	
+	.es_images_setting_resize{ float:none; padding-top:14px;  }
+	
+	.es_images_setting_resize span{ float:none; display:block; padding-bottom:6px; }
+	
+	.es_images_setting{ width:100%; }
+	
+	.es_images_setting ul li{ padding-left:10px; }
+	
+	
+	.es_images_setting ul li div { width:23% !important; padding:6px 2px ; height:35px;
+		
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	
+	}
+	
+	.es_images_setting ul li div:nth-child(1){ width:30% !important; }
+	
+	.es_images_setting ul li input{ width:100%; }
+	
+	.es_images_setting ul li span, .es_images_setting ul li label{ font-size:11px !important; font-weight:300 !important; }
+	
+	.es_theme_social{ padding-right:40px; }
+	
+
+}
+
+
