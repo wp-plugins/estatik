@@ -20,9 +20,9 @@
         
         <div class="es_dashboard_get_support clearFix">
         	<ul>
-            	<li><a href="#"><span></span><?php _e( "Step-by-step guide", "es-plugin" ); ?></a></li>
-                <li><a href="#"><span></span><?php _e( "Video Tutorial", "es-plugin" ); ?></a></li>
-                <li><a href="#"><span></span><?php _e( "Submit a Ticket", "es-plugin" ); ?></a></li>
+            	<li><a href="http://estatik.net/estatik-plugin-documentation/"><span></span><?php _e( "Step-by-step guide", "es-plugin" ); ?></a></li>
+                <li><a href="http://estatik.net/video-tutorials/"><span></span><?php _e( "Video Tutorial", "es-plugin" ); ?></a></li>
+                <li><a href="http://estatik.net/contact-us/"><span></span><?php _e( "Submit a Ticket", "es-plugin" ); ?></a></li>
             </ul>
         </div>
         
@@ -31,7 +31,7 @@
         <div id="es_choose_themes">
             <div id="es_themes_slides">
             	<ul class="slides">
-                	<li><a href="<?php echo admin_url()?>themes.php"><span><img src="<?php echo DIR_URL?>admin_template/images/es_theme_img1.png" alt="#" /></span></a></li>
+                	<li><a href="http://estatik.net/product/theme-native/"><span><img src="<?php echo DIR_URL?>admin_template/images/es_theme_img1.png" alt="#" /></span></a></li>
                 </ul>
             </div>
         </div>
