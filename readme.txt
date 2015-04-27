@@ -3,18 +3,19 @@ Contributors: Estatik
 Donate link: http://estatik.net/
 Tags: wordpress real estate, property, properties, estate, real estate, listing, listings, property listing, realtor, agent, house, wordpress real estate plugin, broker, mls, idx, property import, real estate agent, real estate website, property management
 Requires at least: 4.0
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Free version of Estatik Professional - a full-featured WordPress real estate plugin for single agent websites and real estate portals.
+Free version of Estatik Pro - a full-featured WordPress real estate plugin for single agent websites and real estate portals.
 
 == Description ==
 
-Estatik Simple plugin help you create out-of-the-box real estate website. Main features of Estatik Simple: customizable fields (unlimited number of new fields), responsive layout, comprehensive interface,
-photo gallery,  search widget, Google map, unlimited categories/types/statuses, labels and much more! Check out http://estatik.net/ for more information.
+Estatik Simple plugin helps you create out-of-the-box real estate website. Main features of Estatik Simple: customizable fields (unlimited number of new fields), responsive layout, comprehensive interface,
+photo gallery,  search widget, Google map, unlimited categories/types/statuses, labels, language files! Check out http://estatik.net/ for more information.
 Visit http://demo.estatik.net/ to view demo of Estatik plugin.
+
  
 Estatik Pro features:
 
@@ -32,6 +33,7 @@ Estatik Pro features:
 * slideshow widget (vertical/horizontal layouts, select show category, type, per id, etc.)
 * request information widget
 * search widget with 10 yes/no fields
+* language files
 
 
 == Installation ==
@@ -41,7 +43,7 @@ Estatik Pro features:
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Add your properties via Estatik >> Add property and add them to menus. 
 
-Please visit our detailed Step-by-Step guide here>> http://estatik.net/estatik-plugin-documentation/
+Please visit our detailed Step-by-Step guide here >> http://estatik.net/estatik-plugin-documentation/
  
 
 == Frequently Asked Questions ==
