@@ -2,18 +2,18 @@
 Contributors: Estatik
 Donate link: http://estatik.net/
 Tags: wordpress real estate, property, properties, estate, real estate, listing, listings, property listing, realtor, agent, house, wordpress real estate plugin, broker, mls, idx, property import, real estate agent, real estate website, property management
-Requires at least: 4.0
+Requires at least: 3.9
 Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Free version of Estatik Pro - a full-featured WordPress real estate plugin for single agent websites and real estate portals.
+Beautifully designed, simple in use, customizable. WordPress real estate plugin Estatik is a worthy choice for single agent websites and real estate portals.
 
 == Description ==
 
 Estatik Simple plugin helps you create out-of-the-box real estate website. Main features of Estatik Simple: customizable fields (unlimited number of new fields), responsive layout, comprehensive interface,
-photo gallery,  search widget, Google map, unlimited categories/types/statuses, labels, language files! Check out http://estatik.net/ for more information.
+photo gallery,  search widget, Google map, unlimited categories/types/statuses, labels, language files. Check out http://estatik.net/product/estatik-professional/ for more information.
 Visit http://demo.estatik.net/ to view demo of Estatik plugin.
 
  
@@ -21,7 +21,7 @@ Estatik Pro features:
 
 * listing manager (unlimited categories/types/statuses, sorting)
 * frontend property management (submitting properties after admin approval)
-* responsive layouts (table/list/2 columns view - for list view; image right, left, center - single property view)
+"* responsive layouts (table/list/2 columns view - for list view; image right, left, center - single property view)"
 * agents support (agent profile, ratings, contact information)
 * meta information fields 
 * CSV import
