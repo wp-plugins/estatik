@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Beautifully designed, simple in use, customizable. WordPress real estate plugin Estatik is a worthy choice for single agent websites and real estate portals.
+Beautifully designed, simple in use, customizable. WordPress real estate plugin Estatik is a worthy choice for agent sites and real estate portals
 
 == Description ==
 
