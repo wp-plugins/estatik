@@ -14,14 +14,14 @@ Beautifully designed, simple in use, customizable. WordPress real estate plugin 
 
 Estatik Simple plugin helps you create easy-to-use WordPress real estate website. Main features of Estatik Simple: clean design, customizable fields (unlimited number of new fields), responsive layout, comprehensive interface,
 photo gallery,  search widget, Google map, unlimited categories/types/statuses, labels, language files. Check out http://estatik.net/ for more information.
-Visit [demo] (http://demo.estatik.net/) of Estatik plugin.
+Visit [demo](http://demo.estatik.net/) of Estatik plugin.
 
  
 Estatik Pro features:
 
 * listing manager (unlimited categories/types/statuses, sorting)
 * frontend property management (submitting properties after admin approval)
-"* responsive layouts (table/list/2 columns view - for list view; image right, left, center - single property view)"
+* responsive layouts (table/list/2 columns view - for list view; image right, left, center - single property view)
 * agents support (agent profile, ratings, contact information)
 * meta information fields 
 * CSV import
@@ -35,18 +35,19 @@ Estatik Pro features:
 * search widget with 10 yes/no fields
 * language files
 
-Visit official [Estatik Pro page] (http://estatik.net/product/estatik-professional/) to get full information.
+Visit official [Estatik Pro page](http://estatik.net/product/estatik-professional/) to get full information.
 
 Related services:
 
-* [MLS/IDX integration] (http://estatik.net/mls-integration-service/)
-* [Customization] (http://estatik.net/estatik-customization/)
-* [Installation and configuration] (http://estatik.net/installation-setup/)
+* [MLS/IDX integration](http://estatik.net/mls-integration-service/)
+* [Customization](http://estatik.net/estatik-customization/)
+* [Installation and configuration](http://estatik.net/installation-setup/)
 
 Support:
-* [Step-by-step guide] (http://estatik.net/estatik-plugin-documentation/)
-* [Video tutorial] (https://www.youtube.com/channel/UCHhq46H033xh7XLsV8GqY3Q)
-* [Frequently Asked Questions] (http://estatik.net/faq/)
+
+* [Step-by-step guide](http://estatik.net/estatik-plugin-documentation/)
+* [Video tutorial](https://www.youtube.com/channel/UCHhq46H033xh7XLsV8GqY3Q)
+* [Frequently Asked Questions](http://estatik.net/faq/)
 
 
 == Installation ==
