@@ -8,13 +8,13 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Beautifully designed, simple in use, customizable. WordPress real estate plugin Estatik is a worthy choice for agent sites and real estate portals
+Beautifully designed, simple in use, customizable. WordPress real estate plugin Estatik is a worthy choice for single agents and real estate portals
 
 == Description ==
 
-Estatik Simple plugin helps you create out-of-the-box real estate website. Main features of Estatik Simple: customizable fields (unlimited number of new fields), responsive layout, comprehensive interface,
-photo gallery,  search widget, Google map, unlimited categories/types/statuses, labels, language files. Check out http://estatik.net/product/estatik-professional/ for more information.
-Visit http://demo.estatik.net/ to view demo of Estatik plugin.
+Estatik Simple plugin helps you create easy-to-use WordPress real estate website. Main features of Estatik Simple: clean design, customizable fields (unlimited number of new fields), responsive layout, comprehensive interface,
+photo gallery,  search widget, Google map, unlimited categories/types/statuses, labels, language files. Check out http://estatik.net/ for more information.
+Visit [demo] (http://demo.estatik.net/) of Estatik plugin.
 
  
 Estatik Pro features:
@@ -34,6 +34,19 @@ Estatik Pro features:
 * request information widget
 * search widget with 10 yes/no fields
 * language files
+
+Visit official [Estatik Pro page] (http://estatik.net/product/estatik-professional/) to get full information.
+
+Related services:
+
+* [MLS/IDX integration] (http://estatik.net/mls-integration-service/)
+* [Customization] (http://estatik.net/estatik-customization/)
+* [Installation and configuration] (http://estatik.net/installation-setup/)
+
+Support:
+* [Step-by-step guide] (http://estatik.net/estatik-plugin-documentation/)
+* [Video tutorial] (https://www.youtube.com/channel/UCHhq46H033xh7XLsV8GqY3Q)
+* [Frequently Asked Questions] (http://estatik.net/faq/)
 
 
 == Installation ==
