@@ -2,47 +2,46 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Estatik\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08 22:53+0500\n"
-"PO-Revision-Date: 2015-04-09 15:35+0200\n"
+"POT-Creation-Date: 2015-04-08 23:16+0500\n"
+"PO-Revision-Date: Fri May 01 2015 23:44:13 GMT+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: ru_RU\n"
+"X-Generator: Loco - https://localise.biz/\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: estatik\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: ru_RU"
 
 #: estatik/admin_template/es_admin_functions.php:30
 #: estatik/admin_template/es_admin_functions.php:31
-#: estatik/admin_template/es_settings.php:194
-#: estatik/front_templates/includes/es_view_first.php:13
+#: estatik/admin_template/es_settings.php:149
 msgid "Properties"
 msgstr "Объекты"
 
 #: estatik/admin_template/es_admin_functions.php:32
 #: estatik/admin_template/es_dashboard.php:13
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:234
 msgid "Add New"
-msgstr "Добавить новую"
+msgstr "Добавить"
 
 #: estatik/admin_template/es_admin_functions.php:33 estatik/estatik.php:25
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:357
 msgid "Add New Property"
 msgstr "Добавить недвижимость"
 
 #: estatik/admin_template/es_admin_functions.php:34
-#: estatik/admin_template/es_property/es_add_new_property.php:341
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:349
+#: estatik/admin_template/es_property/es_add_new_property.php:294
 msgid "Edit Property"
 msgstr "Редактировать недвижимость"
 
 #: estatik/admin_template/es_admin_functions.php:35
-#: estatik/admin_template/es_property/es_add_new_property.php:345
-#: estatik/admin_template/es_property/es_import_csv_property.php:150
+#: estatik/admin_template/es_property/es_add_new_property.php:298
 msgid "New Property"
 msgstr "Новая недвижимость"
 
@@ -60,11 +59,11 @@ msgstr "Поиск недвижимости"
 
 #: estatik/admin_template/es_admin_functions.php:39
 msgid "No Properties found"
-msgstr "Не найдено"
+msgstr "Ничего не найдено"
 
 #: estatik/admin_template/es_admin_functions.php:40
 msgid "No Properties found in the Trash"
-msgstr "Объектов не найдено"
+msgstr "В корзине объектов не найдено"
 
 #: estatik/admin_template/es_admin_functions.php:59
 #: estatik/admin_template/es_admin_functions.php:69
@@ -77,15 +76,15 @@ msgstr "Категория недвижимости"
 
 #: estatik/admin_template/es_admin_functions.php:61
 msgid "Search Property Categories"
-msgstr "Поиск категорий недвижимости"
+msgstr "Поиск по категориям"
 
 #: estatik/admin_template/es_admin_functions.php:62
 msgid "All Property Categories"
-msgstr "Все категории"
+msgstr "Все категории недвижимости"
 
 #: estatik/admin_template/es_admin_functions.php:63
 msgid "Parent Property Category"
-msgstr "Категория недвижимости"
+msgstr "Категория объекта"
 
 #: estatik/admin_template/es_admin_functions.php:64
 msgid "Parent Property Category:"
@@ -114,19 +113,19 @@ msgstr "Статус объекта"
 
 #: estatik/admin_template/es_admin_functions.php:84
 msgid "Search Status Categories"
-msgstr "Поиск категорий"
+msgstr "Поиск по статусу"
 
 #: estatik/admin_template/es_admin_functions.php:85
 msgid "All Status Categories"
-msgstr "Все категории"
+msgstr "Все статусы"
 
 #: estatik/admin_template/es_admin_functions.php:86
 msgid "Parent Status Category"
-msgstr "Родительский статус категории"
+msgstr "Категория статуса"
 
 #: estatik/admin_template/es_admin_functions.php:87
 msgid "Parent Status Category:"
-msgstr "Родительская категория состояния:"
+msgstr "Категория статуса"
 
 #: estatik/admin_template/es_admin_functions.php:88
 msgid "Edit Status Category"
@@ -142,11 +141,11 @@ msgstr "Добавить новый статус"
 
 #: estatik/admin_template/es_admin_functions.php:91
 msgid "New Status Category"
-msgstr "Новый статус"
+msgstr "Новый статус категории"
 
 #: estatik/admin_template/es_admin_functions.php:92
 msgid "Status Categories"
-msgstr "Статусы"
+msgstr "Категория статуса"
 
 #: estatik/admin_template/es_admin_functions.php:105
 #: estatik/admin_template/es_admin_functions.php:106
@@ -155,19 +154,19 @@ msgstr "Типы объектов"
 
 #: estatik/admin_template/es_admin_functions.php:107
 msgid "Search Types Categories"
-msgstr "Поиск типов"
+msgstr "Поиск по типам"
 
 #: estatik/admin_template/es_admin_functions.php:108
 msgid "All Types Categories"
-msgstr "Все типы категорий"
+msgstr "Все типы"
 
 #: estatik/admin_template/es_admin_functions.php:109
 msgid "Parent Type Category"
-msgstr "Родительский тип"
+msgstr "Категория типа"
 
 #: estatik/admin_template/es_admin_functions.php:110
 msgid "Parent Type Category:"
-msgstr "Родительский тип"
+msgstr "Категория типа"
 
 #: estatik/admin_template/es_admin_functions.php:111
 msgid "Edit Type Category"
@@ -183,453 +182,15 @@ msgstr "Добавить новый тип"
 
 #: estatik/admin_template/es_admin_functions.php:114
 msgid "New Type Category"
-msgstr "Новый тип "
+msgstr "Новый тип"
 
 #: estatik/admin_template/es_admin_functions.php:115
 msgid "Type Categories"
-msgstr "Типы"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:81
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:80
-#, php-format
-msgid "New user registration on your blog %s:"
-msgstr "Новый пользователь зарегистрировался на вашем сайте %s:"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:82
-#: estatik/admin_template/es_agents/es_add_new_agent.php:91
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:81
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:90
-#, php-format
-msgid "Username: %s"
-msgstr "Логин: %s"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:83
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:82
-#, php-format
-msgid "E-mail: %s"
-msgstr "E-mail: %s"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:85
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:84
-#, php-format
-msgid "[%s] New User Registration"
-msgstr "[%s] Регистрация нового пользователя"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:88
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:87
-msgid "Hi there,"
-msgstr "Добрый день,"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:89
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:88
-#, php-format
-msgid "Welcome to %s! Here's how to log in:"
-msgstr "Добро пожаловать на %s! Войдите здесь:"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:92
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:91
-#, php-format
-msgid "Password: %s"
-msgstr "Пароль: %s"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:93
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:92
-#, php-format
-msgid "If you have any problems, please contact me at %s."
-msgstr "Если у вас возникли вопросы, свяжитесь со нами по %s."
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:94
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:93
-msgid "Estatik Team!"
-msgstr "Estatik команда!"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:96
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:95
-#, php-format
-msgid "[%s] Your username and password"
-msgstr "[%s] Ваш логин и пароль"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:169
-#: estatik/admin_template/es_manager/es_data_manager.php:22
-#: estatik/admin_template/es_property/es_add_new_property.php:321
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:341
-msgid "Please fill your field."
-msgstr "Пожалуйста, заполните поля."
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:170
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:166
-#: estatik/front_templates/widgets/es_request_form.php:63
-msgid "Email is required."
-msgstr "Адрес электронной почты - обязательное поле."
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:171
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:167
-msgid "Email is not valid."
-msgstr "Email не является действительным."
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:172
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:168
-msgid "This email is already exist. Please choose another one."
-msgstr "Этот email уже существует. Пожалуйста, выберите другой."
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:173
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:169
-msgid "User name is required."
-msgstr "Имя пользователя требуется обязательно."
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:174
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:170
-msgid "This user name is already registered. Please choose another one."
-msgstr ""
-"Это имя пользователя уже зарегистрированы. Пожалуйста, выберите другой."
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:177
-msgid "Agent info"
-msgstr "Информация агента"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:186
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:175
-msgid "Please edit your agent information below and click save to finish."
-msgstr ""
-"Пожалуйста, внесите информацию об агенте ниже. Не забудьте сохранить "
-"изменения."
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:190
-msgid "Please fill up your agent information below and click save to finish."
-msgstr ""
-"Пожалуйста, внесите информацию об агенте ниже. Не забудьте сохранить "
-"изменения."
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:194
-#: estatik/admin_template/es_property/es_add_new_property.php:358
-#: estatik/admin_template/es_property/es_add_new_property.php:366
-#: estatik/admin_template/es_property/es_import_csv_property.php:159
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:360
-#: estatik/front_templates/includes/agent_files/es_import_csv_property.php:165
-msgid "Save & Close"
-msgstr "Сохранить & закрыть"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:195
-#: estatik/admin_template/es_property/es_add_new_property.php:359
-#: estatik/admin_template/es_property/es_add_new_property.php:367
-#: estatik/admin_template/es_property/es_import_csv_property.php:160
-#: estatik/admin_template/es_settings.php:98
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:177
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:361
-#: estatik/front_templates/includes/agent_files/es_import_csv_property.php:166
-msgid "Save"
-msgstr "Сохранить"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:217
-#: estatik/admin_template/es_agents/es_agents.php:209
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:206
-#: estatik/front_templates/widgets/es_request_form.php:30
-msgid "Name"
-msgstr "Имя"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:221
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:210
-msgid "User name"
-msgstr "Имя пользователя"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:229
-#: estatik/admin_template/es_agents/es_agents.php:212
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:216
-#: estatik/front_templates/widgets/es_request_form.php:31
-msgid "Email"
-msgstr "Email"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:235
-#: estatik/admin_template/es_agents/es_agents.php:125
-#: estatik/admin_template/es_agents/es_agents.php:215
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:222
-#: estatik/front_templates/includes/es_agents.php:82
-#: estatik/front_templates/includes/es_prop_single.php:411
-msgid "Company"
-msgstr "Компания"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:239
-#: estatik/admin_template/es_agents/es_agents.php:218
-#: estatik/front_templates/includes/es_agents.php:68
-msgid "Properties Q-ty"
-msgstr "Общее число объектов"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:243
-msgid "Sold properties"
-msgstr "Продано объектов"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:247
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:226
-msgid "Tel"
-msgstr "Тел.:"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:251
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:230
-msgid "www"
-msgstr "www"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:255
-#: estatik/admin_template/es_agents/es_agents.php:137
-#: estatik/admin_template/es_agents/es_agents.php:221
-#: estatik/front_templates/includes/es_agents.php:72
-#: estatik/front_templates/includes/es_prop_single.php:399
-msgid "Rating"
-msgstr "Рейтинг"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:266
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:235
-msgid "About"
-msgstr "Инфо"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:270
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:239
-msgid "Photo/Logo"
-msgstr "Фото/логотип"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:282
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:251
-msgid "Upload photo"
-msgstr "Загрузка фото"
-
-#: estatik/admin_template/es_agents/es_add_new_agent.php:315
-#: estatik/admin_template/es_manager/es_data_manager.php:51
-#: estatik/admin_template/es_manager/es_data_manager.php:67
-#: estatik/admin_template/es_manager/es_data_manager.php:85
-#: estatik/admin_template/es_manager/es_data_manager.php:101
-#: estatik/admin_template/es_manager/es_data_manager.php:122
-#: estatik/admin_template/es_manager/es_data_manager.php:138
-#: estatik/admin_template/es_manager/es_data_manager.php:154
-#: estatik/admin_template/es_manager/es_data_manager.php:170
-#: estatik/admin_template/es_manager/es_data_manager.php:191
-#: estatik/admin_template/es_manager/es_data_manager.php:211
-#: estatik/admin_template/es_manager/es_data_manager.php:227
-#: estatik/admin_template/es_manager/es_data_manager.php:248
-#: estatik/admin_template/es_property/es_add_new_property.php:641
-#: estatik/admin_template/es_property/es_add_new_property.php:748
-#: estatik/admin_template/es_property/es_add_new_property.php:768
-#: estatik/admin_template/es_property/es_add_new_property.php:792
-msgid "Add new field"
-msgstr "Добавить новое поле"
-
-#: estatik/admin_template/es_agents/es_agents.php:80
-msgid "Please select agents you want to copy."
-msgstr "Пожалуйста, выберите агентов, которых вы хотите скопировать."
-
-#: estatik/admin_template/es_agents/es_agents.php:81
-msgid "Please select agents you want to delete."
-msgstr "Пожалуйста, выберите агентов, которых вы хотите удалить."
-
-#: estatik/admin_template/es_agents/es_agents.php:82
-msgid "Please select agents you want to publish."
-msgstr "Пожалуйста, выберите агентов, которых вы хотите опубликовать."
-
-#: estatik/admin_template/es_agents/es_agents.php:83
-msgid "Please select agents you want to unpublish."
-msgstr "Пожалуйста, выберите агентов которых вы хотите снять с публикации."
-
-#: estatik/admin_template/es_agents/es_agents.php:85
-#: estatik/admin_template/es_property/es_my_listings.php:231
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:198
-msgid "Are you sure you want to Copy it?"
-msgstr "Вы действительно хотите скопировать?"
-
-#: estatik/admin_template/es_agents/es_agents.php:86
-#: estatik/admin_template/es_manager/es_data_manager.php:6
-#: estatik/admin_template/es_property/es_add_new_property.php:329
-#: estatik/admin_template/es_property/es_my_listings.php:232
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:199
-msgid "Are you sure you want to delete it?"
-msgstr "Вы действительно хотите удалить?"
-
-#: estatik/admin_template/es_agents/es_agents.php:87
-#: estatik/admin_template/es_property/es_my_listings.php:233
-msgid "Are you sure you want to publish it?"
-msgstr "Вы действительно хотите опубликовать его?"
-
-#: estatik/admin_template/es_agents/es_agents.php:88
-#: estatik/admin_template/es_property/es_my_listings.php:234
-msgid "Are you sure you want to unpublish it?"
-msgstr "Вы действительно хотите снять с публикации?"
-
-#: estatik/admin_template/es_agents/es_agents.php:95
-#: estatik/admin_template/es_agents/es_agents.php:106
-#: estatik/admin_template/es_property/es_add_new_property.php:331
-#: estatik/admin_template/es_property/es_my_listings.php:241
-#: estatik/admin_template/es_property/es_my_listings.php:252
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:206
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:217
-msgid "OK"
-msgstr "OK"
-
-#: estatik/admin_template/es_agents/es_agents.php:107
-#: estatik/admin_template/es_manager/es_data_manager.php:9
-#: estatik/admin_template/es_property/es_add_new_property.php:332
-#: estatik/admin_template/es_property/es_my_listings.php:253
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:218
-msgid "Cancel"
-msgstr "Отмена"
-
-#: estatik/admin_template/es_agents/es_agents.php:114
-#: estatik/admin_template/es_settings.php:247 estatik/estatik.php:28
-msgid "Agents"
-msgstr "Агенты"
-
-#: estatik/admin_template/es_agents/es_agents.php:123
-#: estatik/admin_template/es_property/es_my_listings.php:269
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:243
-msgid "Filter by"
-msgstr "Фильтр по"
-
-#: estatik/admin_template/es_agents/es_agents.php:138
-msgid "Bad"
-msgstr "Очень плохо"
-
-#: estatik/admin_template/es_agents/es_agents.php:139
-msgid "Poor"
-msgstr "Плохо"
-
-#: estatik/admin_template/es_agents/es_agents.php:140
-msgid "Regular"
-msgstr "Удовлетворительно"
-
-#: estatik/admin_template/es_agents/es_agents.php:141
-msgid "Good"
-msgstr "Хорошо"
-
-#: estatik/admin_template/es_agents/es_agents.php:142
-msgid "Excellent"
-msgstr "Отлично"
-
-#: estatik/admin_template/es_agents/es_agents.php:146
-msgid "By Name"
-msgstr "По названию"
-
-#: estatik/admin_template/es_agents/es_agents.php:148
-#: estatik/admin_template/es_property/es_my_listings.php:314
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:288
-#: estatik/front_templates/includes/es_view_first.php:8
-#: estatik/front_templates/widgets/es_search.php:129
-msgid "Search"
-msgstr "Поиск"
-
-#: estatik/admin_template/es_agents/es_agents.php:149
-#: estatik/admin_template/es_property/es_my_listings.php:315
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:289
-#: estatik/front_templates/widgets/es_search.php:128
-msgid "Reset"
-msgstr "Сброс"
-
-#: estatik/admin_template/es_agents/es_agents.php:156
-#: estatik/admin_template/es_property/es_my_listings.php:321
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:295
-msgid "Manage"
-msgstr "Управлять"
-
-#: estatik/admin_template/es_agents/es_agents.php:158
-#: estatik/admin_template/es_property/es_my_listings.php:323
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:297
-msgid "Select all"
-msgstr "Выбрать все"
-
-#: estatik/admin_template/es_agents/es_agents.php:159
-#: estatik/admin_template/es_property/es_my_listings.php:324
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:298
-msgid "Undo selection"
-msgstr "Отменить выделение"
-
-#: estatik/admin_template/es_agents/es_agents.php:160
-#: estatik/admin_template/es_property/es_my_listings.php:325
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:299
-msgid "Copy"
-msgstr "Копировать"
-
-#: estatik/admin_template/es_agents/es_agents.php:161
-#: estatik/admin_template/es_agents/es_agents.php:310
-#: estatik/admin_template/es_property/es_my_listings.php:326
-#: estatik/admin_template/es_property/es_my_listings.php:515
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:300
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:483
-msgid "Delete"
-msgstr "Удалить"
-
-#: estatik/admin_template/es_agents/es_agents.php:162
-#: estatik/admin_template/es_property/es_my_listings.php:327
-msgid "Publish"
-msgstr "Опубликовать"
-
-#: estatik/admin_template/es_agents/es_agents.php:163
-#: estatik/admin_template/es_property/es_my_listings.php:328
-msgid "Unpublish"
-msgstr "Отменить публикацию"
-
-#: estatik/admin_template/es_agents/es_agents.php:170
-msgid "Agent has been deleted."
-msgstr "Агент был удален."
-
-#: estatik/admin_template/es_agents/es_agents.php:174
-msgid "Selected Agents have been copied."
-msgstr "Выбранные агенты были скопированы."
-
-#: estatik/admin_template/es_agents/es_agents.php:178
-msgid "Selected Agents have been deleted."
-msgstr "Выбранные агенты были удалены."
-
-#: estatik/admin_template/es_agents/es_agents.php:182
-msgid "Selected Agents have been published."
-msgstr "Выбранные агенты были опубликованы."
-
-#: estatik/admin_template/es_agents/es_agents.php:186
-msgid "Selected Agents have been unpublished."
-msgstr "Выбранные агенты были сняты с публикации."
-
-#: estatik/admin_template/es_agents/es_agents.php:190
-msgid "Your Search results."
-msgstr "Результаты поиска"
-
-#: estatik/admin_template/es_agents/es_agents.php:203
-msgid "Agent ID"
-msgstr "ID агента"
-
-#: estatik/admin_template/es_agents/es_agents.php:206
-#: estatik/front_templates/includes/es_login.php:23
-msgid "Username"
-msgstr "Логин"
-
-#: estatik/admin_template/es_agents/es_agents.php:224
-#: estatik/admin_template/es_manager/es_data_manager.php:39
-#: estatik/admin_template/es_property/es_add_new_property.php:471
-#: estatik/admin_template/es_property/es_add_new_property.php:473
-#: estatik/admin_template/es_property/es_my_listings.php:283
-#: estatik/admin_template/es_property/es_my_listings.php:387
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:462
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:464
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:257
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:351
-#: estatik/front_templates/includes/es_prop_single.php:212
-msgid "Status"
-msgstr "Статус"
-
-#: estatik/admin_template/es_agents/es_agents.php:306
-msgid "Unactive"
-msgstr "Неактивный"
-
-#: estatik/admin_template/es_agents/es_agents.php:306
-msgid "Active"
-msgstr "Активный"
-
-#: estatik/admin_template/es_agents/es_agents.php:309
-#: estatik/admin_template/es_property/es_my_listings.php:514
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:482
-msgid "Edit"
-msgstr "Редактировать"
-
-#: estatik/admin_template/es_agents/es_agents.php:320
-msgid "No record Found."
-msgstr "Ничего не найдено"
+msgstr "Категории типа"
 
 #: estatik/admin_template/es_dashboard.php:4 estatik/estatik.php:23
 msgid "Dashboard"
-msgstr "Панель администрирования"
+msgstr "Панель управления"
 
 #: estatik/admin_template/es_dashboard.php:12 estatik/estatik.php:24
 msgid "My listings"
@@ -637,54 +198,65 @@ msgstr "Мои объявления"
 
 #: estatik/admin_template/es_dashboard.php:14
 #: estatik/admin_template/es_manager/es_data_manager.php:16
-#: estatik/estatik.php:27
+#: estatik/estatik.php:26
 msgid "Data Manager"
 msgstr "Менеджер данных"
 
 #: estatik/admin_template/es_dashboard.php:15
-msgid "Agent Info"
-msgstr "Агент"
-
-#: estatik/admin_template/es_dashboard.php:16
-#: estatik/admin_template/es_settings.php:90 estatik/estatik.php:30
+#: estatik/admin_template/es_settings.php:51 estatik/estatik.php:27
 msgid "Settings"
 msgstr "Настройки"
 
-#: estatik/admin_template/es_dashboard.php:20
+#: estatik/admin_template/es_dashboard.php:19
 msgid "Get Support"
-msgstr "Тех поддержка"
+msgstr "Техподдержка"
 
-#: estatik/admin_template/es_dashboard.php:24
+#: estatik/admin_template/es_dashboard.php:23
 msgid "Step-by-step guide"
 msgstr "Пошаговая инструкция"
 
-#: estatik/admin_template/es_dashboard.php:25
+#: estatik/admin_template/es_dashboard.php:24
 msgid "Video Tutorial"
 msgstr "Видео документация"
 
-#: estatik/admin_template/es_dashboard.php:26
+#: estatik/admin_template/es_dashboard.php:25
 msgid "Submit a Ticket"
-msgstr "Задать вопрос"
+msgstr "Связаться с нами\n"
 
-#: estatik/admin_template/es_dashboard.php:30
+#: estatik/admin_template/es_dashboard.php:29
 msgid "Choose Your Theme"
-msgstr "Выбрать шаблон "
+msgstr "Выбрать тему"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:6
+#: estatik/admin_template/es_property/es_add_new_property.php:282
+#: estatik/admin_template/es_property/es_my_listings.php:203
+msgid "Are you sure you want to delete it?"
+msgstr "Вы действительно хотите удалить?"
 
 #: estatik/admin_template/es_manager/es_data_manager.php:8
 msgid "Ok"
 msgstr "OK"
 
+#: estatik/admin_template/es_manager/es_data_manager.php:9
+#: estatik/admin_template/es_property/es_add_new_property.php:285
+#: estatik/admin_template/es_property/es_my_listings.php:224
+msgid "Cancel"
+msgstr "Отмена"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:22
+#: estatik/admin_template/es_property/es_add_new_property.php:274
+msgid "Please fill your field."
+msgstr "Пожалуйста, заполните поля."
+
 #: estatik/admin_template/es_manager/es_data_manager.php:23
-#: estatik/admin_template/es_property/es_add_new_property.php:322
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:342
+#: estatik/admin_template/es_property/es_add_new_property.php:275
 msgid "field has been added."
-msgstr "Поле было добавлено"
+msgstr "было добавлено поле."
 
 #: estatik/admin_template/es_manager/es_data_manager.php:24
-#: estatik/admin_template/es_property/es_add_new_property.php:323
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:343
+#: estatik/admin_template/es_property/es_add_new_property.php:276
 msgid "field has been deleted."
-msgstr "Поле было удалено"
+msgstr "поле было удалено."
 
 #: estatik/admin_template/es_manager/es_data_manager.php:28
 msgid "Properties details"
@@ -699,199 +271,229 @@ msgid "Dimensions"
 msgstr "Размеры"
 
 #: estatik/admin_template/es_manager/es_data_manager.php:31
-#: estatik/admin_template/es_manager/es_data_manager.php:200
-#: estatik/admin_template/es_property/es_add_new_property.php:385
-#: estatik/admin_template/es_property/es_add_new_property.php:734
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:379
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:714
-#: estatik/front_templates/includes/es_prop_single.php:78
-#: estatik/front_templates/includes/es_prop_single.php:319
-#: estatik/front_templates/includes/es_prop_single.php:323
+#: estatik/admin_template/es_manager/es_data_manager.php:183
+#: estatik/admin_template/es_property/es_add_new_property.php:338
+#: estatik/admin_template/es_property/es_add_new_property.php:683
 msgid "Features"
-msgstr "Характеристики"
+msgstr "Характеристика"
 
 #: estatik/admin_template/es_manager/es_data_manager.php:32
-#: estatik/admin_template/es_manager/es_data_manager.php:237
-#: estatik/admin_template/es_settings.php:114
+#: estatik/admin_template/es_manager/es_data_manager.php:218
+#: estatik/admin_template/es_settings.php:75
 msgid "Currency"
 msgstr "Валюта"
 
-#: estatik/admin_template/es_manager/es_data_manager.php:56
-#: estatik/admin_template/es_property/es_add_new_property.php:455
-#: estatik/admin_template/es_property/es_add_new_property.php:457
-#: estatik/admin_template/es_property/es_my_listings.php:271
-#: estatik/admin_template/es_property/es_my_listings.php:381
-#: estatik/admin_template/es_widgets.php:418
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:447
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:449
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:245
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:345
-#: estatik/front_templates/widgets/es_search.php:179
-#: estatik/front_templates/widgets/es_search.php:181
+#: estatik/admin_template/es_manager/es_data_manager.php:39
+#: estatik/admin_template/es_property/es_add_new_property.php:422
+#: estatik/admin_template/es_property/es_add_new_property.php:424
+#: estatik/admin_template/es_property/es_my_listings.php:254
+#: estatik/admin_template/es_property/es_my_listings.php:358
+msgid "Status"
+msgstr "Статус"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:50
+#: estatik/admin_template/es_manager/es_data_manager.php:66
+#: estatik/admin_template/es_manager/es_data_manager.php:84
+#: estatik/admin_template/es_manager/es_data_manager.php:100
+#: estatik/admin_template/es_manager/es_data_manager.php:121
+#: estatik/admin_template/es_manager/es_data_manager.php:137
+#: estatik/admin_template/es_manager/es_data_manager.php:153
+#: estatik/admin_template/es_manager/es_data_manager.php:174
+#: estatik/admin_template/es_manager/es_data_manager.php:194
+#: estatik/admin_template/es_manager/es_data_manager.php:210
+#: estatik/admin_template/es_manager/es_data_manager.php:228
+#: estatik/admin_template/es_property/es_add_new_property.php:590
+#: estatik/admin_template/es_property/es_add_new_property.php:697
+#: estatik/admin_template/es_property/es_add_new_property.php:717
+msgid "Add new field"
+msgstr "Добавить новое поле"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:55
+#: estatik/admin_template/es_property/es_add_new_property.php:406
+#: estatik/admin_template/es_property/es_add_new_property.php:408
+#: estatik/admin_template/es_property/es_my_listings.php:242
+#: estatik/admin_template/es_property/es_my_listings.php:352
 msgid "Category"
 msgstr "Категория"
 
-#: estatik/admin_template/es_manager/es_data_manager.php:74
-#: estatik/admin_template/es_property/es_add_new_property.php:438
-#: estatik/admin_template/es_property/es_add_new_property.php:440
-#: estatik/admin_template/es_property/es_my_listings.php:295
-#: estatik/admin_template/es_property/es_my_listings.php:384
-#: estatik/admin_template/es_widgets.php:433
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:432
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:434
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:269
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:348
-#: estatik/front_templates/includes/es_prop_single.php:204
-#: estatik/front_templates/widgets/es_search.php:199
-#: estatik/front_templates/widgets/es_search.php:201
+#: estatik/admin_template/es_manager/es_data_manager.php:73
+#: estatik/admin_template/es_property/es_add_new_property.php:389
+#: estatik/admin_template/es_property/es_add_new_property.php:391
+#: estatik/admin_template/es_property/es_my_listings.php:266
+#: estatik/admin_template/es_property/es_my_listings.php:355
 msgid "Type"
 msgstr "Тип"
 
-#: estatik/admin_template/es_manager/es_data_manager.php:90
+#: estatik/admin_template/es_manager/es_data_manager.php:89
 msgid "Rent period"
 msgstr "Срок аренды"
 
-#: estatik/admin_template/es_manager/es_data_manager.php:111
-#: estatik/admin_template/es_property/es_add_new_property.php:654
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:634
+#: estatik/admin_template/es_manager/es_data_manager.php:110
+#: estatik/admin_template/es_property/es_add_new_property.php:603
 msgid "Country"
 msgstr "Страна"
 
-#: estatik/admin_template/es_manager/es_data_manager.php:127
+#: estatik/admin_template/es_manager/es_data_manager.php:126
 msgid "States/Regions"
-msgstr "Штаты/регионы"
+msgstr "Регионы/области\n"
 
-#: estatik/admin_template/es_manager/es_data_manager.php:143
+#: estatik/admin_template/es_manager/es_data_manager.php:142
 msgid "Cities"
 msgstr "Города"
 
-#: estatik/admin_template/es_manager/es_data_manager.php:159
-msgid "Neighboarhood"
-msgstr "Округа"
-
-#: estatik/admin_template/es_manager/es_data_manager.php:180
+#: estatik/admin_template/es_manager/es_data_manager.php:163
 msgid "Area & lot size"
-msgstr "Площадь объекта и всего участка"
+msgstr "Площадь участка"
 
-#: estatik/admin_template/es_manager/es_data_manager.php:216
-#: estatik/admin_template/es_property/es_add_new_property.php:754
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:726
+#: estatik/admin_template/es_manager/es_data_manager.php:199
+#: estatik/admin_template/es_property/es_add_new_property.php:703
 msgid "Appliances"
 msgstr "Приборы"
 
-#: estatik/admin_template/es_manager/es_manager_temps/es_appliance.php:49
+#: estatik/admin_template/es_manager/es_manager_temps/es_appliance.php:50
 #: estatik/admin_template/es_manager/es_manager_temps/es_category.php:20
 #: estatik/admin_template/es_manager/es_manager_temps/es_city.php:32
 #: estatik/admin_template/es_manager/es_manager_temps/es_country.php:30
 #: estatik/admin_template/es_manager/es_manager_temps/es_currency.php:25
 #: estatik/admin_template/es_manager/es_manager_temps/es_dimension.php:25
 #: estatik/admin_template/es_manager/es_manager_temps/es_feature.php:49
-#: estatik/admin_template/es_manager/es_manager_temps/es_neigh.php:63
 #: estatik/admin_template/es_manager/es_manager_temps/es_period.php:19
 #: estatik/admin_template/es_manager/es_manager_temps/es_state.php:45
 #: estatik/admin_template/es_manager/es_manager_temps/es_status.php:20
 #: estatik/admin_template/es_manager/es_manager_temps/es_type.php:19
 msgid "No record found. Please add new one."
-msgstr "Ничего не найдено. Пожалуйста, добавьте новый."
+msgstr "Объектов не найдено. Пожалуйста, добавьте новый."
 
-#: estatik/admin_template/es_property/es_add_new_property.php:324
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:344
+#: estatik/admin_template/es_pro.php:30
+msgid "Upload Downloaded Estatik Pro"
+msgstr "Загрузить Estatik Pro"
+
+#: estatik/admin_template/es_pro.php:37
+msgid ""
+"Full advanced version with extra portal management option, social sharing, "
+"additional widgets support, etc."
+msgstr ""
+"Полная версия Estatik плагина с дополнительными настройками: интеграцией с "
+"соц. сетями, pdf флайером, управлением объектами с фронтенда, слайдшоу и "
+"запрос виджетами, а также много другое."
+
+#: estatik/admin_template/es_pro.php:38
+msgid "Please upload your"
+msgstr "Пожалуйста, загрузите вашу"
+
+#: estatik/admin_template/es_pro.php:38
+msgid "version in zip format and click upload to finish for update to pro Version."
+msgstr ""
+"версию в формате zip и нажмите Загрузить для завершения обновления до версии "
+"pro."
+
+#: estatik/admin_template/es_pro.php:39
+#: estatik/admin_template/es_property/es_add_new_property.php:730
+msgid "Upload"
+msgstr "Загрузка"
+
+#: estatik/admin_template/es_pro.php:48
+msgid "Upload Zip"
+msgstr "Загрузить Zip"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:277
 msgid "Please enter numbers only."
 msgstr "Пожалуйста, вводите только цифры."
 
-#: estatik/admin_template/es_property/es_add_new_property.php:357
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:351
+#: estatik/admin_template/es_property/es_add_new_property.php:284
+#: estatik/admin_template/es_property/es_my_listings.php:212
+#: estatik/admin_template/es_property/es_my_listings.php:223
+msgid "OK"
+msgstr "OK"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:310
 msgid "Please Edit your property detail and click save to finish."
 msgstr ""
-"Пожалуйста, отредактируйте данные недвижимости и нажмите Сохранить для "
+"Пожалуйста, отредактируйте ваш объект недвижимости и нажмите Сохранить для "
 "завершения."
 
-#: estatik/admin_template/es_property/es_add_new_property.php:365
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:359
+#: estatik/admin_template/es_property/es_add_new_property.php:311
+#: estatik/admin_template/es_property/es_add_new_property.php:319
+msgid "Save & Close"
+msgstr "Сохранить и закрыть"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:312
+#: estatik/admin_template/es_property/es_add_new_property.php:320
+#: estatik/admin_template/es_settings.php:59
+msgid "Save"
+msgstr "Сохранить"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:318
 msgid "Please fill up your property detail and click save to finish."
-msgstr ""
-"Пожалуйста заполните поля данными недвижимости и нажмите Сохранить для "
-"завершения."
+msgstr "Пожалуйста заполните поля ниже и нажмите Сохранить для завершения."
 
-#: estatik/admin_template/es_property/es_add_new_property.php:374
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:368
+#: estatik/admin_template/es_property/es_add_new_property.php:327
 msgid "Property has been updated."
-msgstr "Объект был обновлен."
+msgstr "Информация была обновлена\n"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:383
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:377
+#: estatik/admin_template/es_property/es_add_new_property.php:336
 msgid "Basic information"
 msgstr "Основная информация"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:384
-#: estatik/admin_template/es_property/es_my_listings.php:310
-#: estatik/admin_template/es_property/es_my_listings.php:378
-#: estatik/admin_template/es_settings.php:148
-#: estatik/admin_template/es_settings.php:151
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:378
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:284
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:342
+#: estatik/admin_template/es_property/es_add_new_property.php:337
+#: estatik/admin_template/es_property/es_my_listings.php:281
+#: estatik/admin_template/es_property/es_my_listings.php:349
+#: estatik/admin_template/es_settings.php:109
+#: estatik/admin_template/es_settings.php:112
 msgid "Address"
 msgstr "Адрес"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:386
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:380
-#: estatik/front_templates/includes/es_prop_single.php:75
-msgid "Neighborhood"
-msgstr "Местность"
-
-#: estatik/admin_template/es_property/es_add_new_property.php:387
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:381
+#: estatik/admin_template/es_property/es_add_new_property.php:339
 msgid "Media"
 msgstr "Медиафайлы"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:388
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:382
-msgid "Meta Info"
-msgstr "Мета информация"
-
-#: estatik/admin_template/es_property/es_add_new_property.php:412
-#: estatik/admin_template/es_property/es_my_listings.php:308
-#: estatik/admin_template/es_property/es_my_listings.php:366
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:406
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:282
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:330
-#: estatik/front_templates/widgets/es_request_form.php:33
+#: estatik/admin_template/es_property/es_add_new_property.php:363
+#: estatik/admin_template/es_property/es_my_listings.php:279
+#: estatik/admin_template/es_property/es_my_listings.php:337
 msgid "Property ID"
 msgstr "ID недвижимости"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:434
-#: estatik/admin_template/es_property/es_my_listings.php:372
-#: estatik/admin_template/es_settings.php:147
-#: estatik/admin_template/es_widgets.php:388
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:428
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:336
+#: estatik/admin_template/es_property/es_add_new_property.php:385
+#: estatik/admin_template/es_property/es_my_listings.php:343
+#: estatik/admin_template/es_settings.php:108
 msgid "Title"
-msgstr "Заголовок"
+msgstr "Название"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:487
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:478
-#: estatik/front_templates/includes/es_cheapest_props.php:69
-#: estatik/front_templates/includes/es_featured_props.php:70
-#: estatik/front_templates/includes/es_latest_props.php:72
-#: estatik/front_templates/includes/es_my_listing.php:204
+#: estatik/admin_template/es_property/es_add_new_property.php:438
 msgid "Featured"
-msgstr "Популярное"
+msgstr "Популярно"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:500
-#: estatik/admin_template/es_property/es_add_new_property.php:517
-#: estatik/admin_template/es_property/es_add_new_property.php:534
-#: estatik/admin_template/es_property/es_add_new_property.php:551
-#: estatik/admin_template/es_settings.php:133
-#: estatik/admin_template/es_settings.php:142
-#: estatik/admin_template/es_settings.php:152
-#: estatik/admin_template/es_settings.php:157
-#: estatik/admin_template/es_settings.php:162
-#: estatik/admin_template/es_settings.php:298
-#: estatik/admin_template/es_settings.php:304
-#: estatik/admin_template/es_settings.php:310
-#: estatik/admin_template/es_settings.php:316
-#: estatik/admin_template/es_settings.php:322
+#: estatik/admin_template/es_property/es_add_new_property.php:451
+#: estatik/admin_template/es_property/es_add_new_property.php:468
+#: estatik/admin_template/es_property/es_add_new_property.php:485
+#: estatik/admin_template/es_property/es_add_new_property.php:502
+#: estatik/admin_template/es_settings.php:94
+#: estatik/admin_template/es_settings.php:103
+#: estatik/admin_template/es_settings.php:113
+#: estatik/admin_template/es_settings.php:242
+#: estatik/admin_template/es_settings.php:248
+#: estatik/admin_template/es_settings.php:254
+#: estatik/admin_template/es_settings.php:260
+#: estatik/admin_template/es_settings.php:266
+#: estatik/admin_template/es_widgets.php:52
+#: estatik/admin_template/es_widgets.php:58
+#: estatik/admin_template/es_widgets.php:64
+#: estatik/admin_template/es_widgets.php:70
+#: estatik/admin_template/es_widgets.php:76
+#: estatik/admin_template/es_widgets.php:82
+#: estatik/admin_template/es_widgets.php:88
+#: estatik/admin_template/es_widgets.php:94
+#: estatik/admin_template/es_widgets.php:100
+msgid "Yes"
+msgstr "Да"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:452
+#: estatik/admin_template/es_property/es_add_new_property.php:469
+#: estatik/admin_template/es_property/es_add_new_property.php:486
+#: estatik/admin_template/es_property/es_add_new_property.php:503
+#: estatik/admin_template/es_settings.php:95
+#: estatik/admin_template/es_settings.php:104
+#: estatik/admin_template/es_settings.php:114
 #: estatik/admin_template/es_widgets.php:53
 #: estatik/admin_template/es_widgets.php:59
 #: estatik/admin_template/es_widgets.php:65
@@ -901,917 +503,584 @@ msgstr "Популярное"
 #: estatik/admin_template/es_widgets.php:89
 #: estatik/admin_template/es_widgets.php:95
 #: estatik/admin_template/es_widgets.php:101
-#: estatik/admin_template/es_widgets.php:107
-#: estatik/admin_template/es_widgets.php:395
-#: estatik/admin_template/es_widgets.php:414
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:491
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:508
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:525
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:542
-msgid "Yes"
-msgstr "Да"
-
-#: estatik/admin_template/es_property/es_add_new_property.php:501
-#: estatik/admin_template/es_property/es_add_new_property.php:518
-#: estatik/admin_template/es_property/es_add_new_property.php:535
-#: estatik/admin_template/es_property/es_add_new_property.php:552
-#: estatik/admin_template/es_settings.php:134
-#: estatik/admin_template/es_settings.php:143
-#: estatik/admin_template/es_settings.php:153
-#: estatik/admin_template/es_settings.php:158
-#: estatik/admin_template/es_settings.php:163
-#: estatik/admin_template/es_settings.php:299
-#: estatik/admin_template/es_settings.php:305
-#: estatik/admin_template/es_settings.php:311
-#: estatik/admin_template/es_settings.php:317
-#: estatik/admin_template/es_settings.php:323
-#: estatik/admin_template/es_widgets.php:54
-#: estatik/admin_template/es_widgets.php:60
-#: estatik/admin_template/es_widgets.php:66
-#: estatik/admin_template/es_widgets.php:72
-#: estatik/admin_template/es_widgets.php:78
-#: estatik/admin_template/es_widgets.php:84
-#: estatik/admin_template/es_widgets.php:90
-#: estatik/admin_template/es_widgets.php:96
-#: estatik/admin_template/es_widgets.php:102
-#: estatik/admin_template/es_widgets.php:108
-#: estatik/admin_template/es_widgets.php:396
-#: estatik/admin_template/es_widgets.php:415
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:492
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:509
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:526
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:543
 msgid "No"
 msgstr "Нет"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:504
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:495
+#: estatik/admin_template/es_property/es_add_new_property.php:455
 msgid "Hot"
 msgstr "Хит продаж"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:521
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:512
+#: estatik/admin_template/es_property/es_add_new_property.php:472
 msgid "Open house"
 msgstr "Сдается"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:538
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:529
+#: estatik/admin_template/es_property/es_add_new_property.php:489
 msgid "Foreclosure"
 msgstr "Продается"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:557
-#: estatik/admin_template/es_settings.php:141
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:548
-#: estatik/front_templates/widgets/es_search.php:137
+#: estatik/admin_template/es_property/es_add_new_property.php:506
+#: estatik/admin_template/es_settings.php:102
 msgid "Price"
 msgstr "Цена"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:562
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:553
+#: estatik/admin_template/es_property/es_add_new_property.php:511
 msgid "Period"
 msgstr "Период"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:576
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:567
-#: estatik/front_templates/includes/es_prop_single.php:219
-#: estatik/front_templates/widgets/es_search.php:145
+#: estatik/admin_template/es_property/es_add_new_property.php:525
 msgid "Bedrooms"
-msgstr "Количество спален"
+msgstr "Комнаты"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:582
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:573
-#: estatik/front_templates/includes/es_prop_single.php:226
-#: estatik/front_templates/widgets/es_search.php:153
+#: estatik/admin_template/es_property/es_add_new_property.php:531
 msgid "Bathrooms"
-msgstr "Кол-во ванных комнат"
+msgstr "Ванные комнаты"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:586
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:577
-#: estatik/front_templates/includes/es_prop_single.php:233
+#: estatik/admin_template/es_property/es_add_new_property.php:535
 msgid "Floors"
 msgstr "Этажи"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:590
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:581
+#: estatik/admin_template/es_property/es_add_new_property.php:539
 msgid "Area"
 msgstr "Площадь"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:599
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:590
-#: estatik/front_templates/includes/es_prop_single.php:187
-#: estatik/front_templates/widgets/es_search.php:171
+#: estatik/admin_template/es_property/es_add_new_property.php:548
 msgid "Lot size"
 msgstr "Жилая площадь:"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:608
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:599
-#: estatik/front_templates/includes/es_prop_single.php:240
+#: estatik/admin_template/es_property/es_add_new_property.php:557
 msgid "Built in"
 msgstr "Построено в"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:612
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:603
-#: estatik/front_templates/includes/es_prop_single.php:271
+#: estatik/admin_template/es_property/es_add_new_property.php:561
 msgid "Description"
 msgstr "Описание"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:659
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:639
+#: estatik/admin_template/es_property/es_add_new_property.php:608
 msgid "Choose Country"
 msgstr "Выберите страну"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:675
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:655
+#: estatik/admin_template/es_property/es_add_new_property.php:624
 msgid "State/Region"
-msgstr "Штат / Регион:"
+msgstr "Область / регион:"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:687
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:667
+#: estatik/admin_template/es_property/es_add_new_property.php:636
 msgid "City"
 msgstr "Город"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:699
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:679
+#: estatik/admin_template/es_property/es_add_new_property.php:648
 msgid "ZIP/Postcode"
-msgstr "ZIP / Почтовый индекс"
+msgstr "Почтовый индекс"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:704
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:684
+#: estatik/admin_template/es_property/es_add_new_property.php:653
 msgid "Street"
 msgstr "Улица"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:714
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:694
+#: estatik/admin_template/es_property/es_add_new_property.php:663
 msgid "Longitude"
 msgstr "Долгота"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:718
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:698
+#: estatik/admin_template/es_property/es_add_new_property.php:667
 msgid "Latitude"
 msgstr "Широта"
 
-#: estatik/admin_template/es_property/es_add_new_property.php:804
-#: estatik/admin_template/es_settings.php:113
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:760
-msgid "Images"
-msgstr "Изображения"
-
-#: estatik/admin_template/es_property/es_add_new_property.php:805
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:761
-#: estatik/front_templates/includes/es_prop_single.php:81
-#: estatik/front_templates/includes/es_prop_single.php:357
-msgid "Video"
-msgstr "Видео"
-
-#: estatik/admin_template/es_property/es_add_new_property.php:810
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:766
+#: estatik/admin_template/es_property/es_add_new_property.php:727
 msgid "Select files or upload images in a zip-file."
-msgstr "Выберите файлы или загрузите изображения в zip файле."
+msgstr "Выберите файлы или загрузите изображения в zip формате."
 
-#: estatik/admin_template/es_property/es_add_new_property.php:813
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:769
-msgid "Upload"
-msgstr "Загрузить"
-
-#: estatik/admin_template/es_property/es_add_new_property.php:816
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:772
+#: estatik/admin_template/es_property/es_add_new_property.php:733
 msgid ""
 "The first image will be default image. You can drag and drop images to "
 "change their order."
 msgstr ""
-"Первое изображение будет изображением по умолчанию. Вы можете перетащить "
+"Первое изображение будет первым по умолчанию. Вы можете перетащить "
 "изображения, чтобы изменить их порядок."
 
-#: estatik/admin_template/es_property/es_add_new_property.php:832
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:788
-msgid "Embed the code"
-msgstr "Вставьте код"
-
-#: estatik/admin_template/es_property/es_add_new_property.php:851
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:807
-msgid "Meta keywords"
-msgstr "Мета-теги"
-
-#: estatik/admin_template/es_property/es_add_new_property.php:855
-#: estatik/front_templates/includes/agent_files/es_add_new_property.php:811
-msgid "Meta description"
-msgstr "Мета описание"
-
-#: estatik/admin_template/es_property/es_import_csv_property.php:158
-#: estatik/front_templates/includes/agent_files/es_import_csv_property.php:164
-msgid ""
-"Please Import your property detail with CSV sample and click save to finish."
-msgstr "Пожалуйста используйте образец CSV файла для импортирования объектов. "
-
-#: estatik/admin_template/es_property/es_import_csv_property.php:166
-#: estatik/front_templates/includes/agent_files/es_import_csv_property.php:172
-msgid "Property has been Added."
-msgstr "Объект был добавлен"
-
-#: estatik/admin_template/es_property/es_import_csv_property.php:172
-#: estatik/front_templates/includes/agent_files/es_import_csv_property.php:178
-msgid "Please choose CSV file. or download sample file for refrence."
-msgstr "Пожалуйста, загрузите CSV-файл или скачайте предлагаемый образец."
-
-#: estatik/admin_template/es_property/es_import_csv_property.php:184
-#: estatik/front_templates/includes/agent_files/es_import_csv_property.php:192
-msgid "Download Sample File"
-msgstr "Скачать пример файла"
-
-#: estatik/admin_template/es_property/es_import_csv_property.php:185
-#: estatik/front_templates/includes/agent_files/es_import_csv_property.php:193
-msgid "Download Sample"
-msgstr "Загрузить файл-образец"
-
-#: estatik/admin_template/es_property/es_import_csv_property.php:189
-#: estatik/front_templates/includes/agent_files/es_import_csv_property.php:197
-msgid "Import CSV"
-msgstr "Импортировать CSV"
-
-#: estatik/admin_template/es_property/es_my_listings.php:226
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:195
+#: estatik/admin_template/es_property/es_my_listings.php:197
 msgid "Please select properties you want to copy."
 msgstr "Пожалуйста, выберите объекты, которые вы хотите скопировать."
 
-#: estatik/admin_template/es_property/es_my_listings.php:227
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:196
+#: estatik/admin_template/es_property/es_my_listings.php:198
 msgid "Please select properties you want to delete."
 msgstr "Пожалуйста, выберите объекты, которые вы хотите удалить."
 
-#: estatik/admin_template/es_property/es_my_listings.php:228
+#: estatik/admin_template/es_property/es_my_listings.php:199
 msgid "Please select properties you want to publish."
 msgstr "Пожалуйста, выберите объекты, которые вы хотите опубликовать."
 
-#: estatik/admin_template/es_property/es_my_listings.php:229
+#: estatik/admin_template/es_property/es_my_listings.php:200
 msgid "Please select properties you want to unpublish."
 msgstr "Пожалуйста, выберите объекты, которые вы хотите снять с публикации."
 
-#: estatik/admin_template/es_property/es_my_listings.php:260
+#: estatik/admin_template/es_property/es_my_listings.php:202
+msgid "Are you sure you want to Copy it?"
+msgstr "Вы уверены, что хотите скопировать его?"
+
+#: estatik/admin_template/es_property/es_my_listings.php:204
+msgid "Are you sure you want to publish it?"
+msgstr "Вы уверены, что хотите опубликовать его?"
+
+#: estatik/admin_template/es_property/es_my_listings.php:205
+msgid "Are you sure you want to unpublish it?"
+msgstr "Вы уверены, что хотите отменить публикацию?"
+
+#: estatik/admin_template/es_property/es_my_listings.php:231
 msgid "My Listings"
 msgstr "Мои объявления"
 
-#: estatik/admin_template/es_property/es_my_listings.php:312
-#: estatik/admin_template/es_property/es_my_listings.php:375
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:286
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:339
-#: estatik/front_templates/includes/es_prop_single.php:173
+#: estatik/admin_template/es_property/es_my_listings.php:240
+msgid "Filter by"
+msgstr "Сортировать по"
+
+#: estatik/admin_template/es_property/es_my_listings.php:283
+#: estatik/admin_template/es_property/es_my_listings.php:346
 msgid "Date added"
-msgstr "Дата добавлена"
+msgstr "Дата добавления"
 
-#: estatik/admin_template/es_property/es_my_listings.php:335
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:307
+#: estatik/admin_template/es_property/es_my_listings.php:292
+msgid "Manage"
+msgstr "Управлять"
+
+#: estatik/admin_template/es_property/es_my_listings.php:294
+msgid "Select all"
+msgstr "Выбрать все"
+
+#: estatik/admin_template/es_property/es_my_listings.php:295
+msgid "Undo selection"
+msgstr "Отменить выделение"
+
+#: estatik/admin_template/es_property/es_my_listings.php:296
+msgid "Copy"
+msgstr "Копировать"
+
+#: estatik/admin_template/es_property/es_my_listings.php:297
+#: estatik/admin_template/es_property/es_my_listings.php:484
+msgid "Delete"
+msgstr "Удалить"
+
+#: estatik/admin_template/es_property/es_my_listings.php:298
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: estatik/admin_template/es_property/es_my_listings.php:299
+msgid "Unpublish"
+msgstr "Отменить публикацию"
+
+#: estatik/admin_template/es_property/es_my_listings.php:306
 msgid "Property has been deleted."
-msgstr "Объект был удален"
+msgstr "Удалить объект."
 
-#: estatik/admin_template/es_property/es_my_listings.php:339
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:311
+#: estatik/admin_template/es_property/es_my_listings.php:310
 msgid "Selected properties have been copied."
-msgstr "Выбранные объекты были скопированы."
+msgstr "Выбранные объекты были скопированы"
 
-#: estatik/admin_template/es_property/es_my_listings.php:343
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:315
+#: estatik/admin_template/es_property/es_my_listings.php:314
 msgid "Selected properties have been deleted."
 msgstr "Выбранные объекты были удалены."
 
-#: estatik/admin_template/es_property/es_my_listings.php:347
+#: estatik/admin_template/es_property/es_my_listings.php:318
 msgid "Selected properties have been published."
-msgstr "Выбранные объекты были опубликованы."
+msgstr "Выбранные объекты были опубликованы"
 
-#: estatik/admin_template/es_property/es_my_listings.php:351
+#: estatik/admin_template/es_property/es_my_listings.php:322
 msgid "Selected properties have been unpublished."
-msgstr "Выбранные объекты были сняты с публикации."
+msgstr "Выбранные объекты были сняты с публикации"
 
-#: estatik/admin_template/es_property/es_my_listings.php:355
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:319
-#: estatik/front_templates/includes/es_my_listing.php:17
+#: estatik/admin_template/es_property/es_my_listings.php:326
 msgid "Your search results."
-msgstr "Результаты поиска"
+msgstr "Результаты вашего поиска"
 
-#: estatik/admin_template/es_property/es_my_listings.php:369
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:333
+#: estatik/admin_template/es_property/es_my_listings.php:340
 msgid "Image"
 msgstr "Изображение"
 
-#: estatik/admin_template/es_property/es_my_listings.php:478
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:439
-#: estatik/front_templates/includes/es_cheapest_props.php:117
-#: estatik/front_templates/includes/es_featured_props.php:117
-#: estatik/front_templates/includes/es_latest_props.php:120
-#: estatik/front_templates/includes/es_my_listing.php:252
-#: estatik/front_templates/widgets/es_slideshow.php:249
+#: estatik/admin_template/es_property/es_my_listings.php:447
 msgid "No Image"
 msgstr "Нет изображения"
 
-#: estatik/admin_template/es_property/es_my_listings.php:525
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:493
-#: estatik/front_templates/includes/es_cheapest_props.php:158
-#: estatik/front_templates/includes/es_featured_props.php:158
-#: estatik/front_templates/includes/es_latest_props.php:160
-#: estatik/front_templates/includes/es_my_listing.php:293
+#: estatik/admin_template/es_property/es_my_listings.php:483
+msgid "Edit"
+msgstr "Редактировать"
+
+#: estatik/admin_template/es_property/es_my_listings.php:494
 msgid "No record found."
 msgstr "Не найдено ни одной записи!"
 
-#: estatik/admin_template/es_property/es_property_temps/es_property_cities.php:22
-#: estatik/front_templates/includes/agent_files/es_property_temps/es_property_cities.php:22
+#: estatik/admin_template/es_property/es_property_temps/es_property_cities.php:23
 msgid "No City"
-msgstr "Город не найден"
+msgstr "Городов нет"
 
 #: estatik/admin_template/es_property/es_property_temps/es_property_images.php:43
-#: estatik/front_templates/includes/agent_files/es_property_temps/es_property_images.php:43
 msgid "No record found. please add new one."
-msgstr "Не найдено записей. Пожалуйста, добавьте новое поле."
+msgstr "Не найдено записей. Пожалуйста, добавьте новый."
 
-#: estatik/admin_template/es_property/es_property_temps/es_property_states.php:28
-#: estatik/front_templates/includes/agent_files/es_property_temps/es_property_states.php:28
+#: estatik/admin_template/es_property/es_property_temps/es_property_states.php:30
 msgid "No State"
-msgstr "Штат/регион не найден"
+msgstr "Нет областей"
 
-#: estatik/admin_template/es_settings.php:97
+#: estatik/admin_template/es_settings.php:58
 msgid "Please fill up your Settings detail and click save to finish."
-msgstr ""
-"Здесь вы можете настроить плагин. Не забудьте кликнуть Сохранить, чтобы не "
-"потерять настройки."
+msgstr "Пожалуйста выберите необходимые настройки и нажмите Сохранить для завершения."
 
-#: estatik/admin_template/es_settings.php:103
+#: estatik/admin_template/es_settings.php:64
 msgid "Settings has been updated."
-msgstr "Настройки были сохранены."
+msgstr "Настройки были обновлены."
 
-#: estatik/admin_template/es_settings.php:111
+#: estatik/admin_template/es_settings.php:72
 msgid "General Settings"
 msgstr "Общие настройки"
 
-#: estatik/admin_template/es_settings.php:112
-#: estatik/admin_template/es_widgets.php:111
-#: estatik/admin_template/es_widgets.php:468
+#: estatik/admin_template/es_settings.php:73
+#: estatik/admin_template/es_widgets.php:104
 msgid "Layout"
-msgstr "Расположение"
+msgstr "Расположение\n"
 
-#: estatik/admin_template/es_settings.php:115
+#: estatik/admin_template/es_settings.php:74
+msgid "Images"
+msgstr "Изображения"
+
+#: estatik/admin_template/es_settings.php:76
 msgid "Sharing"
 msgstr "Социальные сети"
 
-#: estatik/admin_template/es_settings.php:132
+#: estatik/admin_template/es_settings.php:93
 msgid "Powered by link"
-msgstr "Powered by ссылка"
+msgstr "Ссылка Powered by"
 
-#: estatik/admin_template/es_settings.php:137
+#: estatik/admin_template/es_settings.php:98
 msgid "Number of listings per page"
 msgstr "Количество объявлений на странице"
 
-#: estatik/admin_template/es_settings.php:146
+#: estatik/admin_template/es_settings.php:107
 msgid "Title/Address"
 msgstr "Название/адрес"
 
-#: estatik/admin_template/es_settings.php:156
-#: estatik/front_templates/includes/es_prop_single.php:369
-#: estatik/front_templates/widgets/es_search.php:218
-#: estatik/front_templates/widgets/es_search.php:220
-msgid "Agent"
-msgstr "Агент"
-
-#: estatik/admin_template/es_settings.php:161
-msgid "Labels"
-msgstr "Метки"
-
-#: estatik/admin_template/es_settings.php:167
-#: estatik/admin_template/es_settings.php:169
+#: estatik/admin_template/es_settings.php:117
 msgid "Date format"
 msgstr "Формат даты"
 
-#: estatik/admin_template/es_settings.php:179
+#: estatik/admin_template/es_settings.php:119
+msgid "Date Format"
+msgstr "Формат даты"
+
+#: estatik/admin_template/es_settings.php:129
 msgid "Listings layout"
-msgstr "Расположение объектов"
+msgstr "Расположение списка\n"
 
-#: estatik/admin_template/es_settings.php:185
-#: estatik/admin_template/es_settings.php:226
+#: estatik/admin_template/es_settings.php:135
+#: estatik/admin_template/es_settings.php:182
 msgid "Single property"
-msgstr "Страница объекта"
+msgstr "Вид одного объекта"
 
-#: estatik/admin_template/es_settings.php:196
+#: estatik/admin_template/es_settings.php:142
+msgid "Disabled Layouts are available in"
+msgstr "Неактивные настройки доступны в\n"
+
+#: estatik/admin_template/es_settings.php:142
+#: estatik/admin_template/es_settings.php:203
+msgid "version"
+msgstr "версии"
+
+#: estatik/admin_template/es_settings.php:151
 msgid "Resize method"
-msgstr "Метод рисайза"
+msgstr "Метод изменения размера"
 
-#: estatik/admin_template/es_settings.php:197
+#: estatik/admin_template/es_settings.php:152
 msgid "Crop & shrink"
 msgstr "Обрезать и растянуть"
 
-#: estatik/admin_template/es_settings.php:198
+#: estatik/admin_template/es_settings.php:153
 msgid "Crop"
 msgstr "Обрезать"
 
-#: estatik/admin_template/es_settings.php:204
+#: estatik/admin_template/es_settings.php:159
 msgid "Listings view"
-msgstr "Вид списков"
+msgstr "Вид списка"
 
-#: estatik/admin_template/es_settings.php:205
+#: estatik/admin_template/es_settings.php:160
 msgid "Table"
 msgstr "Таблица"
 
-#: estatik/admin_template/es_settings.php:206
+#: estatik/admin_template/es_settings.php:161
 msgid "2 colums"
 msgstr "2 колонки"
 
-#: estatik/admin_template/es_settings.php:207
+#: estatik/admin_template/es_settings.php:162
 msgid "list"
 msgstr "список"
 
-#: estatik/admin_template/es_settings.php:210
-#: estatik/admin_template/es_settings.php:232
-#: estatik/admin_template/es_settings.php:252
+#: estatik/admin_template/es_settings.php:165
+#: estatik/admin_template/es_settings.php:188
 msgid "Height"
 msgstr "Высота"
 
-#: estatik/admin_template/es_settings.php:216
-#: estatik/admin_template/es_settings.php:238
-#: estatik/admin_template/es_settings.php:256
+#: estatik/admin_template/es_settings.php:171
+#: estatik/admin_template/es_settings.php:194
 msgid "Widht"
-msgstr "Ширина"
+msgstr "Широта"
 
-#: estatik/admin_template/es_settings.php:227
+#: estatik/admin_template/es_settings.php:183
 msgid "Photo on<br />the left/right"
 msgstr "Фото <br>слева/справа"
 
-#: estatik/admin_template/es_settings.php:228
+#: estatik/admin_template/es_settings.php:184
 msgid "Photo <br />in center"
 msgstr "Фото<br>в центре"
 
-#: estatik/admin_template/es_settings.php:229
+#: estatik/admin_template/es_settings.php:185
 msgid "Photo <br /> Thumb"
-msgstr "Превью <br>фото"
+msgstr "Фото<br>предпросмотра"
 
-#: estatik/admin_template/es_settings.php:265
+#: estatik/admin_template/es_settings.php:203
+msgid "Disabled fields are available in"
+msgstr "Неактивные настройки доступны в"
+
+#: estatik/admin_template/es_settings.php:209
 msgid "Default currency"
 msgstr "Валюта по умолчанию"
 
-#: estatik/admin_template/es_settings.php:267
+#: estatik/admin_template/es_settings.php:211
 msgid "Dollar, Euro, etc"
 msgstr "Доллар, евро, и т.д."
 
-#: estatik/admin_template/es_settings.php:280
+#: estatik/admin_template/es_settings.php:224
 msgid "Price format"
 msgstr "Формат цены"
 
-#: estatik/admin_template/es_settings.php:288
+#: estatik/admin_template/es_settings.php:232
 msgid "Currency sign place"
 msgstr "Расположение знака валюты"
 
-#: estatik/admin_template/es_settings.php:289
+#: estatik/admin_template/es_settings.php:233
 msgid "Before price"
 msgstr "Перед ценой"
 
-#: estatik/admin_template/es_settings.php:290
+#: estatik/admin_template/es_settings.php:234
 msgid "After price"
 msgstr "После цены"
 
-#: estatik/admin_template/es_settings.php:321
+#: estatik/admin_template/es_settings.php:243
+#: estatik/admin_template/es_settings.php:249
+#: estatik/admin_template/es_settings.php:255
+#: estatik/admin_template/es_settings.php:261
+#: estatik/admin_template/es_settings.php:267
+msgid "NO"
+msgstr "НЕТ"
+
+#: estatik/admin_template/es_settings.php:265
 msgid "PDF flayer"
-msgstr "PDF флайер"
+msgstr "PDF"
+
+#: estatik/admin_template/es_settings.php:270
+msgid "Sharing Feature is available in"
+msgstr "Опция социальных сетей доступна в\n"
+
+#: estatik/admin_template/es_settings.php:270
+msgid "version only"
+msgstr "версии"
 
 #: estatik/admin_template/es_widgets.php:6
 msgid "Estatik Search"
-msgstr "Поиск"
+msgstr "Поиск Estatik"
 
-#: estatik/admin_template/es_widgets.php:47
+#: estatik/admin_template/es_widgets.php:46
 msgid "Search Title:"
-msgstr "Заголовок поиска"
+msgstr "Название поиска"
 
-#: estatik/admin_template/es_widgets.php:51
+#: estatik/admin_template/es_widgets.php:50
 msgid "Address:"
 msgstr "Адрес:"
 
-#: estatik/admin_template/es_widgets.php:57
+#: estatik/admin_template/es_widgets.php:56
 msgid "Price:"
 msgstr "Цена:"
 
-#: estatik/admin_template/es_widgets.php:63
+#: estatik/admin_template/es_widgets.php:62
 msgid "Bedrooms:"
 msgstr "Спальни:"
 
-#: estatik/admin_template/es_widgets.php:69
+#: estatik/admin_template/es_widgets.php:68
 msgid "Bathrooms:"
 msgstr "Ванные комнаты:"
 
-#: estatik/admin_template/es_widgets.php:75
+#: estatik/admin_template/es_widgets.php:74
 msgid "Category:"
 msgstr "Категория:"
 
-#: estatik/admin_template/es_widgets.php:81
+#: estatik/admin_template/es_widgets.php:80
 msgid "Type:"
 msgstr "Тип:"
 
-#: estatik/admin_template/es_widgets.php:87
+#: estatik/admin_template/es_widgets.php:86
 msgid "Sqft:"
-msgstr "Площадь:"
+msgstr "Кв. футы:"
 
-#: estatik/admin_template/es_widgets.php:93
+#: estatik/admin_template/es_widgets.php:92
 msgid "Lot size:"
 msgstr "Жилая площадь:"
 
-#: estatik/admin_template/es_widgets.php:99
-msgid "Agent:"
-msgstr "Агент:"
-
-#: estatik/admin_template/es_widgets.php:105
+#: estatik/admin_template/es_widgets.php:98
 msgid "Keywords:"
 msgstr "Ключевые слова:"
 
-#: estatik/admin_template/es_widgets.php:124
-#: estatik/admin_template/es_widgets.php:481
+#: estatik/admin_template/es_widgets.php:117
 msgid "Show On Pages"
 msgstr "Показать на страницах"
 
-#: estatik/admin_template/es_widgets.php:136
-#: estatik/admin_template/es_widgets.php:493
+#: estatik/admin_template/es_widgets.php:129
 msgid "Select Pages"
-msgstr "Выбрать страницы"
+msgstr "Выбор страниц"
 
-#: estatik/admin_template/es_widgets.php:160
-#: estatik/admin_template/es_widgets.php:518
+#: estatik/admin_template/es_widgets.php:153
 msgid "Archive Page"
 msgstr "Страница архива"
 
-#: estatik/admin_template/es_widgets.php:164
-#: estatik/admin_template/es_widgets.php:522
+#: estatik/admin_template/es_widgets.php:157
 msgid "Single Page"
 msgstr "Страница одного объекта"
 
-#: estatik/admin_template/es_widgets.php:168
-#: estatik/admin_template/es_widgets.php:526
+#: estatik/admin_template/es_widgets.php:161
 msgid "Category Page"
 msgstr "Страница категории"
 
-#: estatik/admin_template/es_widgets.php:172
-#: estatik/admin_template/es_widgets.php:530
+#: estatik/admin_template/es_widgets.php:165
 msgid "Search Page"
 msgstr "Страница поиска"
 
-#: estatik/admin_template/es_widgets.php:176
-#: estatik/admin_template/es_widgets.php:534
+#: estatik/admin_template/es_widgets.php:169
 msgid "Author Page"
 msgstr "Страница автора"
 
-#: estatik/admin_template/es_widgets.php:277
-msgid "Estatik Request Form"
-msgstr "Форма запроса"
+#: estatik/estatik.php:28
+msgid "Estatik Pro"
+msgstr "Estatik Pro"
 
-#: estatik/admin_template/es_widgets.php:289
-msgid "Request Title:"
-msgstr "Название запроса:"
-
-#: estatik/admin_template/es_widgets.php:290
-#: estatik/admin_template/es_widgets.php:323
-msgid "Learn more about this property"
-msgstr "Узнать больше об этом объекте"
-
-#: estatik/admin_template/es_widgets.php:294
-msgid "Request Message:"
-msgstr "Текст сообщения:"
-
-#: estatik/admin_template/es_widgets.php:295
-msgid ""
-"Hi, I`m interested in the property. Please send me more information about "
-"it. Thank you!"
-msgstr ""
-"Добрый день, я заинтересован в этой недвижимости. Пожалуйста, пришлите мне "
-"больше информации. Спасибо!"
-
-#: estatik/admin_template/es_widgets.php:299
-msgid "Send Message To"
-msgstr "Отправить сообщение"
-
-#: estatik/admin_template/es_widgets.php:324
-msgid ""
-"Hi, I`m interestedin the property. Please send me more information about it. "
-"Thank you!"
-msgstr ""
-"Добрый день, я заинтересован в этой недвижимости. Пожалуйста, пришлите мне "
-"больше информации. Спасибо!"
-
-#: estatik/admin_template/es_widgets.php:325
-msgid "admin"
-msgstr "Администратор"
-
-#: estatik/admin_template/es_widgets.php:345
-msgid "Estatik Slideshow"
-msgstr "Слайдшоу"
-
-#: estatik/admin_template/es_widgets.php:393
-msgid "Show Arrows:"
-msgstr "Показывать стрелки:"
-
-#: estatik/admin_template/es_widgets.php:397
-msgid "* When No selected images will be changed with fade effect."
-msgstr ""
-"* Если выбрано Нет, выбранные изображения будут изменяться с эффектом fade."
-
-#: estatik/admin_template/es_widgets.php:400
-msgid "Slide Effect"
-msgstr "Эффект слайда"
-
-#: estatik/admin_template/es_widgets.php:412
-msgid "Only Featured:"
-msgstr "Показывать только популярное:"
-
-#: estatik/admin_template/es_widgets.php:448
-msgid "Listing IDs"
-msgstr "ID объекта "
-
-#: estatik/admin_template/es_widgets.php:453
-msgid "Images Height"
-msgstr "Высота изображений"
-
-#: estatik/admin_template/es_widgets.php:458
-msgid "Images Width"
-msgstr "Ширина изображений"
-
-#: estatik/admin_template/es_widgets.php:463
-msgid "Number of Images"
-msgstr "Число картинок:"
-
-#: estatik/estatik.php:26
-msgid "Import CSV Property"
-msgstr "Импорт CSV"
-
-#: estatik/estatik.php:29
-msgid "Add New Agent"
-msgstr "Добавить нового агента"
-
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:157
-msgid ""
-"You are registered to our website. Your username and password Emailed to you."
-msgstr ""
-"Вы зарегистрированы на нашем сайте. Имя пользователя и пароль отправлены на "
-"ваш email."
-
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:176
-msgid "Logout"
-msgstr "Выйти"
-
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:179
-msgid "Register"
-msgstr "Регистрация"
-
-#: estatik/front_templates/includes/agent_files/es_add_new_agent.php:185
-msgid "Yout profile has been updated."
-msgstr "Ваш профиль был обновлен."
-
-#: estatik/front_templates/includes/agent_files/es_import_csv_property.php:162
-msgid "Add New Properties"
-msgstr "Добавить новые объекты"
-
-#: estatik/front_templates/includes/agent_files/es_my_listings.php:235
-msgid "Import Csv"
-msgstr "Импортировать CSV"
-
-#: estatik/front_templates/includes/es_agents.php:69
-#: estatik/front_templates/includes/es_prop_single.php:396
-msgid "Properties sold"
-msgstr "Объектов продано"
-
-#: estatik/front_templates/includes/es_agents.php:90
-msgid "No active Agent."
-msgstr "Нет активного агента."
-
-#: estatik/front_templates/includes/es_agents.php:100
-#: estatik/front_templates/includes/es_cheapest_props.php:178
-#: estatik/front_templates/includes/es_featured_props.php:179
-#: estatik/front_templates/includes/es_latest_props.php:180
-#: estatik/front_templates/includes/es_login.php:37
-#: estatik/front_templates/includes/es_my_listing.php:305
-#: estatik/front_templates/includes/es_profile.php:26
-#: estatik/front_templates/includes/es_prop_management.php:37
-#: estatik/front_templates/includes/es_prop_single.php:428
-#: estatik/front_templates/includes/es_register.php:23
-msgid "Powered by"
-msgstr "Разработка"
-
-#: estatik/front_templates/includes/es_cheapest_props.php:72
-#: estatik/front_templates/includes/es_featured_props.php:73
-#: estatik/front_templates/includes/es_latest_props.php:75
-#: estatik/front_templates/includes/es_my_listing.php:207
+#: front_templates/includes/es_cheapest_props.php:72
+#: front_templates/includes/es_featured_props.php:73
+#: front_templates/includes/es_latest_props.php:77
+#: front_templates/includes/es_my_listing.php:207
 msgid "hot"
-msgstr "горячее предложение"
+msgstr "популярные"
 
-#: estatik/front_templates/includes/es_cheapest_props.php:75
-#: estatik/front_templates/includes/es_featured_props.php:76
-#: estatik/front_templates/includes/es_latest_props.php:78
-#: estatik/front_templates/includes/es_my_listing.php:210
+#: front_templates/includes/es_cheapest_props.php:75
+#: front_templates/includes/es_featured_props.php:76
+#: front_templates/includes/es_latest_props.php:80
+#: front_templates/includes/es_my_listing.php:210
 msgid "openhouse"
 msgstr "сдается"
 
-#: estatik/front_templates/includes/es_cheapest_props.php:78
-#: estatik/front_templates/includes/es_featured_props.php:79
-#: estatik/front_templates/includes/es_latest_props.php:81
-#: estatik/front_templates/includes/es_my_listing.php:213
+#: front_templates/includes/es_cheapest_props.php:78
+#: front_templates/includes/es_featured_props.php:79
+#: front_templates/includes/es_latest_props.php:83
+#: front_templates/includes/es_my_listing.php:213
 msgid "foreclosure"
 msgstr "продается"
 
-#: estatik/front_templates/includes/es_cheapest_props.php:142
-#: estatik/front_templates/includes/es_featured_props.php:142
-#: estatik/front_templates/includes/es_latest_props.php:144
-#: estatik/front_templates/includes/es_my_listing.php:277
-#: estatik/front_templates/widgets/es_slideshow.php:270
+#: front_templates/includes/es_cheapest_props.php:142
+#: front_templates/includes/es_featured_props.php:142
+#: front_templates/includes/es_latest_props.php:146
+#: front_templates/includes/es_my_listing.php:277
 msgid "beds"
-msgstr "спальни"
+msgstr "Спальни"
 
-#: estatik/front_templates/includes/es_cheapest_props.php:143
-#: estatik/front_templates/includes/es_featured_props.php:143
-#: estatik/front_templates/includes/es_latest_props.php:145
-#: estatik/front_templates/includes/es_my_listing.php:278
-#: estatik/front_templates/widgets/es_slideshow.php:271
+#: front_templates/includes/es_cheapest_props.php:143
+#: front_templates/includes/es_featured_props.php:143
+#: front_templates/includes/es_latest_props.php:147
+#: front_templates/includes/es_my_listing.php:278
 msgid "bath"
-msgstr "ванные комнаты"
+msgstr "Ванные ком"
 
-#: estatik/front_templates/includes/es_cheapest_props.php:146
-#: estatik/front_templates/includes/es_featured_props.php:146
-#: estatik/front_templates/includes/es_latest_props.php:148
-#: estatik/front_templates/includes/es_my_listing.php:281
+#: front_templates/includes/es_cheapest_props.php:146
+#: front_templates/includes/es_featured_props.php:146
+#: front_templates/includes/es_latest_props.php:150
+#: front_templates/includes/es_my_listing.php:281
+#: front_templates/includes/es_prop_single.php:68
+#: front_templates/includes/es_prop_single.php:244
 msgid "View on map"
 msgstr "На карте"
 
-#: estatik/front_templates/includes/es_cheapest_props.php:147
-#: estatik/front_templates/includes/es_featured_props.php:147
-#: estatik/front_templates/includes/es_latest_props.php:149
-#: estatik/front_templates/includes/es_my_listing.php:282
+#: front_templates/includes/es_cheapest_props.php:147
+#: front_templates/includes/es_featured_props.php:147
+#: front_templates/includes/es_latest_props.php:151
+#: front_templates/includes/es_my_listing.php:282
 msgid "Details"
-msgstr "Детали"
+msgstr "Подробнее"
 
-#: estatik/front_templates/includes/es_cheapest_props.php:169
-#: estatik/front_templates/includes/es_featured_props.php:169
-#: estatik/front_templates/includes/es_latest_props.php:169
-#: estatik/front_templates/includes/es_my_listing.php:311
+#: front_templates/includes/es_cheapest_props.php:169
+#: front_templates/includes/es_featured_props.php:169
+#: front_templates/includes/es_latest_props.php:171
+#: front_templates/includes/es_my_listing.php:311
 msgid "Map"
 msgstr "Карта"
 
-#: estatik/front_templates/includes/es_login.php:13
-msgid "you are logged in"
-msgstr "Вы вошли"
+#: front_templates/includes/es_cheapest_props.php:178
+#: front_templates/includes/es_featured_props.php:179
+#: front_templates/includes/es_latest_props.php:182
+#: front_templates/includes/es_my_listing.php:305
+#: front_templates/includes/es_prop_single.php:301
+msgid "Powered by"
+msgstr "Powered by\n"
 
-#: estatik/front_templates/includes/es_login.php:14
-#: estatik/front_templates/includes/es_profile.php:19
-#: estatik/front_templates/includes/es_prop_management.php:30
-#: estatik/front_templates/includes/es_register.php:14
-msgid "logout"
-msgstr "выйти"
-
-#: estatik/front_templates/includes/es_login.php:20
-msgid "Log in into your account"
-msgstr "Войти в свой аккаунт"
-
-#: estatik/front_templates/includes/es_login.php:24
-msgid "Password"
-msgstr "Пароль"
-
-#: estatik/front_templates/includes/es_login.php:25
-msgid "LOGIN"
-msgstr "ВХОД"
-
-#: estatik/front_templates/includes/es_login.php:28
-msgid "I forgot my password"
-msgstr "Я забыл свой пароль"
-
-#: estatik/front_templates/includes/es_login.php:29
-msgid "I need to register for a new account"
-msgstr "Мне нужно зарегистрировать новый аккаунт"
-
-#: estatik/front_templates/includes/es_profile.php:19
-#: estatik/front_templates/includes/es_prop_management.php:30
-msgid "Please"
-msgstr "Пожалуйста"
-
-#: estatik/front_templates/includes/es_profile.php:19
-#: estatik/front_templates/includes/es_prop_management.php:30
-msgid "register"
-msgstr "регистрация"
-
-#: estatik/front_templates/includes/es_profile.php:19
-msgid "as Agent to edit your profile."
-msgstr "как агент, чтобы изменить свой профиль."
-
-#: estatik/front_templates/includes/es_prop_management.php:30
-msgid "You are not Agent."
-msgstr "Вы не являетесь агентом."
-
-#: estatik/front_templates/includes/es_prop_management.php:30
-msgid "and"
-msgstr "и"
-
-#: estatik/front_templates/includes/es_prop_single.php:73
+#: front_templates/includes/es_prop_single.php:66
 msgid "Basic facts"
-msgstr "Общая информация"
+msgstr "Основные факты"
 
-#: estatik/front_templates/includes/es_prop_single.php:84
-msgid "Contact agent"
-msgstr "Связаться с агентом"
-
-#: estatik/front_templates/includes/es_prop_single.php:180
+#: front_templates/includes/es_prop_single.php:142
 msgid "Area size"
-msgstr "Жилая площадь"
+msgstr "Размер площади\n"
 
-#: estatik/front_templates/includes/es_prop_single.php:195
+#: front_templates/includes/es_prop_single.php:157
 msgid "Rent Period"
 msgstr "Срок аренды"
 
-#: estatik/front_templates/includes/es_prop_single.php:282
-msgid "View on map/Neighborhood"
-msgstr "Посмотреть на карту/окрестности"
-
-#: estatik/front_templates/includes/es_prop_single.php:337
+#: front_templates/includes/es_prop_single.php:279
 msgid "Amenities"
 msgstr "Удобства"
 
-#: estatik/front_templates/includes/es_prop_single.php:395
-msgid "Properties q-ty"
-msgstr "Кол-во объектов"
-
-#: estatik/front_templates/includes/es_prop_single.php:423
+#: front_templates/includes/es_prop_single.php:296
 msgid "To top"
 msgstr "Наверх"
 
-#: estatik/front_templates/includes/es_register.php:14
-msgid "You are already logged in."
-msgstr "Вы уже вошли в систему."
+#: front_templates/includes/es_view_first.php:8
+#: front_templates/widgets/es_search.php:125
+msgid "Search"
+msgstr "Поиск"
 
-#: estatik/front_templates/includes/es_view_first.php:19
+#: front_templates/includes/es_view_first.php:19
 msgid "Properties by Agent"
-msgstr "Объекты агента"
+msgstr "По агенту"
 
-#: estatik/front_templates/includes/es_view_first.php:29
+#: front_templates/includes/es_view_first.php:29
 msgid "View first"
-msgstr "Сортировать"
+msgstr "Сортировать по"
 
-#: estatik/front_templates/includes/es_view_first.php:50
-msgid "Menu is empty."
-msgstr "Меню не настроено."
-
-#: estatik/front_templates/widgets/es_request_form.php:29
-msgid "Estatik Request Info from"
-msgstr "Форма запроса от"
-
-#: estatik/front_templates/widgets/es_request_form.php:32
-msgid "Phone"
-msgstr "Телефон"
-
-#: estatik/front_templates/widgets/es_request_form.php:34
-msgid "Property Address"
-msgstr "Адрес объекта"
-
-#: estatik/front_templates/widgets/es_request_form.php:35
-msgid "Request"
-msgstr "Запрос"
-
-#: estatik/front_templates/widgets/es_request_form.php:53
-msgid "Your message was sent"
-msgstr "Ваше сообщение было отправлено"
-
-#: estatik/front_templates/widgets/es_request_form.php:54
-msgid "Thank you for your message! We will contact you as soon as we can."
-msgstr "Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время."
-
-#: estatik/front_templates/widgets/es_request_form.php:64
-msgid "Email not valid."
-msgstr "Электронная почта не действительна."
-
-#: estatik/front_templates/widgets/es_request_form.php:66
-msgid "Your name"
-msgstr "Ваше имя"
-
-#: estatik/front_templates/widgets/es_request_form.php:67
-msgid "Your email"
-msgstr "Ваш E-mail"
-
-#: estatik/front_templates/widgets/es_request_form.php:68
-msgid "Phone number"
-msgstr "Номер телефона"
-
-#: estatik/front_templates/widgets/es_request_form.php:71
-msgid "Send"
-msgstr "Отправитъ"
-
-#: estatik/front_templates/widgets/es_search.php:126
+#: front_templates/widgets/es_search.php:122
 msgid "Address, City, ZIP"
 msgstr "Адрес, город, индекс"
 
-#: estatik/front_templates/widgets/es_search.php:138
-#: estatik/front_templates/widgets/es_search.php:146
-#: estatik/front_templates/widgets/es_search.php:154
-#: estatik/front_templates/widgets/es_search.php:164
-#: estatik/front_templates/widgets/es_search.php:172
+#: front_templates/widgets/es_search.php:124
+msgid "Reset"
+msgstr "Сброс"
+
+#: front_templates/widgets/es_search.php:134
+#: front_templates/widgets/es_search.php:142
+#: front_templates/widgets/es_search.php:150
+#: front_templates/widgets/es_search.php:159
+#: front_templates/widgets/es_search.php:167
 msgid "min"
 msgstr "мин"
 
-#: estatik/front_templates/widgets/es_search.php:140
-#: estatik/front_templates/widgets/es_search.php:148
-#: estatik/front_templates/widgets/es_search.php:156
-#: estatik/front_templates/widgets/es_search.php:166
-#: estatik/front_templates/widgets/es_search.php:174
+#: front_templates/widgets/es_search.php:136
+#: front_templates/widgets/es_search.php:144
+#: front_templates/widgets/es_search.php:152
+#: front_templates/widgets/es_search.php:161
+#: front_templates/widgets/es_search.php:169
 msgid "max"
-msgstr "max"
+msgstr "макс"
 
-#: estatik/front_templates/widgets/es_search.php:238
+#: front_templates/widgets/es_search.php:158
+msgid "Sq ft"
+msgstr "Кв фут"
+
+#: front_templates/widgets/es_search.php:213
 msgid "Key words"
 msgstr "Ключевые слова"
-
-#: estatik/front_templates/widgets/es_slideshow.php:282
-msgid "No Slide"
-msgstr "Слайдов нет"
