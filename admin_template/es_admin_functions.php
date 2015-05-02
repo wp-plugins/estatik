@@ -1,7 +1,8 @@
 <?php
 
 function es_restrict_admin() {
-    if ( ! current_user_can( 'manage_options' ) ) {
+    global $current_user;
+	if ( @$current_user->roles[0]=="agent_role" ) {
         if(!isset($_REQUEST['action'])) {
 	    	wp_redirect( site_url() );
 		}
@@ -247,8 +248,8 @@ function es_admin_inline_js(){
 					if (status == google.maps.GeocoderStatus.OK) {
 					  firstLoc = results[0].geometry.location;
 					  //console.log(firstLoc);
-					  document.getElementById('prop_longitude').value = results[0].geometry.location.D;
-					  document.getElementById('prop_latitude').value = results[0].geometry.location.k;
+					  document.getElementById('prop_longitude').value = results[0].geometry.location.F;
+					  document.getElementById('prop_latitude').value = results[0].geometry.location.A;
 					  map = new google.maps.Map(document.getElementById('es_address_map'),
 					  {
 						center: firstLoc,

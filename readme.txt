@@ -107,3 +107,8 @@ Please check these pages >> http://estatik.net/estatik-plugin-documentation/.
 = 1.0.1 =
 * jQuery conflicts fixed
 * language files added
+
+= 1.1.1 =
+* Issue with Google Map API fixed
+* Translation into Russian added
+
