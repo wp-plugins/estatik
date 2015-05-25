@@ -113,7 +113,7 @@ Please check these pages >> http://estatik.net/estatik-plugin-documentation/.
 * Issue with Google Map API fixed
 * Translation into Russian added
 
-=2.0 = 
+= 2.0 = 
 * Safari responsive layout issue fixed
 * Google Map icons issue fixed 
 * PRO - HTML editor added
