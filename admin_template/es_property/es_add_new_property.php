@@ -540,7 +540,7 @@ if(isset($_POST['prop_id'])){
                             <input type="text" name="prop_area" value="<?php echo (!empty($prop_edit) && $prop_edit->prop_area!=0)?$prop_edit->prop_area:'' ?>" />
                             <small>
                                 <?php $es_dimension = $wpdb->get_row( 'SELECT dimension_title FROM '.$wpdb->prefix.'estatik_manager_dimension WHERE dimension_status=1' ); 
-									echo $es_dimension->dimension_title;
+									if(!empty($es_dimension)) { echo $es_dimension->dimension_title; }
 								?>
                             </small> 
                         </div>
@@ -549,7 +549,7 @@ if(isset($_POST['prop_id'])){
                             <input type="text" name="prop_lotsize" value="<?php echo (!empty($prop_edit) && $prop_edit->prop_lotsize!=0)?$prop_edit->prop_lotsize:'' ?>" />
                             <small>
                             	<?php $es_dimension = $wpdb->get_row( 'SELECT dimension_title FROM '.$wpdb->prefix.'estatik_manager_dimension WHERE dimension_status=1' ); 
-									echo $es_dimension->dimension_title;
+									if(!empty($es_dimension)) { echo $es_dimension->dimension_title; }
 								?>
                             </small> 
                         </div>

@@ -155,7 +155,8 @@ in_array($widget_id,$choosed_pages)
                 
                 <?php if ( $search_sqft == 1 ) { ?>
                 <div class="es_my_listing_search_field">
-                    <label><?php _e('Sq ft', 'es-plugin'); ?></label>          
+                    <?php $es_dimension = $wpdb->get_row( 'SELECT dimension_title FROM '.$wpdb->prefix.'estatik_manager_dimension WHERE dimension_status=1' );  ?>
+                    <label><?php if(!empty($es_dimension)) { echo $es_dimension->dimension_title; } ?></label>          
                     <input type="text" name="area_min" value="<?php if (isset($_POST['price_min'])) { echo $_POST["area_min"]; } ?>" placeholder="<?php _e('min', 'es-plugin'); ?>" />
                     <i>-</i>
                     <input type="text" name="area_max" value="<?php if (isset($_POST['price_min'])) { echo $_POST["area_max"]; } ?>" placeholder="<?php _e('max', 'es-plugin'); ?>"  />

@@ -37,8 +37,8 @@ function estatik_de_activate(){
 
 function estatik_uninstall(){ 
 
-	remove_estatik_tables();
-	remove_estatik_posts_cats_user();
+//	remove_estatik_tables();
+//	remove_estatik_posts_cats_user();
  
 }
 

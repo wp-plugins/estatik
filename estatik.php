@@ -2,7 +2,7 @@
 /*
 Plugin Name: Estatik
 Description: A simple version of Estatik Real Estate plugin for Wordpress.
-Version: 1.1.1 
+Version: 2.0
 Author: Estatik
 Author URI: http://www.estatik.net/
 License: GPL2
@@ -64,7 +64,7 @@ function es_settings(){
 function es_pro(){
 	include("admin_template/es_pro.php");
 }
-
+ 
  
 require_once('admin_template/es_admin_functions.php');
 

@@ -35,7 +35,7 @@
 			}
 		 
 			?>
-  
+
             <div class="es_prop_single_head clearfix">
                 <?php if($es_settings->title==1) { ?>
                 	<h1><?php echo $es_prop_single->prop_title?></h1>            
@@ -53,8 +53,11 @@
             </div>
             
             <?php
-				$es_prop_features = $wpdb->get_results( 'SELECT * FROM '.$wpdb->prefix.'estatik_properties_features WHERE prop_id='.$es_prop_single->prop_id );	
-				$es_prop_appliances = $wpdb->get_results( 'SELECT * FROM '.$wpdb->prefix.'estatik_properties_appliances WHERE prop_id='.$es_prop_single->prop_id );	
+				
+				$es_prop_features = es_join("b.feature_title","estatik_properties_features a","estatik_manager_features b","b.feature_id = a.feature_id and a.prop_id=".$es_prop_single->prop_id);
+			 
+				$es_prop_appliances = es_join("b.appliance_title","estatik_properties_appliances a","estatik_manager_appliances b","b.appliance_id = a.appliance_id and a.prop_id=".$es_prop_single->prop_id);
+ 
 				$dimension_sql = "SELECT dimension_title FROM ".$wpdb->prefix."estatik_manager_dimension WHERE dimension_status = 1";
 				$dimension = $wpdb->get_row($dimension_sql);
 			?>
@@ -140,14 +143,14 @@
 								<?php if($es_prop_single->prop_area!=0){ ?>
                                 <li>
                                     <strong><?php _e("Area size", 'es-plugin'); ?>:</strong>
-                                    <span><?php echo $es_prop_single->prop_area?> <?php echo $dimension->dimension_title?></span>
+                                    <span><?php echo $es_prop_single->prop_area?> <?php if(!empty($es_dimension)) { echo $es_dimension->dimension_title; } ?></span>
                                 </li>
                                 <?php } ?> 
                                 
                                 <?php if($es_prop_single->prop_lotsize!=0){ ?>
                                 <li>
                                     <strong><?php _e("Lot size", 'es-plugin'); ?>:</strong>
-                                    <span><?php echo $es_prop_single->prop_lotsize?> <?php echo $dimension->dimension_title?></span>
+                                    <span><?php echo $es_prop_single->prop_lotsize?> <?php if(!empty($es_dimension)) { echo $es_dimension->dimension_title; } ?></span>
                                 </li>
                                 <?php } ?>
                                 
@@ -266,9 +269,8 @@
                             <ul>
                                 <?php
                                 foreach($es_prop_features as $es_prop_feature) {
-                                    $es_prop_feature_val = $wpdb->get_row( 'SELECT * FROM '.$wpdb->prefix.'estatik_manager_features WHERE feature_id="'.$es_prop_feature->feature_id.'"');			
 								?>
-                                    <li><?php echo $es_prop_feature_val->feature_title?></li>
+                                    <li><?php echo $es_prop_feature->feature_title?></li>
                                 <?php } ?> 
                             </ul>
                         </div>
@@ -280,9 +282,8 @@
                             <ul>
                                 <?php
                                 foreach($es_prop_appliances as $es_prop_appliance) {
-                                    $es_prop_appliance_val = $wpdb->get_row( 'SELECT * FROM '.$wpdb->prefix.'estatik_manager_appliances WHERE appliance_id="'.$es_prop_appliance->appliance_id.'"');		
                                 ?>
-                                    <li><?php echo $es_prop_appliance_val->appliance_title?></li>
+                                    <li><?php echo $es_prop_appliance->appliance_title?></li>
                                 <?php } ?>
                             </ul>
                         </div>

@@ -273,7 +273,7 @@
                         </div>
                          
                         <div class="es_my_list_specs clearfix">
-                            <span class="es_dimen"><?php if($list->prop_area!=0) { ?><?php echo $list->prop_area?><?php } ?> <?php echo $es_dimension->dimension_title;?></span>
+                            <span class="es_dimen"><?php if($list->prop_area!=0) { ?><?php echo $list->prop_area?><?php } ?> <?php if(!empty($es_dimension)) { echo $es_dimension->dimension_title; } ?></span>
                             <span class="es_bd"><?php if($list->prop_bedrooms!=0) { ?><?php echo $list->prop_bedrooms?><?php } ?> <?php _e("beds", 'es-plugin'); ?></span>
                             <span class="es_bth"><?php if($list->prop_bathrooms!=0) { ?><?php echo $list->prop_bathrooms?><?php } ?> <?php _e("bath", 'es-plugin'); ?></span>
                         </div>

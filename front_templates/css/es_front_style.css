@@ -299,7 +299,7 @@ input[type='submit']{ cursor:pointer; }
 
 #es_content .es_my_list_pic a { width:100%; height:100%; display:block; position:relative; overflow:hidden; display:block;}
 
-#es_content .es_my_list_pic a img{ min-width:100%; min-height:100%; }
+#es_content .es_my_list_pic a img{ min-width:100%; /*min-height:100%;*/ }
 
 #es_content .es_my_list_pic span{ display:block; text-align:left; padding:0px 10px; height:25px; position:absolute; left:0px; width:100%; bottom:0px; line-height:25px; background:rgba(255, 255, 255, 0.8); }
 
@@ -614,9 +614,9 @@ a#es_content .es_more_props_btn,
 
 #es_content .es_prop_single_tabs.fixed{ position:fixed; left:0; top:0; width:100%; z-index:1; }
 
-#es_content .es_prop_single_tabs.fixed .es_prop_single_tabs_in{ max-width:68.5714rem; margin:auto; } 
+/*#es_content .es_prop_single_tabs.fixed .es_prop_single_tabs_in{ max-width:68.5714rem; margin:auto; } 
 
-#es_content .es_prop_single_tabs.fixed .es_prop_single_tabs_in ul{ background:#fff; width:66%; float:left; }
+#es_content .es_prop_single_tabs.fixed .es_prop_single_tabs_in ul{ background:#fff; width:66%; float:left; }*/
  
 
 #es_content .es_prop_single_basic_facts{ margin-bottom:30px; }
@@ -1003,3 +1003,6 @@ transition:all linear .5s;
 #es_content .es_mainHeading.fl{ float:left; }
 
 
+.gmnoprint img {
+    max-width: none!important;
+}

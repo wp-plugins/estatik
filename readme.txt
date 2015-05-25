@@ -23,6 +23,7 @@ Estatik Pro features:
 * frontend property management (submitting properties after admin approval)
 * responsive layouts (table/list/2 columns view - for list view; image right, left, center - single property view)
 * agents support (agent profile, ratings, contact information)
+* map view via shortcode and widget
 * meta information fields 
 * CSV import
 * customizable fields (features, appliances, addresses, currenies, dimensions, neighbourhood)
@@ -112,3 +113,14 @@ Please check these pages >> http://estatik.net/estatik-plugin-documentation/.
 * Issue with Google Map API fixed
 * Translation into Russian added
 
+=2.0 = 
+* Safari responsive layout issue fixed
+* Google Map icons issue fixed 
+* PRO - HTML editor added
+* PRO - Lightbox on single property page added
+* PRO - Tabs issue fixed
+* PRO - Map view shortcodes added
+* PRO - Map view widget added
+* PRO - Option to use different layouts added
+
+Please read full description of new release [here](http://estatik.net/estatik-2-0-terrific-released-map-view-lots-of-major-fixes-done/)

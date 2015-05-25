@@ -54,9 +54,8 @@
             $es_pagination = $pagination->create_links();
 			
 			
-			$es_dimension_val = $wpdb->get_results( 'SELECT dimension_title FROM '.$wpdb->prefix.'estatik_manager_dimension WHERE dimension_status=1' ); 
-			$es_dimension = new stdClass; 
-			$es_dimension = $es_dimension_val[0];
+			$es_dimension = $wpdb->get_row( 'SELECT dimension_title FROM '.$wpdb->prefix.'estatik_manager_dimension WHERE dimension_status=1' ); 
+			 
 			
             if(!empty($es_my_listing)) {
                 foreach($es_my_listing as $list) {
@@ -142,7 +141,7 @@
                         </div>
                          
                         <div class="es_my_list_specs clearfix">
-                            <span class="es_dimen"><?php if($list->prop_area!=0) { ?><?php echo $list->prop_area?><?php } ?> <?php echo $es_dimension->dimension_title;?></span>
+                            <span class="es_dimen"><?php if($list->prop_area!=0) { ?><?php echo $list->prop_area?><?php } ?> <?php if(!empty($es_dimension)) { echo $es_dimension->dimension_title; } ?></span>
                             <span class="es_bd"><?php if($list->prop_bedrooms!=0) { ?><?php echo $list->prop_bedrooms?><?php } ?> <?php _e("beds", 'es-plugin'); ?></span>
                             <span class="es_bth"><?php if($list->prop_bathrooms!=0) { ?><?php echo $list->prop_bathrooms?><?php } ?> <?php _e("bath", 'es-plugin'); ?></span>
                         </div>

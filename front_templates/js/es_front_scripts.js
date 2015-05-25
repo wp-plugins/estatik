@@ -165,7 +165,7 @@ function initialize(lat,long) {
 
 jQuery(window).load(function(){
  
-	jQuery('#es_content .es_my_listing ul li .es_my_list_pic').equalHeights('.es_my_list_pic');
+	//jQuery('#es_content .es_my_listing ul li .es_my_list_pic').equalHeights('.es_my_list_pic');
 	
 	jQuery('#es_content .es_my_listing ul li').equalHeights('#es_content .es_my_listing ul li');
  
@@ -176,7 +176,7 @@ jQuery(window).load(function(){
 
 jQuery(window).resize(function(){
  	
-	jQuery('#es_content .es_my_listing ul li .es_my_list_pic').equalHeights('.es_my_list_pic');
+	//jQuery('#es_content .es_my_listing ul li .es_my_list_pic').equalHeights('.es_my_list_pic');
 	
 	jQuery('#es_content .es_my_listing ul li').equalHeights('#es_content .es_my_listing ul li');
  

@@ -248,8 +248,8 @@ function es_admin_inline_js(){
 					if (status == google.maps.GeocoderStatus.OK) {
 					  firstLoc = results[0].geometry.location;
 					  //console.log(firstLoc);
-					  document.getElementById('prop_longitude').value = results[0].geometry.location.F;
-					  document.getElementById('prop_latitude').value = results[0].geometry.location.A;
+					  document.getElementById('prop_longitude').value = results[0].geometry.location.lng();
+					  document.getElementById('prop_latitude').value = results[0].geometry.location.lat();
 					  map = new google.maps.Map(document.getElementById('es_address_map'),
 					  {
 						center: firstLoc,

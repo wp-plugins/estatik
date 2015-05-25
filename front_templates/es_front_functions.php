@@ -35,10 +35,18 @@ function es_print_scripts() {
 		if(is_singular('properties')){
 		
 		echo "jQuery(window).load(function(e) { 
-			  	var navPos = parseInt(jQuery('.es_prop_single_tabs').offset().top);
+			  	 
+				var navPos = parseInt(jQuery('.es_prop_single_tabs').offset().top);
+				var navPosLeft = parseInt(jQuery('.es_prop_single_tabs').offset().left);
+				var navWidth = parseInt(jQuery('.es_prop_single_tabs').width());
 				jQuery(window).scroll(function(e) { 
-					if(jQuery(this).scrollTop()>=navPos) jQuery('.es_prop_single_tabs').addClass('fixed');		
-					else jQuery('.es_prop_single_tabs').removeClass('fixed');
+					if(jQuery(this).scrollTop()>=navPos){
+						jQuery('.es_prop_single_tabs').addClass('fixed');
+						jQuery('.es_prop_single_tabs').css({'left':navPosLeft+'px','width':navWidth+'px'});		
+					} else {
+						jQuery('.es_prop_single_tabs').removeClass('fixed');
+						jQuery('.es_prop_single_tabs').css({'left':'0px','width':'auto'});
+					}
 				});
 			  });";
 			}
@@ -120,4 +128,17 @@ function es_google_map() {
 }
 add_action( 'wp_footer', 'es_google_map' );
 
+
+
+function es_join($fields,$table1,$table2,$where=""){ 
+ 
+ global $wpdb;
+ $sql = 'SELECT '.$fields.' FROM '.$wpdb->prefix.$table1.','.$wpdb->prefix.$table2.' WHERE '.$where;
+ return $wpdb->get_results($sql);
+ 
+}
+
+/*$es_prop_features = $wpdb->get_results( 'SELECT b.feature_title FROM '.$wpdb->prefix.'estatik_properties_features a,
+    wp_estatik_manager_features b 
+          WHERE b.feature_id = a.feature_id and a.prop_id='.$es_prop_single->prop_id ); */
  
