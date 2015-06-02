@@ -14,7 +14,7 @@ Beautifully designed, simple in use, customizable. WordPress real estate plugin 
 
 Estatik Simple plugin helps you create easy-to-use WordPress real estate website. Main features of Estatik Simple: clean design, customizable fields (unlimited number of new fields), responsive layout, comprehensive interface,
 photo gallery,  search widget, Google map, unlimited categories/types/statuses, labels, language files. Check out http://estatik.net/ for more information.
-Visit [demo](http://demo.estatik.net/) of Estatik plugin.
+Visit [demo](http://demo.estatik.net/) of Estatik plugin on one of deafult WordPress themes or [demo](http://themes.estatik.net/) on Estatik custom theme.
 
  
 Estatik Pro features:
@@ -79,6 +79,27 @@ Sure, you get free support for any of Estatik version. Please contact us >> http
 = Where I can read documentation? =
 
 Please check these pages >> http://estatik.net/estatik-plugin-documentation/. 
+
+= When I click on details page it says 404 Error: page not found. =
+
+Please go to Settings >> Permalinks and click Save button there. After go to site and view result.
+
+= PDF button is not working. What am I doing wrong? = 
+
+If you click on PDF button and it says that file is corrupted or opens nothing, please make sure that you have pdf lib installed at your host provider and php version is 5.3.x and higher.
+
+= I created a page of category/status/type but listings are not displayed correctly. How to fix that? = 
+
+If you assigned to menu a categoty of properties but when clicking on it, it doesn’t look like My listing page, just add shortcode – [es_category_property_listing] into archive.php file of your current theme in while loop:
+
+while ( have_posts() ) { the_post();
+
+echo do_shortcode(‘[es_category_property_listing]’);
+
+}
+
+Please [contact us](http://estatik.net/contact-us/) if you do not know how to do that. Our team will check and do it for you.
+
 
 
 == Screenshots ==
