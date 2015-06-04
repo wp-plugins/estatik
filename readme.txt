@@ -106,16 +106,18 @@ Please [contact us](http://estatik.net/contact-us/) if you do not know how to do
 
 
 1. List view
-2. Single page
+2. 2 columns view
 3. Table view
-4. Property submit page
+4. Single property page
 5. Agents list
-6. Admin - Listings
-7. Listings - Features
+6. Front-end management page
+7. Map view
 8. Add new property
 9. Add new property - address
 10. Admin - Media
 11. Agents
+12. Admin - features
+13. Map view settings
 
 
 == Changelog ==
