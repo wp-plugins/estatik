@@ -36,6 +36,25 @@ Estatik Pro features:
 * search widget with 10 yes/no fields
 * language files
 
+Shortcodes:
+
+[es_my_listing] = All listings list
+[es_agents] = All agents list
+[es_featured_props] = Featured properties list
+[es_latest_props] = Latest properties list
+[es_cheapest_props] = Cheapest properties list
+[es_profile] = Profile of agent page
+[es_prop_management] = Properties management
+[es_register] = Agents registration
+[es_login] = Log in page
+[es_property_map] = All properties
+[es_property_map type=”for-rent”] = Properties for rent
+[es_property_map type=”for-sale”] = Properties for sale
+[es_property_map prop_id=”12, 24, 26?] = Specific properties
+[es_latest_props layout=”table”] = Table listings layout
+[es_latest_props layout=”list”] = List listing layout
+[es_latest_props layout=”2columns”] = 2 columns listing layout
+
 Visit official [Estatik Pro page](http://estatik.net/product/estatik-professional/) to get full information.
 
 Related services:
