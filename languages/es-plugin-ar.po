@@ -1,0 +1,1079 @@
+# Translation of Estatik in Arabic
+msgid ""
+msgstr ""
+"Project-Id-Version: Estatik\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-14 23:16+0500\n"
+"PO-Revision-Date: 2015-06-11 00:51+0200\n"
+"Last-Translator: AQEEL <we2a@msn.com>\n"
+"Language-Team: Saudi Arabia\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: ar\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: arX-Poedit-Language: Arabic\n"
+"X-Poedit-SearchPath-0: estatik\n"
+
+#: estatik/admin_template/es_admin_functions.php:30
+#: estatik/admin_template/es_admin_functions.php:31
+#: estatik/admin_template/es_settings.php:149
+msgid "Properties"
+msgstr "العقارات"
+
+#: estatik/admin_template/es_admin_functions.php:32
+#: estatik/admin_template/es_dashboard.php:13
+msgid "Add New"
+msgstr "إضافة جديد"
+
+#: estatik/admin_template/es_admin_functions.php:33 estatik/estatik.php:25
+msgid "Add New Property"
+msgstr "إضافة عقار جديد"
+
+#: estatik/admin_template/es_admin_functions.php:34
+#: estatik/admin_template/es_property/es_add_new_property.php:294
+msgid "Edit Property"
+msgstr "تحرير العقار"
+
+#: estatik/admin_template/es_admin_functions.php:35
+#: estatik/admin_template/es_property/es_add_new_property.php:298
+msgid "New Property"
+msgstr "عقار جديد"
+
+#: estatik/admin_template/es_admin_functions.php:36
+msgid "All Properties"
+msgstr "كل العقارات"
+
+#: estatik/admin_template/es_admin_functions.php:37
+msgid "View Properties"
+msgstr "عرض خصائص"
+
+#: estatik/admin_template/es_admin_functions.php:38
+msgid "Search Properties"
+msgstr "بحث في العقارات"
+
+#: estatik/admin_template/es_admin_functions.php:39
+msgid "No Properties found"
+msgstr "لاتوجد عقارات"
+
+#: estatik/admin_template/es_admin_functions.php:40
+msgid "No Properties found in the Trash"
+msgstr "لاتوجد عقارات في سلة المهملات"
+
+#: estatik/admin_template/es_admin_functions.php:59
+#: estatik/admin_template/es_admin_functions.php:69
+msgid "Property Categories"
+msgstr "تصنيفات العقارات"
+
+#: estatik/admin_template/es_admin_functions.php:60
+msgid "Property Category"
+msgstr "تصنيف العقار"
+
+#: estatik/admin_template/es_admin_functions.php:61
+msgid "Search Property Categories"
+msgstr "بحث في تصنيفات العقارات"
+
+#: estatik/admin_template/es_admin_functions.php:62
+msgid "All Property Categories"
+msgstr "كل تصنيفات العقارات"
+
+#: estatik/admin_template/es_admin_functions.php:63
+msgid "Parent Property Category"
+msgstr "تصنيف عقار رئيسي"
+
+#: estatik/admin_template/es_admin_functions.php:64
+msgid "Parent Property Category:"
+msgstr "تصنيف عقار رئيسي"
+
+#: estatik/admin_template/es_admin_functions.php:65
+msgid "Edit Property Category"
+msgstr "تحرير تصنيف العقار"
+
+#: estatik/admin_template/es_admin_functions.php:66
+msgid "Update Property Category"
+msgstr "تحديث تصنيف العقار"
+
+#: estatik/admin_template/es_admin_functions.php:67
+msgid "Add New Property Category"
+msgstr "إضافة تصنيف عقار جديد"
+
+#: estatik/admin_template/es_admin_functions.php:68
+msgid "New Property Category"
+msgstr "تصنيف عقار جديد"
+
+#: estatik/admin_template/es_admin_functions.php:82
+#: estatik/admin_template/es_admin_functions.php:83
+msgid "Property Status"
+msgstr "حالة العقار"
+
+#: estatik/admin_template/es_admin_functions.php:84
+msgid "Search Status Categories"
+msgstr "بحث في الحالات"
+
+#: estatik/admin_template/es_admin_functions.php:85
+msgid "All Status Categories"
+msgstr "كل الحالات"
+
+#: estatik/admin_template/es_admin_functions.php:86
+msgid "Parent Status Category"
+msgstr "تصنيف الحالة"
+
+#: estatik/admin_template/es_admin_functions.php:87
+msgid "Parent Status Category:"
+msgstr "تصنيف الحالة"
+
+#: estatik/admin_template/es_admin_functions.php:88
+msgid "Edit Status Category"
+msgstr "تحرير الحالة"
+
+#: estatik/admin_template/es_admin_functions.php:89
+msgid "Update Status Category"
+msgstr "تحديث الحالة"
+
+#: estatik/admin_template/es_admin_functions.php:90
+msgid "Add New Status Category"
+msgstr "إضافة حالة جديدة"
+
+#: estatik/admin_template/es_admin_functions.php:91
+msgid "New Status Category"
+msgstr "تصنيف حالة جديد"
+
+#: estatik/admin_template/es_admin_functions.php:92
+msgid "Status Categories"
+msgstr "تصنيفات الحالة"
+
+#: estatik/admin_template/es_admin_functions.php:105
+#: estatik/admin_template/es_admin_functions.php:106
+msgid "Property Types"
+msgstr "أنواع العقارات"
+
+#: estatik/admin_template/es_admin_functions.php:107
+msgid "Search Types Categories"
+msgstr "بحث في أنواع العقارات"
+
+#: estatik/admin_template/es_admin_functions.php:108
+msgid "All Types Categories"
+msgstr "كل أنواع العقارات"
+
+#: estatik/admin_template/es_admin_functions.php:109
+msgid "Parent Type Category"
+msgstr "تصنيف نوع العقار"
+
+#: estatik/admin_template/es_admin_functions.php:110
+msgid "Parent Type Category:"
+msgstr "تصنيف نوع العقار"
+
+#: estatik/admin_template/es_admin_functions.php:111
+msgid "Edit Type Category"
+msgstr "تحرير نوع العقار"
+
+#: estatik/admin_template/es_admin_functions.php:112
+msgid "Update Type Category"
+msgstr "تحديث نوع العقار"
+
+#: estatik/admin_template/es_admin_functions.php:113
+msgid "Add New Type Category"
+msgstr "إضافة نوع عقار جديد"
+
+#: estatik/admin_template/es_admin_functions.php:114
+msgid "New Type Category"
+msgstr "نوع عقار جديد"
+
+#: estatik/admin_template/es_admin_functions.php:115
+msgid "Type Categories"
+msgstr "تصنيفات نوع العقار"
+
+#: estatik/admin_template/es_dashboard.php:4 estatik/estatik.php:23
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: estatik/admin_template/es_dashboard.php:12 estatik/estatik.php:24
+msgid "My listings"
+msgstr "عقاراتي"
+
+#: estatik/admin_template/es_dashboard.php:14
+#: estatik/admin_template/es_manager/es_data_manager.php:16 estatik/estatik.php:26
+msgid "Data Manager"
+msgstr "إدارة البيانات"
+
+#: estatik/admin_template/es_dashboard.php:15
+#: estatik/admin_template/es_settings.php:51 estatik/estatik.php:27
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: estatik/admin_template/es_dashboard.php:19
+msgid "Get Support"
+msgstr "احصل على الدعم الفني"
+
+#: estatik/admin_template/es_dashboard.php:23
+msgid "Step-by-step guide"
+msgstr "إرشادات خطوة بخطوة"
+
+#: estatik/admin_template/es_dashboard.php:24
+msgid "Video Tutorial"
+msgstr "درس فيديو تعليمي"
+
+#: estatik/admin_template/es_dashboard.php:25
+msgid "Submit a Ticket"
+msgstr "سجل تذكرة"
+
+#: estatik/admin_template/es_dashboard.php:29
+msgid "Choose Your Theme"
+msgstr "اختر الثيم المناسب لك"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:6
+#: estatik/admin_template/es_property/es_add_new_property.php:282
+#: estatik/admin_template/es_property/es_my_listings.php:203
+msgid "Are you sure you want to delete it?"
+msgstr "هل أنت متأكد من الحذف؟"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:8
+msgid "Ok"
+msgstr "موافق"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:9
+#: estatik/admin_template/es_property/es_add_new_property.php:285
+#: estatik/admin_template/es_property/es_my_listings.php:224
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:22
+#: estatik/admin_template/es_property/es_add_new_property.php:274
+msgid "Please fill your field."
+msgstr "رجاءا املئ الحقل"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:23
+#: estatik/admin_template/es_property/es_add_new_property.php:275
+msgid "field has been added."
+msgstr "تم إضافة الحقل"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:24
+#: estatik/admin_template/es_property/es_add_new_property.php:276
+msgid "field has been deleted."
+msgstr "تم حذف الحقل"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:28
+msgid "Properties details"
+msgstr "تفاصيل العقارات"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:29
+msgid "Location"
+msgstr "الموقع"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:30
+msgid "Dimensions"
+msgstr "العنوان"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:31
+#: estatik/admin_template/es_manager/es_data_manager.php:183
+#: estatik/admin_template/es_property/es_add_new_property.php:338
+#: estatik/admin_template/es_property/es_add_new_property.php:683
+msgid "Features"
+msgstr "المميزات"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:32
+#: estatik/admin_template/es_manager/es_data_manager.php:218
+#: estatik/admin_template/es_settings.php:75
+msgid "Currency"
+msgstr "العملة"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:39
+#: estatik/admin_template/es_property/es_add_new_property.php:422
+#: estatik/admin_template/es_property/es_add_new_property.php:424
+#: estatik/admin_template/es_property/es_my_listings.php:254
+#: estatik/admin_template/es_property/es_my_listings.php:358
+msgid "Status"
+msgstr "احالة"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:50
+#: estatik/admin_template/es_manager/es_data_manager.php:66
+#: estatik/admin_template/es_manager/es_data_manager.php:84
+#: estatik/admin_template/es_manager/es_data_manager.php:100
+#: estatik/admin_template/es_manager/es_data_manager.php:121
+#: estatik/admin_template/es_manager/es_data_manager.php:137
+#: estatik/admin_template/es_manager/es_data_manager.php:153
+#: estatik/admin_template/es_manager/es_data_manager.php:174
+#: estatik/admin_template/es_manager/es_data_manager.php:194
+#: estatik/admin_template/es_manager/es_data_manager.php:210
+#: estatik/admin_template/es_manager/es_data_manager.php:228
+#: estatik/admin_template/es_property/es_add_new_property.php:590
+#: estatik/admin_template/es_property/es_add_new_property.php:697
+#: estatik/admin_template/es_property/es_add_new_property.php:717
+msgid "Add new field"
+msgstr "إضافة حقل جديد"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:55
+#: estatik/admin_template/es_property/es_add_new_property.php:406
+#: estatik/admin_template/es_property/es_add_new_property.php:408
+#: estatik/admin_template/es_property/es_my_listings.php:242
+#: estatik/admin_template/es_property/es_my_listings.php:352
+msgid "Category"
+msgstr "تصيف"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:73
+#: estatik/admin_template/es_property/es_add_new_property.php:389
+#: estatik/admin_template/es_property/es_add_new_property.php:391
+#: estatik/admin_template/es_property/es_my_listings.php:266
+#: estatik/admin_template/es_property/es_my_listings.php:355
+msgid "Type"
+msgstr "نوع"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:89
+msgid "Rent period"
+msgstr "مدة الإيجار"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:110
+#: estatik/admin_template/es_property/es_add_new_property.php:603
+msgid "Country"
+msgstr "الدولة"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:126
+msgid "States/Regions"
+msgstr "الولاية/المنطقة"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:142
+msgid "Cities"
+msgstr "المدن"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:163
+msgid "Area & lot size"
+msgstr "المساحة"
+
+#: estatik/admin_template/es_manager/es_data_manager.php:199
+#: estatik/admin_template/es_property/es_add_new_property.php:703
+msgid "Appliances"
+msgstr "المميزات الإضافية"
+
+#: estatik/admin_template/es_manager/es_manager_temps/es_appliance.php:50
+#: estatik/admin_template/es_manager/es_manager_temps/es_category.php:20
+#: estatik/admin_template/es_manager/es_manager_temps/es_city.php:32
+#: estatik/admin_template/es_manager/es_manager_temps/es_country.php:30
+#: estatik/admin_template/es_manager/es_manager_temps/es_currency.php:25
+#: estatik/admin_template/es_manager/es_manager_temps/es_dimension.php:25
+#: estatik/admin_template/es_manager/es_manager_temps/es_feature.php:49
+#: estatik/admin_template/es_manager/es_manager_temps/es_period.php:19
+#: estatik/admin_template/es_manager/es_manager_temps/es_state.php:45
+#: estatik/admin_template/es_manager/es_manager_temps/es_status.php:20
+#: estatik/admin_template/es_manager/es_manager_temps/es_type.php:19
+msgid "No record found. Please add new one."
+msgstr "لايوجد بيانات مسجلة. رجاءا, قم بإضافة جديدة."
+
+#: estatik/admin_template/es_pro.php:30
+msgid "Upload Downloaded Estatik Pro"
+msgstr "تحميل إستاتيك الإحترافي"
+
+#: estatik/admin_template/es_pro.php:37
+msgid ""
+"Full advanced version with extra portal management option, social sharing, "
+"additional widgets support, etc."
+msgstr ""
+"نسخة الإصدار الكامل مع كامل التحكم, مشاركة شبكات التواصل الاجتماعي, إضافات الدعم "
+"الفني, إلخ."
+
+#: estatik/admin_template/es_pro.php:38
+msgid "Please upload your"
+msgstr "رجاءا, ارفع"
+
+#: estatik/admin_template/es_pro.php:38
+msgid "version in zip format and click upload to finish for update to pro Version."
+msgstr "ملف الضغط زيب ثم اضغط زر الرفع لإنهاء تحديث الإصدار الاحترافي pro."
+
+#: estatik/admin_template/es_pro.php:39
+#: estatik/admin_template/es_property/es_add_new_property.php:730
+msgid "Upload"
+msgstr "رفع"
+
+#: estatik/admin_template/es_pro.php:48
+msgid "Upload Zip"
+msgstr "رفع Zip"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:277
+msgid "Please enter numbers only."
+msgstr "رجاءا, اكتب أرقام فقط"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:284
+#: estatik/admin_template/es_property/es_my_listings.php:212
+#: estatik/admin_template/es_property/es_my_listings.php:223
+msgid "OK"
+msgstr "موافق"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:310
+msgid "Please Edit your property detail and click save to finish."
+msgstr "رجاءا حرر بيانات عقاراتك ثم اضغط حفظ "
+
+#: estatik/admin_template/es_property/es_add_new_property.php:311
+#: estatik/admin_template/es_property/es_add_new_property.php:319
+msgid "Save & Close"
+msgstr "حفظ وإغلاق"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:312
+#: estatik/admin_template/es_property/es_add_new_property.php:320
+#: estatik/admin_template/es_settings.php:59
+msgid "Save"
+msgstr "حفظ"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:318
+msgid "Please fill up your property detail and click save to finish."
+msgstr "رجاءا املئ بيانات عقارك ثم اضغط حفظ"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:327
+msgid "Property has been updated."
+msgstr "تم تحديث العقار"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:336
+msgid "Basic information"
+msgstr "معلومات اساسية"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:337
+#: estatik/admin_template/es_property/es_my_listings.php:281
+#: estatik/admin_template/es_property/es_my_listings.php:349
+#: estatik/admin_template/es_settings.php:109
+#: estatik/admin_template/es_settings.php:112
+msgid "Address"
+msgstr "العنوان"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:339
+msgid "Media"
+msgstr "وسائط"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:363
+#: estatik/admin_template/es_property/es_my_listings.php:279
+#: estatik/admin_template/es_property/es_my_listings.php:337
+msgid "Property ID"
+msgstr "رقم العقار"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:385
+#: estatik/admin_template/es_property/es_my_listings.php:343
+#: estatik/admin_template/es_settings.php:108
+msgid "Title"
+msgstr "العنوان"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:438
+msgid "Featured"
+msgstr "مميز"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:451
+#: estatik/admin_template/es_property/es_add_new_property.php:468
+#: estatik/admin_template/es_property/es_add_new_property.php:485
+#: estatik/admin_template/es_property/es_add_new_property.php:502
+#: estatik/admin_template/es_settings.php:94
+#: estatik/admin_template/es_settings.php:103
+#: estatik/admin_template/es_settings.php:113
+#: estatik/admin_template/es_settings.php:242
+#: estatik/admin_template/es_settings.php:248
+#: estatik/admin_template/es_settings.php:254
+#: estatik/admin_template/es_settings.php:260
+#: estatik/admin_template/es_settings.php:266
+#: estatik/admin_template/es_widgets.php:52
+#: estatik/admin_template/es_widgets.php:58
+#: estatik/admin_template/es_widgets.php:64
+#: estatik/admin_template/es_widgets.php:70
+#: estatik/admin_template/es_widgets.php:76
+#: estatik/admin_template/es_widgets.php:82
+#: estatik/admin_template/es_widgets.php:88
+#: estatik/admin_template/es_widgets.php:94
+#: estatik/admin_template/es_widgets.php:100
+msgid "Yes"
+msgstr "نعم"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:452
+#: estatik/admin_template/es_property/es_add_new_property.php:469
+#: estatik/admin_template/es_property/es_add_new_property.php:486
+#: estatik/admin_template/es_property/es_add_new_property.php:503
+#: estatik/admin_template/es_settings.php:95
+#: estatik/admin_template/es_settings.php:104
+#: estatik/admin_template/es_settings.php:114
+#: estatik/admin_template/es_widgets.php:53
+#: estatik/admin_template/es_widgets.php:59
+#: estatik/admin_template/es_widgets.php:65
+#: estatik/admin_template/es_widgets.php:71
+#: estatik/admin_template/es_widgets.php:77
+#: estatik/admin_template/es_widgets.php:83
+#: estatik/admin_template/es_widgets.php:89
+#: estatik/admin_template/es_widgets.php:95
+#: estatik/admin_template/es_widgets.php:101
+msgid "No"
+msgstr "لا"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:455
+msgid "Hot"
+msgstr "عرض"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:472
+msgid "Open house"
+msgstr "منزل"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:489
+msgid "Foreclosure"
+msgstr "فيلا"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:506
+#: estatik/admin_template/es_settings.php:102
+msgid "Price"
+msgstr "السعر"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:511
+msgid "Period"
+msgstr "المدة"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:525
+msgid "Bedrooms"
+msgstr "الغرف"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:531
+msgid "Bathrooms"
+msgstr "الحمامات"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:535
+msgid "Floors"
+msgstr "الطوابق"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:539
+msgid "Area"
+msgstr "المساحة"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:548
+msgid "Lot size"
+msgstr "المساحة الإجمالية:"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:557
+msgid "Built in"
+msgstr "تم البناء في سنة"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:561
+msgid "Description"
+msgstr "الوصف"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:608
+msgid "Choose Country"
+msgstr "اختر الدولة"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:624
+msgid "State/Region"
+msgstr "الولاية / المنطقة:"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:636
+msgid "City"
+msgstr "المدينة"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:648
+msgid "ZIP/Postcode"
+msgstr "الرمز البريدي"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:653
+msgid "Street"
+msgstr "الشارع"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:663
+msgid "Longitude"
+msgstr "خط الطول"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:667
+msgid "Latitude"
+msgstr "خط العرض"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:727
+msgid "Select files or upload images in a zip-file."
+msgstr "حدد الملفات أو ارفع الصور في ملف مضغوط زيب"
+
+#: estatik/admin_template/es_property/es_add_new_property.php:733
+msgid ""
+"The first image will be default image. You can drag and drop images to change "
+"their order."
+msgstr "الصورة الأولى ستكون الافتراضيةيمكنك السحب والإفلات لإعادة الترتيب"
+
+#: estatik/admin_template/es_property/es_my_listings.php:197
+msgid "Please select properties you want to copy."
+msgstr "رجاءا حدد العقارات للنسخ"
+
+#: estatik/admin_template/es_property/es_my_listings.php:198
+msgid "Please select properties you want to delete."
+msgstr "رجاءا حدد العقارات للحذف"
+
+#: estatik/admin_template/es_property/es_my_listings.php:199
+msgid "Please select properties you want to publish."
+msgstr "رجاءا حدد العقارات للنشر"
+
+#: estatik/admin_template/es_property/es_my_listings.php:200
+msgid "Please select properties you want to unpublish."
+msgstr "رجاءا حدد العقارات لإلغاء النشر"
+
+#: estatik/admin_template/es_property/es_my_listings.php:202
+msgid "Are you sure you want to Copy it?"
+msgstr "هل انت متأكد من عملية النسخ؟"
+
+#: estatik/admin_template/es_property/es_my_listings.php:204
+msgid "Are you sure you want to publish it?"
+msgstr "هل انت متأكد من عملية النشر؟"
+
+#: estatik/admin_template/es_property/es_my_listings.php:205
+msgid "Are you sure you want to unpublish it?"
+msgstr "هل انت متأكد من عملية إلغاء النشر؟"
+
+#: estatik/admin_template/es_property/es_my_listings.php:231
+msgid "My Listings"
+msgstr "عقاراتي"
+
+#: estatik/admin_template/es_property/es_my_listings.php:240
+msgid "Filter by"
+msgstr "تصفية بحسب"
+
+#: estatik/admin_template/es_property/es_my_listings.php:283
+#: estatik/admin_template/es_property/es_my_listings.php:346
+msgid "Date added"
+msgstr "تم إضافة التاريخ"
+
+#: estatik/admin_template/es_property/es_my_listings.php:292
+msgid "Manage"
+msgstr "إدارة"
+
+#: estatik/admin_template/es_property/es_my_listings.php:294
+msgid "Select all"
+msgstr "تحديد الكل"
+
+#: estatik/admin_template/es_property/es_my_listings.php:295
+msgid "Undo selection"
+msgstr "عدم تحديد الكل"
+
+#: estatik/admin_template/es_property/es_my_listings.php:296
+msgid "Copy"
+msgstr "نسخ"
+
+#: estatik/admin_template/es_property/es_my_listings.php:297
+#: estatik/admin_template/es_property/es_my_listings.php:484
+msgid "Delete"
+msgstr "حذف"
+
+#: estatik/admin_template/es_property/es_my_listings.php:298
+msgid "Publish"
+msgstr "نشر"
+
+#: estatik/admin_template/es_property/es_my_listings.php:299
+msgid "Unpublish"
+msgstr "عدم النشر"
+
+#: estatik/admin_template/es_property/es_my_listings.php:306
+msgid "Property has been deleted."
+msgstr "تم حذف العقار"
+
+#: estatik/admin_template/es_property/es_my_listings.php:310
+msgid "Selected properties have been copied."
+msgstr "العقارات المحددة تم نسخها"
+
+#: estatik/admin_template/es_property/es_my_listings.php:314
+msgid "Selected properties have been deleted."
+msgstr "العقارات المحددة تم حذفها"
+
+#: estatik/admin_template/es_property/es_my_listings.php:318
+msgid "Selected properties have been published."
+msgstr "العقارات المحددة تم نشرها"
+
+#: estatik/admin_template/es_property/es_my_listings.php:322
+msgid "Selected properties have been unpublished."
+msgstr "العقارات المحددة تم إلغاء نشرها"
+
+#: estatik/admin_template/es_property/es_my_listings.php:326
+msgid "Your search results."
+msgstr "نتائج بحثك"
+
+#: estatik/admin_template/es_property/es_my_listings.php:340
+msgid "Image"
+msgstr "صورة"
+
+#: estatik/admin_template/es_property/es_my_listings.php:447
+msgid "No Image"
+msgstr "لايوجد صورة"
+
+#: estatik/admin_template/es_property/es_my_listings.php:483
+msgid "Edit"
+msgstr "تحرير"
+
+#: estatik/admin_template/es_property/es_my_listings.php:494
+msgid "No record found."
+msgstr "لايوجد بيانات!"
+
+#: estatik/admin_template/es_property/es_property_temps/es_property_cities.php:23
+msgid "No City"
+msgstr "لايوجد مدينة"
+
+#: estatik/admin_template/es_property/es_property_temps/es_property_images.php:43
+msgid "No record found. please add new one."
+msgstr "لاتوجد بيانات. رجاءا, أضف جديدة"
+
+#: estatik/admin_template/es_property/es_property_temps/es_property_states.php:30
+msgid "No State"
+msgstr "لايوجد حالة"
+
+#: estatik/admin_template/es_settings.php:58
+msgid "Please fill up your Settings detail and click save to finish."
+msgstr "رجاءا املئ بيانات الإعدادات ثم اضغط حفظ"
+
+#: estatik/admin_template/es_settings.php:64
+msgid "Settings has been updated."
+msgstr "تم تحديث الإعدادات"
+
+#: estatik/admin_template/es_settings.php:72
+msgid "General Settings"
+msgstr "الإعدادات العامة"
+
+#: estatik/admin_template/es_settings.php:73
+#: estatik/admin_template/es_widgets.php:104
+msgid "Layout"
+msgstr "طريقة العرض"
+
+#: estatik/admin_template/es_settings.php:74
+msgid "Images"
+msgstr "الصور"
+
+#: estatik/admin_template/es_settings.php:76
+msgid "Sharing"
+msgstr "مشاركة"
+
+#: estatik/admin_template/es_settings.php:93
+msgid "Powered by link"
+msgstr "تطوير بـ"
+
+#: estatik/admin_template/es_settings.php:98
+msgid "Number of listings per page"
+msgstr "عدد العقارات في الصفحة"
+
+#: estatik/admin_template/es_settings.php:107
+msgid "Title/Address"
+msgstr "العنوان/الموقع"
+
+#: estatik/admin_template/es_settings.php:117
+msgid "Date format"
+msgstr "صيغة التاريخ"
+
+#: estatik/admin_template/es_settings.php:119
+msgid "Date Format"
+msgstr "صيغة التاريخ"
+
+#: estatik/admin_template/es_settings.php:129
+msgid "Listings layout"
+msgstr "طريقة عرض كقوائم"
+
+#: estatik/admin_template/es_settings.php:135
+#: estatik/admin_template/es_settings.php:182
+msgid "Single property"
+msgstr "عقار واحد"
+
+#: estatik/admin_template/es_settings.php:142
+msgid "Disabled Layouts are available in"
+msgstr "إلغاء طرق العرض المتوفرة في"
+
+#: estatik/admin_template/es_settings.php:142
+#: estatik/admin_template/es_settings.php:203
+msgid "version"
+msgstr "اصدار"
+
+#: estatik/admin_template/es_settings.php:151
+msgid "Resize method"
+msgstr "طريقة تغيير الحجم"
+
+#: estatik/admin_template/es_settings.php:152
+msgid "Crop & shrink"
+msgstr "قص ومحاذاة"
+
+#: estatik/admin_template/es_settings.php:153
+msgid "Crop"
+msgstr "قص"
+
+#: estatik/admin_template/es_settings.php:159
+msgid "Listings view"
+msgstr "عرض القوائم"
+
+#: estatik/admin_template/es_settings.php:160
+msgid "Table"
+msgstr "جدول"
+
+#: estatik/admin_template/es_settings.php:161
+msgid "2 colums"
+msgstr "عمودين"
+
+#: estatik/admin_template/es_settings.php:162
+msgid "list"
+msgstr "قائمة"
+
+#: estatik/admin_template/es_settings.php:165
+#: estatik/admin_template/es_settings.php:188
+msgid "Height"
+msgstr "الإرتفاع"
+
+#: estatik/admin_template/es_settings.php:171
+#: estatik/admin_template/es_settings.php:194
+msgid "Widht"
+msgstr "العرض"
+
+#: estatik/admin_template/es_settings.php:183
+msgid "Photo on<br />the left/right"
+msgstr "الصورة <br>يسار/يمين"
+
+#: estatik/admin_template/es_settings.php:184
+msgid "Photo <br />in center"
+msgstr "الصورة<br>في الوسط"
+
+#: estatik/admin_template/es_settings.php:185
+msgid "Photo <br /> Thumb"
+msgstr "صورة<br>مصغرة"
+
+#: estatik/admin_template/es_settings.php:203
+msgid "Disabled fields are available in"
+msgstr "إلغاء الحقول المتوفرة في"
+
+#: estatik/admin_template/es_settings.php:209
+msgid "Default currency"
+msgstr "العملة الإفتراضية"
+
+#: estatik/admin_template/es_settings.php:211
+msgid "Dollar, Euro, etc"
+msgstr "دولار, يورو, وغيرهم"
+
+#: estatik/admin_template/es_settings.php:224
+msgid "Price format"
+msgstr "صيغة العملة"
+
+#: estatik/admin_template/es_settings.php:232
+msgid "Currency sign place"
+msgstr "مكان كتابة العملة"
+
+#: estatik/admin_template/es_settings.php:233
+msgid "Before price"
+msgstr "قبل السعر"
+
+#: estatik/admin_template/es_settings.php:234
+msgid "After price"
+msgstr "بعد السعر"
+
+#: estatik/admin_template/es_settings.php:243
+#: estatik/admin_template/es_settings.php:249
+#: estatik/admin_template/es_settings.php:255
+#: estatik/admin_template/es_settings.php:261
+#: estatik/admin_template/es_settings.php:267
+msgid "NO"
+msgstr "لا"
+
+#: estatik/admin_template/es_settings.php:265
+msgid "PDF flayer"
+msgstr "PDF"
+
+#: estatik/admin_template/es_settings.php:270
+msgid "Sharing Feature is available in"
+msgstr "خاصية المشاركة موجودة في"
+
+#: estatik/admin_template/es_settings.php:270
+msgid "version only"
+msgstr "الإصدار"
+
+#: estatik/admin_template/es_widgets.php:6
+msgid "Estatik Search"
+msgstr "بحث إستاتيك"
+
+#: estatik/admin_template/es_widgets.php:46
+msgid "Search Title:"
+msgstr "عنوان البحث"
+
+#: estatik/admin_template/es_widgets.php:50
+msgid "Address:"
+msgstr "العنوان:"
+
+#: estatik/admin_template/es_widgets.php:56
+msgid "Price:"
+msgstr "السعر:"
+
+#: estatik/admin_template/es_widgets.php:62
+msgid "Bedrooms:"
+msgstr "الغرف:"
+
+#: estatik/admin_template/es_widgets.php:68
+msgid "Bathrooms:"
+msgstr "الحمامات:"
+
+#: estatik/admin_template/es_widgets.php:74
+msgid "Category:"
+msgstr "التصنيف:"
+
+#: estatik/admin_template/es_widgets.php:80
+msgid "Type:"
+msgstr "النوع:"
+
+#: estatik/admin_template/es_widgets.php:86
+msgid "Sqft:"
+msgstr "قدم:"
+
+#: estatik/admin_template/es_widgets.php:92
+msgid "Lot size:"
+msgstr "المساحة الإجمالية:"
+
+#: estatik/admin_template/es_widgets.php:98
+msgid "Keywords:"
+msgstr "كلمات دلالية:"
+
+#: estatik/admin_template/es_widgets.php:117
+msgid "Show On Pages"
+msgstr "العرض على الصفحات"
+
+#: estatik/admin_template/es_widgets.php:129
+msgid "Select Pages"
+msgstr "تحديد الصفحات"
+
+#: estatik/admin_template/es_widgets.php:153
+msgid "Archive Page"
+msgstr "صفحة الإرشيف"
+
+#: estatik/admin_template/es_widgets.php:157
+msgid "Single Page"
+msgstr "صفحة واحدة"
+
+#: estatik/admin_template/es_widgets.php:161
+msgid "Category Page"
+msgstr "صفحة تصنيف"
+
+#: estatik/admin_template/es_widgets.php:165
+msgid "Search Page"
+msgstr "صفحة بحث"
+
+#: estatik/admin_template/es_widgets.php:169
+msgid "Author Page"
+msgstr "صفحة الكاتب"
+
+#: estatik/estatik.php:28
+msgid "Estatik Pro"
+msgstr "Estatik Pro"
+
+#: front_templates/includes/es_cheapest_props.php:72
+#: front_templates/includes/es_featured_props.php:73
+#: front_templates/includes/es_latest_props.php:77
+#: front_templates/includes/es_my_listing.php:207
+msgid "hot"
+msgstr "عرض جديد"
+
+#: front_templates/includes/es_cheapest_props.php:75
+#: front_templates/includes/es_featured_props.php:76
+#: front_templates/includes/es_latest_props.php:80
+#: front_templates/includes/es_my_listing.php:210
+msgid "openhouse"
+msgstr "منزل"
+
+#: front_templates/includes/es_cheapest_props.php:78
+#: front_templates/includes/es_featured_props.php:79
+#: front_templates/includes/es_latest_props.php:83
+#: front_templates/includes/es_my_listing.php:213
+msgid "foreclosure"
+msgstr "فيلا"
+
+#: front_templates/includes/es_cheapest_props.php:142
+#: front_templates/includes/es_featured_props.php:142
+#: front_templates/includes/es_latest_props.php:146
+#: front_templates/includes/es_my_listing.php:277
+msgid "beds"
+msgstr "الأسرة"
+
+#: front_templates/includes/es_cheapest_props.php:143
+#: front_templates/includes/es_featured_props.php:143
+#: front_templates/includes/es_latest_props.php:147
+#: front_templates/includes/es_my_listing.php:278
+msgid "bath"
+msgstr "حمام"
+
+#: front_templates/includes/es_cheapest_props.php:146
+#: front_templates/includes/es_featured_props.php:146
+#: front_templates/includes/es_latest_props.php:150
+#: front_templates/includes/es_my_listing.php:281
+#: front_templates/includes/es_prop_single.php:68
+#: front_templates/includes/es_prop_single.php:244
+msgid "View on map"
+msgstr "العرض على الخريطة"
+
+#: front_templates/includes/es_cheapest_props.php:147
+#: front_templates/includes/es_featured_props.php:147
+#: front_templates/includes/es_latest_props.php:151
+#: front_templates/includes/es_my_listing.php:282
+msgid "Details"
+msgstr "التفاصيل"
+
+#: front_templates/includes/es_cheapest_props.php:169
+#: front_templates/includes/es_featured_props.php:169
+#: front_templates/includes/es_latest_props.php:171
+#: front_templates/includes/es_my_listing.php:311
+msgid "Map"
+msgstr "الخريطة"
+
+#: front_templates/includes/es_cheapest_props.php:178
+#: front_templates/includes/es_featured_props.php:179
+#: front_templates/includes/es_latest_props.php:182
+#: front_templates/includes/es_my_listing.php:305
+#: front_templates/includes/es_prop_single.php:301
+msgid "Powered by"
+msgstr "تطوير بـ"
+
+#: front_templates/includes/es_prop_single.php:66
+msgid "Basic facts"
+msgstr "حقائق اساسية"
+
+#: front_templates/includes/es_prop_single.php:142
+msgid "Area size"
+msgstr "حجم المنطقة"
+
+#: front_templates/includes/es_prop_single.php:157
+msgid "Rent Period"
+msgstr "مدة الإيجار"
+
+#: front_templates/includes/es_prop_single.php:279
+msgid "Amenities"
+msgstr "الخدمات"
+
+#: front_templates/includes/es_prop_single.php:296
+msgid "To top"
+msgstr "إلى الأعلى"
+
+#: front_templates/includes/es_view_first.php:8
+#: front_templates/widgets/es_search.php:125
+msgid "Search"
+msgstr "بحث"
+
+#: front_templates/includes/es_view_first.php:19
+msgid "Properties by Agent"
+msgstr "العقارات بحسب العميل"
+
+#: front_templates/includes/es_view_first.php:29
+msgid "View first"
+msgstr "العرض أولا"
+
+#: front_templates/widgets/es_search.php:122
+msgid "Address, City, ZIP"
+msgstr "العنوان, المدينة, الحي"
+
+#: front_templates/widgets/es_search.php:124
+msgid "Reset"
+msgstr "إعادة"
+
+#: front_templates/widgets/es_search.php:134
+#: front_templates/widgets/es_search.php:142
+#: front_templates/widgets/es_search.php:150
+#: front_templates/widgets/es_search.php:159
+#: front_templates/widgets/es_search.php:167
+msgid "min"
+msgstr "الأدنى"
+
+#: front_templates/widgets/es_search.php:136
+#: front_templates/widgets/es_search.php:144
+#: front_templates/widgets/es_search.php:152
+#: front_templates/widgets/es_search.php:161
+#: front_templates/widgets/es_search.php:169
+msgid "max"
+msgstr "الأعلى"
+
+#: front_templates/widgets/es_search.php:158
+msgid "Sq ft"
+msgstr "قدم"
+
+#: front_templates/widgets/es_search.php:213
+msgid "Key words"
+msgstr "كلمات دلالية"
