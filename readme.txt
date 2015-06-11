@@ -1,7 +1,7 @@
 ===Estatik===
 Contributors: Estatik
 Donate link: http://estatik.net/
-Tags: wordpress real estate, property, properties, estate, real estate, listing, listings, property listing, realtor, agent, house, wordpress real estate plugin, broker, mls, idx, property import, real estate agent, real estate website, property management
+Tags: realestate, wordpress real estate, property, properties, estate, real estate, listing, listings, property listing, realtor, agent, house, wordpress real estate plugin, broker, mls, idx, property import, real estate agent, real estate website, property management
 Requires at least: 3.9
 Tested up to: 4.2
 Stable tag: trunk
@@ -68,6 +68,13 @@ Support:
 * [Step-by-step guide](http://estatik.net/estatik-plugin-documentation/)
 * [Video tutorial](https://www.youtube.com/channel/UCHhq46H033xh7XLsV8GqY3Q)
 * [Frequently Asked Questions](http://estatik.net/faq/)
+
+Translated into:
+
+* Russian
+* Italian
+* Spanish
+* Arabic
 
 
 == Installation ==
@@ -166,3 +173,8 @@ Please [contact us](http://estatik.net/contact-us/) if you do not know how to do
 * PRO - Option to use different layouts added
 
 Please read full description of new release [here](http://estatik.net/estatik-2-0-terrific-released-map-view-lots-of-major-fixes-done/)
+
+= 2.0.1 =
+* Italian translation added  
+* Spanish translation added 
+* Arabic translation added
