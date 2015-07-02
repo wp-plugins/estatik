@@ -85,6 +85,7 @@ Translated into:
 3. Add your properties via Estatik >> Add property and add them to menus. 
 
 Please visit our detailed Step-by-Step guide here >> http://estatik.net/estatik-plugin-documentation/
+[Video tutorial](https://www.youtube.com/watch?v=j9-x8CW3l1o&list=PLZ0IVxKARAVQN5j5ubJT9oi8bTKnUZdKc&index=2) is also available.
  
 
 == Frequently Asked Questions ==
