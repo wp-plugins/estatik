@@ -174,16 +174,16 @@ Please read full description of new release [here](http://estatik.net/estatik-2-
 * Arabic translation added
 
 = 2.1.0 =
-* New shortcodes for categories added: [es_category category=”for sale”],[es_category type=”house”],[es_category status=”open”]
+* New shortcodes for categories added: [es_category category="for sale"],[es_category type="house"],[es_category status="open"]
 * New shortcode for search results page added 
 * French translation added
 * Google Map API option added
-* Search widget results page bug – fixed.
+* Search widget results page bug fixed.
 * Description box bug with text fixed
-* Display of area/lot size dimensions on front-end – fixed
+* Display of area/lot size dimensions on front-end fixed
 * PRO: PDF translation issue fixed
 * PRO: PDF display in IE and Chrome error fixed
 * PRO: Google Map API option added
-* PRO: Copying images after CSV import – fixed
+* PRO: Copying images after CSV import fixed
 
 Please read full description of new release [here](http://estatik.net/estatik-2-1-release-no-more-coding-from-now/)
