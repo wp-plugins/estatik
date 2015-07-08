@@ -23,7 +23,7 @@ Estatik Pro features:
 * frontend property management (submitting properties after admin approval)
 * responsive layouts (table/list/2 columns view - for list view; image right, left, center - single property view)
 * agents support (agent profile, ratings, contact information)
-* map view via shortcode and widget
+* map view via shortcode and map widget
 * meta information fields 
 * CSV import
 * customizable fields (features, appliances, addresses, currenies, dimensions, neighbourhood)
@@ -54,6 +54,10 @@ Shortcodes:
 * [es_latest_props layout="table"] = Table listings layout
 * [es_latest_props layout="list"] = List listing layout
 * [es_latest_props layout="2columns"] = 2 columns listing layout
+* [es_category category="for sale"] = Listings for sale 
+* [es_category type="house"] = Listings of type - house
+* [es_category status="open"] = Listings with status open
+* [es_search] = Search results
 
 Visit official [Estatik Pro page](http://estatik.net/product/estatik-professional/) to get full information.
 
@@ -75,6 +79,7 @@ Translated into:
 * Italian
 * Spanish
 * Arabic
+* French
 
 
 == Installation ==
@@ -114,18 +119,6 @@ Please go to Settings >> Permalinks and click Save button there. After go to sit
 = PDF button is not working. What am I doing wrong? = 
 
 If you click on PDF button and it says that file is corrupted or opens nothing, please make sure that you have pdf lib installed at your host provider and php version is 5.3.x and higher.
-
-= I created a page of category/status/type but listings are not displayed correctly. How to fix that? = 
-
-If you assigned to menu a categoty of properties but when clicking on it, it doesn’t look like My listing page, just add shortcode – [es_category_property_listing] into archive.php file of your current theme in while loop:
-
-while ( have_posts() ) { the_post();
-
-echo do_shortcode(‘[es_category_property_listing]’);
-
-}
-
-Please [contact us](http://estatik.net/contact-us/) if you do not know how to do that. Our team will check and do it for you.
 
 
 
@@ -179,3 +172,18 @@ Please read full description of new release [here](http://estatik.net/estatik-2-
 * Italian translation added  
 * Spanish translation added 
 * Arabic translation added
+
+= 2.1.0 =
+* New shortcodes for categories added: [es_category category=”for sale”],[es_category type=”house”],[es_category status=”open”]
+* New shortcode for search results page added 
+* French translation added
+* Google Map API option added
+* Search widget results page bug – fixed.
+* Description box bug with text fixed
+* Display of area/lot size dimensions on front-end – fixed
+* PRO: PDF translation issue fixed
+* PRO: PDF display in IE and Chrome error fixed
+* PRO: Google Map API option added
+* PRO: Copying images after CSV import – fixed
+
+Please read full description of new release [here](http://estatik.net/estatik-2-1-release-no-more-coding-from-now/)

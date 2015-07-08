@@ -39,7 +39,8 @@ class es_search extends WP_Widget {
 			$category_page 		= esc_attr($instance['category_page']);
 			$search_page 		= esc_attr($instance['search_page']);
 			$author_page 		= esc_attr($instance['author_page']);
- 
+            $search_page_id = get_option('es_search_page');
+
 		} 
 		?>
         <p>
@@ -112,6 +113,19 @@ class es_search extends WP_Widget {
 				?>
 			</select>
 		</p> 
+		
+		        <p>
+            <label for="<?php echo 'search_page' ?>"><?php _e('Search page', 'es-plugin'); ?></label>
+            <select name="<?php echo $this->get_field_name('search_page'); ?>" id="<?php echo $this->get_field_id('search_page'); ?>" class="widefat">
+                <?php
+                $pages = get_pages($pages_args);
+                foreach ($pages as $page ){ ?>
+                    <option value="<?php echo $page->ID;  ?>" <?php selected($search_page_id, $page->ID); ?>><?php echo get_the_title($page->ID); ?></option>
+                <?php }  ?>
+
+            </select>
+        </p>
+        
         
         <p>
 			<label for="<?php echo $this->get_field_id('show_on_pages'); ?>"><?php _e('Show On Pages', 'es-plugin'); ?></label>
@@ -204,7 +218,9 @@ class es_search extends WP_Widget {
 		$instance['archive_page'] 		= strip_tags($new_instance['archive_page']);
 		$instance['single_page'] 		= strip_tags($new_instance['single_page']);
 		$instance['category_page'] 		= strip_tags($new_instance['category_page']);
-		$instance['search_page'] 		= strip_tags($new_instance['search_page']);
+		        $instance['search_page']        = strip_tags($new_instance['search_page']);
+        update_option('es_search_page', $instance['search_page']);
+
 		$instance['author_page'] 		= strip_tags($new_instance['author_page']);
  
 		return $instance;

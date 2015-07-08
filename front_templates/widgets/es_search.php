@@ -99,6 +99,8 @@ $show_on_pages=="hide_on_checked_pages" && ( $current_page==false || $author_pag
 &&
 in_array($widget_id,$choosed_pages)
 ){
+    $search_page_id = get_option('es_search_page');
+    $search_page_url = get_permalink($search_page_id);
 
 ?>
 
@@ -113,7 +115,8 @@ in_array($widget_id,$choosed_pages)
  
         ?>
    
-        <form method="post" action="<?php bloginfo('home'); ?>/">
+                <form method="get" action="<?php echo $search_page_url; //home_url(); ?>/">
+
         
         	<input type="hidden" value="<?php the_search_query(); ?>" name="s" id="s" />
             

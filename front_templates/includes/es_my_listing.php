@@ -13,32 +13,33 @@
         
         <?php endif; ?>
  
-	<?php if(is_search()){ ?>
+	<?php if (is_search() || isset($_GET['s'])) { ?>
 		<div class="es_success"><?php _e("Your search results.", 'es-plugin'); ?></div>
 	<?php } ?>
+
  
     <div class="es_my_listing clearfix">
         <ul>
             <?php
             global $wpdb;
  			
-			$address 		= (isset($_POST['address'])) ? sanitize_text_field($_POST['address']) : "";
-			$key_words 		= (isset($_POST['key_words'])) ? sanitize_text_field($_POST['key_words']) : "";
-			$agent 			= (isset($_POST['agent'])) ? sanitize_text_field($_POST['agent']) : "";
-			$type 			= (isset($_POST['type'])) ? sanitize_text_field($_POST['type']) : "";
+			$address 		= (isset($_GET['address'])) ? sanitize_text_field($_GET['address']) : "";
+			$key_words 		= (isset($_GET['key_words'])) ? sanitize_text_field($_GET['key_words']) : "";
+			$agent 			= (isset($_GET['agent'])) ? sanitize_text_field($_GET['agent']) : "";
+			$type 			= (isset($_GET['type'])) ? sanitize_text_field($_GET['type']) : "";
 			
-			$category 		= (isset($_POST['category'])) ? sanitize_text_field($_POST['category']) : "";
-			$price_min 		= (isset($_POST['price_min'])) ? sanitize_text_field($_POST['price_min']) : "";
-			$price_max 		= (isset($_POST['price_max'])) ? sanitize_text_field($_POST['price_max']) : "";
-			$bedrooms_min 	= (isset($_POST['bedrooms_min'])) ? sanitize_text_field($_POST['bedrooms_min']) : "";
-			$bedrooms_max 	= (isset($_POST['bedrooms_max'])) ? sanitize_text_field($_POST['bedrooms_max']) : "";
-			$bathrooms_min 	= (isset($_POST['bathrooms_min'])) ? sanitize_text_field($_POST['bathrooms_min']) : "";
-			$bathrooms_max 	= (isset($_POST['bathrooms_max'])) ? sanitize_text_field($_POST['bathrooms_max']) : "";
+			$category 		= (isset($_GET['category'])) ? sanitize_text_field($_GET['category']) : "";
+			$price_min 		= (isset($_GET['price_min'])) ? sanitize_text_field($_GET['price_min']) : "";
+			$price_max 		= (isset($_GET['price_max'])) ? sanitize_text_field($_GET['price_max']) : "";
+			$bedrooms_min 	= (isset($_GET['bedrooms_min'])) ? sanitize_text_field($_GET['bedrooms_min']) : "";
+			$bedrooms_max 	= (isset($_GET['bedrooms_max'])) ? sanitize_text_field($_GET['bedrooms_max']) : "";
+			$bathrooms_min 	= (isset($_GET['bathrooms_min'])) ? sanitize_text_field($_GET['bathrooms_min']) : "";
+			$bathrooms_max 	= (isset($_GET['bathrooms_max'])) ? sanitize_text_field($_GET['bathrooms_max']) : "";
 			
-			$area_min 		= (isset($_POST['area_min'])) ? sanitize_text_field($_POST['area_min']) : "";
-			$area_max 		= (isset($_POST['area_max'])) ? sanitize_text_field($_POST['area_max']) : "";
-			$lotsize_min 	= (isset($_POST['lotsize_min'])) ? sanitize_text_field($_POST['lotsize_min']) : "";
-			$lotsize_max 	= (isset($_POST['lotsize_max'])) ? sanitize_text_field($_POST['lotsize_max']) : "";
+			$area_min 		= (isset($_GET['area_min'])) ? sanitize_text_field($_GET['area_min']) : "";
+			$area_max 		= (isset($_GET['area_max'])) ? sanitize_text_field($_GET['area_max']) : "";
+			$lotsize_min 	= (isset($_GET['lotsize_min'])) ? sanitize_text_field($_GET['lotsize_min']) : "";
+			$lotsize_max 	= (isset($_GET['lotsize_max'])) ? sanitize_text_field($_GET['lotsize_max']) : "";
  
     
             $where = "";
@@ -168,6 +169,26 @@
             require_once(PATH_DIR . 'front_templates/includes/pagination.php');
              
             $config['base_url']  = '?';
+			if (is_search() || isset($_GET['s'])) {
+				$config['suffix'] .= (isset($_GET['address'])) ? '&address=' . sanitize_text_field($_GET['address']) : "&address=";
+				$config['suffix'] .= (isset($_GET['key_words'])) ? '&key_words=' . sanitize_text_field($_GET['key_words']) : "&key_words=";
+				$config['suffix'] .= (isset($_GET['agent'])) ? '&agent=' . sanitize_text_field($_GET['agent']) : "&agent=";
+				$config['suffix'] .= (isset($_GET['type'])) ? '&type=' . sanitize_text_field($_GET['type']) : "&type=";
+
+				$config['suffix'] .= (isset($_GET['category'])) ? '&category=' . sanitize_text_field($_GET['category']) : "&category=";
+				$config['suffix'] .= (isset($_GET['price_min'])) ? '&price_min=' . sanitize_text_field($_GET['price_min']) : "&price_min=";
+				$config['suffix'] .= (isset($_GET['price_max'])) ? '&price_max=' . sanitize_text_field($_GET['price_max']) : "&price_max=";
+				$config['suffix'] .= (isset($_GET['bedrooms_min'])) ? '&bedrooms_min=' . sanitize_text_field($_GET['bedrooms_min']) : "&bedrooms_min=";
+				$config['suffix'] .= (isset($_GET['bedrooms_max'])) ? '&bedrooms_max=' . sanitize_text_field($_GET['bedrooms_max']) : "&bedrooms_max=";
+				$config['suffix'] .= (isset($_GET['bathrooms_min'])) ? '&bathrooms_min=' . sanitize_text_field($_GET['bathrooms_min']) : "&bathrooms_min=";
+				$config['suffix'] .= (isset($_GET['bathrooms_max'])) ? '&bathrooms_max=' . sanitize_text_field($_GET['bathrooms_max']) : "&bathrooms_max=";
+
+				$config['suffix'] .= (isset($_GET['area_min'])) ? '&area_min=' . sanitize_text_field($_GET['area_min']) : "&area_min=";
+				$config['suffix'] .= (isset($_GET['area_max'])) ? '&area_max=' . sanitize_text_field($_GET['area_max']) : "&area_max=";
+				$config['suffix'] .= (isset($_GET['lotsize_min'])) ? '&lotsize_min=' . sanitize_text_field($_GET['lotsize_min']) : "&lotsize_min=";
+				$config['suffix'] .= (isset($_GET['lotsize_max'])) ? '&lotsize_max=' . sanitize_text_field($_GET['lotsize_max']) : "&lotsize_max=";
+			}
+
             $config['total_rows'] = $total_record->total_record;
             $config['per_page']  = $es_per_page;
             $config['uri_segment'] = 3;

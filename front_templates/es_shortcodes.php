@@ -60,4 +60,10 @@ function es_single_property() {
 }
 add_shortcode( 'es_single_property', 'es_single_property' );
  
- 
+ function es_new_category_shortcode($atts){
+    ob_start();
+    include('includes/es_category.php');
+    return ob_get_clean();
+}
+
+add_shortcode('es_category', 'es_new_category_shortcode');

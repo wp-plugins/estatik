@@ -72,6 +72,8 @@ function es_categories_property() {
   $args = array(
     'labels' => $labels,
     'hierarchical' => true,
+	    'show_in_nav_menus' => false,
+
   );
   register_taxonomy( 'property_category', 'properties', $args );
 }
@@ -95,6 +97,8 @@ function es_status_property() {
   $args = array(
     'labels' => $labels,
     'hierarchical' => true,
+	    'show_in_nav_menus' => false,
+
   );
   register_taxonomy( 'property_status', 'properties', $args );
 }
@@ -118,6 +122,8 @@ function es_type_property() {
   $args = array(
     'labels' => $labels,
     'hierarchical' => true,
+	    'show_in_nav_menus' => false,
+
   );
   register_taxonomy( 'property_type', 'properties', $args );
 }
