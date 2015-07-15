@@ -120,6 +120,10 @@ Please go to Settings >> Permalinks and click Save button there. After go to sit
 
 If you click on PDF button and it says that file is corrupted or opens nothing, please make sure that you have pdf lib installed at your host provider and php version is 5.3.x and higher.
 
+= Search is not working. What am I doing wrong? =
+
+Please [check this page >>](http://estatik.net/faq/#document-7) 
+
 
 
 == Screenshots ==
