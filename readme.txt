@@ -122,7 +122,11 @@ If you click on PDF button and it says that file is corrupted or opens nothing, 
 
 = Search is not working. What am I doing wrong? =
 
-Please [check this page >>](http://estatik.net/faq/#document-7) 
+Please [check this page >>](http://estatik.net/faq/#document-7)
+
+= How to setup front-end management? =
+
+Please watch our [video tutorial here >>](https://www.youtube.com/watch?v=BzTsW2mCElU) 
 
 
 
