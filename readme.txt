@@ -39,19 +39,19 @@ Estatik Pro features:
 Shortcodes:
 
 * [es_my_listing] = All listings list
-* [es_agents] = All agents list
+* [es_agents] = All agents list (PRO)
 * [es_featured_props] = Featured properties list
 * [es_latest_props] = Latest properties list
 * [es_cheapest_props] = Cheapest properties list
-* [es_profile] = Profile of agent page
-* [es_prop_management] = Properties management
-* [es_register] = Agents registration
-* [es_login] = Log in page
-* [es_property_map] = All properties
-* [es_property_map type="for-rent"] = Properties for rent
-* [es_property_map type="for-sale"] = Properties for sale
-* [es_property_map prop_id="12, 24, 26"] = Specific properties
-* [es_latest_props layout="table"] = Table listings layout
+* [es_profile] = Profile of agent page (PRO)
+* [es_prop_management] = Properties management (PRO)
+* [es_register] = Agents registration (PRO)
+* [es_login] = Log in page (PRO)
+* [es_property_map] = All properties (PRO)
+* [es_property_map type="for-rent"] = Properties for rent (PRO)
+* [es_property_map type="for-sale"] = Properties for sale (PRO)
+* [es_property_map prop_id="12, 24, 26"] = Specific properties (PRO)
+* [es_latest_props layout="table"] = Table listings layout 
 * [es_latest_props layout="list"] = List listing layout
 * [es_latest_props layout="2columns"] = 2 columns listing layout
 * [es_category category="for sale"] = Listings for sale 
