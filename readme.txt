@@ -14,7 +14,7 @@ Beautifully designed, simple in use, customizable. WordPress real estate plugin 
 
 Estatik Simple plugin helps you create easy-to-use WordPress real estate website. Main features of Estatik Simple: clean design, customizable fields (unlimited number of new fields), responsive layout, comprehensive interface,
 photo gallery,  search widget, Google map, unlimited categories/types/statuses, labels, language files. Check out http://estatik.net/ for more information.
-Visit [demo](http://demo.estatik.net/) of Estatik plugin on one of deafult WordPress themes or [demo](http://themes.estatik.net/) on Estatik custom theme.
+Visit [demo](http://demo.estatik.net/) of Estatik plugin on one of default WordPress themes or [demo](http://themes.estatik.net/) on Estatik custom theme.
 
  
 Estatik Pro features:
@@ -127,6 +127,10 @@ Please [check this page >>](http://estatik.net/faq/#document-7)
 = How to setup front-end management? =
 
 Please watch our [video tutorial here >>](https://www.youtube.com/watch?v=BzTsW2mCElU) 
+
+= Will I lose my listings when upgrading from Simple to Pro version? =
+
+No you will not lose your listings. Read [here >>](http://estatik.net/estatik-plugin-documentation/#document-15) how to upgrade.
 
 
 
