@@ -130,7 +130,12 @@ Please watch our [video tutorial here >>](https://www.youtube.com/watch?v=BzTsW2
 
 = Will I lose my listings when upgrading from Simple to Pro version? =
 
-No you will not lose your listings. Read [here >>](http://estatik.net/estatik-plugin-documentation/#document-15) how to upgrade.
+No, you will not lose your listings. Read [here >>](http://estatik.net/estatik-plugin-documentation/#document-15) how to upgrade.
+
+= Estatik doesn't work properly with my theme? Can you help? =
+
+Yes, we can check all the issues and fix or advise at least. Please contact our [support team >>](http://estatik.net/contact-us/).
+
 
 
 
