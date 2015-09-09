@@ -160,7 +160,7 @@ Yes, we can check all the issues and fix or advise at least. Please contact our 
 == Changelog ==
 
 
-= 1.0.0 =
+= 1.0.0 (March 24, 2015) =
 * Data manager is added.
 * Property listings shortcodes are added.
 * Search widget is added.
@@ -173,7 +173,7 @@ Yes, we can check all the issues and fix or advise at least. Please contact our 
 * Issue with Google Map API fixed
 * Translation into Russian added
 
-= 2.0 = 
+= 2.0 (May 16, 2015) = 
 * Safari responsive layout issue fixed
 * Google Map icons issue fixed 
 * PRO - HTML editor added
@@ -190,7 +190,7 @@ Please read full description of new release [here](http://estatik.net/estatik-2-
 * Spanish translation added 
 * Arabic translation added
 
-= 2.1.0 =
+= 2.1.0 (July 7, 2015) =
 * New shortcodes for categories added: [es_category category="for sale"],[es_category type="house"],[es_category status="open"]
 * New shortcode for search results page added 
 * French translation added
