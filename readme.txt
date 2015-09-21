@@ -155,6 +155,8 @@ Yes, we can check all the issues and fix or advise at least. Please contact our 
 11. Agents
 12. Admin - features
 13. Map view settings
+14. Plugin demo on Theme Native (all properties view)
+15. Plugin demo on Theme Native (single property view)
 
 
 == Changelog ==
