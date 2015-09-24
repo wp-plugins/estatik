@@ -112,6 +112,10 @@ Sure, you get free support for any of Estatik version. Please contact us >> http
 
 Please check these pages >> http://estatik.net/estatik-plugin-documentation/. 
 
+= Can I integrate my MLS listings with Estatik PRO or should I buy anything additionally? =
+
+No, Estatik PRO will not allow you to integrate your website with MLS provider. MLS integration via RETS or IDX FTP can be done only on custom and extra charged basis. Please contact our [support >>](http://estatik.net/contact-us/) for more details.
+
 = When I click on details page it says 404 Error: page not found. =
 
 Please go to Settings >> Permalinks and click Save button there. After go to site and view result.
