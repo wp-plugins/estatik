@@ -1,0 +1,458 @@
+#es_content,
+#es_search,
+#es_request_form,
+#es_slideShow {
+	color: #1d1d1d !important; 
+} 
+
+#es_content p a:hover,
+#es_search p a:hover,
+#es_request_form p a:hover,
+#es_slideShow p a:hover { 
+	color: #1d1d1d; 
+}
+ 
+#es_content a,
+#es_search a,
+#es_request_form a,
+#es_slideShow a { 
+	color: #1d1d1d; 
+}
+
+#es_content .es_breadcrumb ul li span { 
+	color: #9e9e9e;
+}
+
+#es_content .es_breadcrumb ul li a { 
+	color: #1d1d1d; 
+}
+
+#es_content .es_view_list_outer h1 { 
+	color:#1d1d1d;
+}
+
+#es_content .es_view_list label { 
+	color:#9e9e9e; 
+}
+
+#es_content .es_view_list_links ul li a { 
+	color:#9e9e9e;
+}
+
+#es_content .es_view_list_links ul li.current-menu-item a:hover{ 
+	color:#9e9e9e; 
+}
+
+#es_content .es_view_list_links ul li a:hover{ 
+	color:#1d1d1d; 
+}
+
+#es_search .es_my_listing_search_upper input[type="text"] { 
+	background-color: #fff; 
+	border-color: #e2e2e2; 
+	color:#9e9e9e;
+}
+
+#es_search .es_my_listing_search_upper input[type="text"]:focus{ 
+	border-color: #1d1d1d; 
+}
+
+#es_search .es_my_listing_search_upper input[type="reset"]{ 
+	background:#9e9e9e; 
+	color:#1d1d1d;
+}
+
+#es_search .es_my_listing_search_upper input[type="submit"] { 
+	color:#1d1d1d;
+}
+
+#es_search .es_my_listing_search_upper input[type="submit"]:hover, 
+#es_search .es_my_listing_search_upper input[type="submit"]:focus{ 
+	color:#fff;
+}
+
+#es_search .es_my_listing_search_field label {
+	color:#1d1d1d;
+}
+
+#es_content .es_my_list_title h3 a{ 
+	color:#1d1d1d; 
+}
+
+#es_search .es_my_listing_search_field i { 
+	color:#1d1d1d;
+}
+ 
+#es_search .es_search_select span{ 
+	color:#9e9e9e;
+}
+
+#es_search .es_search_select ul{
+	background:#fff; 
+	border-color: #e2e2e2; 
+}
+
+#es_content .es_my_list_pic span small{ 
+	color:#1d1d1d;
+}
+
+#es_content .es_my_list_title h3 {
+	color:#1d1d1d;
+}
+
+#es_content .es_my_list_specs span {
+	color:#1d1d1d;
+}
+
+#es_content .es_my_list_more { 
+	background:#f0f0f0;
+}
+
+#es_content .es_my_list_specs { 
+	background:#f0f0f0;
+}
+
+#es_content .es_my_list_more a.es_map_view {
+	color:#1d1d1d;
+}
+
+#es_content .es_my_list_more a.es_detail_btn { 
+	color:#fff;
+}
+
+#es_content .es_my_list_pic span{ 
+	background:rgba(255, 255, 255, 0.8); 
+}
+
+#es_request_form .es_learn_aboot_prop input[type="text"], 
+#es_request_form .es_learn_aboot_prop textarea{ 
+	background:#fff;  
+	border-color: #e2e2e2;
+	color:#9e9e9e;
+}
+
+#es_request_form .es_learn_aboot_prop input[type="submit"]{ 
+	color:#1d1d1d;
+}
+
+#es_request_form .es_learn_aboot_prop input[type="text"]:focus, 
+#es_request_form .es_learn_aboot_prop textarea:focus{ 
+	border-color: #1d1d1d; 
+}
+
+#es_search #search_vertical h3{ 
+	color:#1d1d1d; 
+}
+
+#es_slideShow .es_slide_list_specs span small { 
+	color:#9e9e9e;
+}
+
+#es_content .es_news_on_single ul li h4 a:hover{ 
+	color:#9e9e9e; 
+}
+
+#es_content .es_news_on_single ul li span{
+	color:#9e9e9e;
+}
+
+#es_content .es_news_on_single .es_view_all{ 
+	border-color: #1d1d1d;
+	color:#1d1d1d;
+}
+
+#es_content .es_only_pro_single h3{
+	color:#9e9e9e;
+}
+
+#es_content .es_single_in h3{ 
+	border-bottom-color: #e2e2e2; 
+} 
+
+#es_content .es_prop_single_head strong{
+	background:#f0f0f0;
+}
+
+#es_content .es_prop_single_tabs ul{
+	border-bottom-color: #e2e2e2; 
+	background:#fff; 
+}
+
+#es_content .es_prop_single_tabs ul li{
+	background:#f0f0f0;
+}
+
+#es_content .es_prop_single_tabs ul li a{
+	color:#1d1d1d; 
+	background:#f0f0f0;
+}
+
+#es_search #search_vertical .es_my_listing_search_field:last-child input, 
+#es_search #search_vertical .es_my_listing_search_field select{ 
+	background:#fff; 
+}
+
+#es_search #search_vertical .es_my_listing_search_upper input[type="reset"]{ 
+	background:#9e9e9e;
+}
+
+#es_search #search_vertical .es_my_listing_search_upper input[type="reset"]:hover, 
+#es_search #search_vertical .es_my_listing_search_upper input[type="reset"]:focus{ 
+	background:#fff; 
+	color:#1d1d1d; 
+}
+
+#es_content .es_news_on_single h3{
+	color:#9e9e9e;
+}
+
+#es_content .es_news_on_single ul li h4 a{ 
+	color:#1d1d1d; 
+}
+
+#es_search #search_vertical .es_my_listing_search_upper input[type="submit"]{ 
+	color:#1d1d1d;
+}
+
+#es_search #search_vertical .es_my_listing_search_field input{  
+	background:#fff; 
+}
+
+#es_slideShow .es_slide_list_upper { 
+	background:#f0f0f0; 
+}
+
+#es_content .es_pagination ul li a { 
+	color:#9e9e9e;
+}
+
+#es_content .es_my_list_more a.es_detail_btn:hover{ 
+	color:#1d1d1d; 
+}
+
+#es_content .es_my_list_pic span small{ 
+	color:#1d1d1d;
+}
+
+#es_content .prop_labels label.es_foreclosure{ 
+	color:#9e9e9e; 
+} 
+
+#es_search .es_search_select ul li{ 
+	color:#1d1d1d;
+}
+
+#es_content .prop_labels label{
+	background:#fff; 
+}
+
+#es_search .es_search_select.focus small{ 
+	background-color:#9e9e9e; 
+}
+
+#es_search .es_search_select.focus{ 
+	border-color: #e2e2e2;
+}
+
+#es_search .es_search_select ul li.selected, 
+#es_search .es_search_select ul li:hover{ 
+	background:#f0f0f0; 
+	color:#1d1d1d; 
+}
+
+#es_search .es_search_select{
+	background:#fff;
+	border-color:#e2e2e2;
+}
+
+#es_search .es_my_listing_search_field input:focus{ 
+	border-color: #1d1d1d; 
+}
+
+#es_search .es_my_listing_search_field input{ 
+	color:#9e9e9e;
+	border-color: #e2e2e2;
+}
+
+#es_search .es_my_listing_search_upper input[type="reset"]:hover, 
+#es_search .es_my_listing_search_upper input[type="reset"]:focus{ 
+	color:#fff; 
+	background:#9e9e9e; 
+}
+
+#es_search #search_vertical { 
+	background: #f0f0f0;
+	color: #1d1d1d;
+}
+
+#es_content .es_my_list_in { 
+	border-color: #e2e2e2;
+}
+
+#es_content .es_my_listing ul li:hover .es_my_list_in { 
+	border-color: #1d1d1d;
+}
+
+#es_content.es_1_column .es_my_list_title h2 { 
+	background:#f0f0f0;
+}
+
+#es_content .es_my_list_title h2 { 
+	color:#1d1d1d; 
+}
+
+#es_content .es_prop_single_tabs ul li a.active{ 
+	background:#fff; 
+	color:#9e9e9e;
+	border-color: #e2e2e2;
+} 
+
+#es_content #es_prop_single_slider_in{ 
+	border-color: #e2e2e2;
+}
+
+#es_content .es_prop_single_pager li a:hover{
+	border-color: #1d1d1d;
+}
+
+#es_content .es_prop_single_socil_links > span, 
+#es_content .es_prop_single_socil_links a { 
+	border-color: #e2e2e2;
+} 
+
+#es_content .es_prop_single_socil_links > span:hover, 
+#es_content .es_prop_single_socil_links a:hover { 
+	border-color: #1d1d1d;
+}
+
+#es_content .es_prop_single_agent_info_quantity{ 
+	background:#f0f0f0;
+}
+
+#es_content .es_login_in{
+	background:#e2e2e2;
+}
+
+#es_content .es_login_in input[type="text"], 
+#es_content .es_login_in input[type="password"]{ 
+	background:#fff;
+	color:#1d1d1d;
+}
+
+#es_content .es_login_in input[type="submit"]{ 
+	color:#1d1d1d;
+}
+
+#es_content .es_login_in p a{
+	color:#1d1d1d;
+}
+
+#es_content .es_login_in p a:hover{ 
+	color:#1d1d1d;
+}
+
+#es_content .es_agents_content_listing ul li{ 
+	border-color: #e2e2e2;
+}
+
+#es_content .es_agent_info_quantity{ 
+	background:#f0f0f0;
+}
+
+#es_loader{
+	background:#fff;
+}
+
+#es_content .es_success,
+#es_content .es_warn,
+#es_content .es_error { 
+	background-color: #fff; 
+} 
+
+#es_content .es_powred_by p,
+#es_content .es_powred_by p a,
+#es_content .es_powred_by p a:hover{ 
+	color:#1d1d1d; 
+}
+
+#es_content #es_map_pop_outer:before{
+	background:#000;
+}
+
+#es_content #es_map_pop{
+	background:#fff;
+}
+
+#es_content #es_map_pop #es_closePop{ 
+	color:#1d1d1d;
+}
+
+#es_content .queriedHead h1 { 
+	color:#1d1d1d;
+}
+
+#es_content #es_toTop a{
+	color:#9e9e9e;
+}
+
+#es_content #es_toTop a:hover{ 
+	color:#1d1d1d;
+}
+
+#es_content .es_view_list_outer h1 { 
+	color:#1d1d1d;
+}
+
+#es_content .es_view_list label {
+	color:#9e9e9e;
+}
+
+#es_content .es_view_list_links p{
+	color:#9e9e9e;
+}
+
+#es_content .es_view_list_links ul li a {
+	color:#9e9e9e;
+}
+
+#es_content .es_view_list_links ul li.current-menu-item a{  
+	border-color: #e2e2e2;
+}
+
+#es_content .es_view_list_links ul li.current-menu-item a:hover{ 
+	color:#9e9e9e;
+}
+
+#es_content .es_view_list_links ul li a:hover{ 
+	color:#1d1d1d;
+}
+
+#es_request_form .es_request_info_popup_overlay{ 
+	background:#000;
+}
+
+#es_request_form .es_request_info_popup_in{ 
+	background:#fff;
+	box-shadow:0px 0px 5px rgba(0,0,0,0.4); 
+}
+
+#es_request_form .es_request_info_popup_in h4{ 
+	color:#1d1d1d;
+}
+
+#es_request_form .es_request_info_popup_in p{ 
+	color:#1d1d1d;
+}
+
+#es_request_form .es_error{ 
+	background-color: #fff;
+} 
+
+#es_content .esLogOut { 
+	color:#9e9e9e; 
+	border-color: #9e9e9e;
+}
+
+#es_content .es_mainHeading{  
+	color: #1d1d1d;
+}

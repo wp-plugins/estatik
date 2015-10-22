@@ -17,22 +17,22 @@
 		
     You should have received a copy of the GNU Lesser General Public License
     along with WideImage; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
-    * @package Internal/Operations
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+    * @package Internal/Operations
   **/
-	
-	/**
-	 * An Exception for when an invalid fit method is passed
-	 * 
-	 * @package Internal/Operations
-	 */
+	
+	/**
+	 * An Exception for when an invalid fit method is passed
+	 * 
+	 * @package Internal/Operations
+	 */
 	class WideImage_Operation_InvalidFitMethodException extends WideImage_Exception {}
-	/**
-	 * An Exception for when an invalid resize dimensions are passed
-	 * 
-	 * @package Internal/Operations
-	 */
+	/**
+	 * An Exception for when an invalid resize dimensions are passed
+	 * 
+	 * @package Internal/Operations
+	 */
 	class WideImage_Operation_InvalidResizeDimensionException extends WideImage_Exception {}
 	
 	/**
@@ -41,15 +41,15 @@
 	 * @package Internal/Operations
 	 */
 	class WideImage_Operation_Resize
-	{
-		/**
-		 * Prepares and corrects smart coordinates
-		 *
-		 * @param WideImage_Image $img
-		 * @param smart_coordinate $width
-		 * @param smart_coordinate $height
-		 * @param string $fit
-		 * @return array
+	{
+		/**
+		 * Prepares and corrects smart coordinates
+		 *
+		 * @param WideImage_Image $img
+		 * @param smart_coordinate $width
+		 * @param smart_coordinate $height
+		 * @param string $fit
+		 * @return array
 		 */
 		protected function prepareDimensions($img, $width, $height, $fit)
 		{
@@ -71,12 +71,12 @@
 			if ($height === null)
 				$height = floor($img->getHeight() * $width / $img->getWidth());
 			
-			if ($width === 0 || $height === 0)
-				return array('width' => 0, 'height' => 0);
+			if ($width === 0 || $height === 0)
+				return array('width' => 0, 'height' => 0);
 			
-			if ($fit == null)
-				$fit = 'inside';
-			
+			if ($fit == null)
+				$fit = 'inside';
+			
 			$dim = array();
 			if ($fit == 'fill')
 			{
@@ -102,15 +102,15 @@
 			return $dim;
 		}
 		
-		/**
-		 * Returns a resized image
-		 *
-		 * @param WideImage_Image $img
-		 * @param smart_coordinate $width
-		 * @param smart_coordinate $height
-		 * @param string $fit
-		 * @param string $scale
-		 * @return WideImage_Image
+		/**
+		 * Returns a resized image
+		 *
+		 * @param WideImage_Image $img
+		 * @param smart_coordinate $width
+		 * @param smart_coordinate $height
+		 * @param string $fit
+		 * @param string $scale
+		 * @return WideImage_Image
 		 */
 		function execute($img, $width, $height, $fit, $scale)
 		{
@@ -118,9 +118,9 @@
 			if (($scale === 'down' && ($dim['width'] >= $img->getWidth() && $dim['height'] >= $img->getHeight())) ||
 				($scale === 'up' && ($dim['width'] <= $img->getWidth() && $dim['height'] <= $img->getHeight())))
 				$dim = array('width' => $img->getWidth(), 'height' => $img->getHeight());
-			
-			if ($dim['width'] <= 0 || $dim['height'] <= 0)
-				throw new WideImage_Operation_InvalidResizeDimensionException("Both dimensions must be larger than 0.");
+			
+			if ($dim['width'] <= 0 || $dim['height'] <= 0)
+				throw new WideImage_Operation_InvalidResizeDimensionException("Both dimensions must be larger than 0.");
 			
 			if ($img->isTransparent() || $img instanceof WideImage_PaletteImage)
 			{
@@ -128,11 +128,11 @@
 				$new->copyTransparencyFrom($img);
 				if (!imagecopyresized(
 						$new->getHandle(), 
-						$img->getHandle(), 
-						0, 0, 0, 0, 
-						$new->getWidth(), 
-						$new->getHeight(), 
-						$img->getWidth(), 
+						$img->getHandle(), 
+						0, 0, 0, 0, 
+						$new->getWidth(), 
+						$new->getHeight(), 
+						$img->getWidth(), 
 						$img->getHeight()))
 					throw new WideImage_GDFunctionResultException("imagecopyresized() returned false");
 			}
@@ -142,12 +142,12 @@
 				$new->alphaBlending(false);
 				$new->saveAlpha(true);
 				if (!imagecopyresampled(
-						$new->getHandle(), 
-						$img->getHandle(), 
-						0, 0, 0, 0, 
-						$new->getWidth(), 
-						$new->getHeight(), 
-						$img->getWidth(), 
+						$new->getHandle(), 
+						$img->getHandle(), 
+						0, 0, 0, 0, 
+						$new->getWidth(), 
+						$new->getHeight(), 
+						$img->getWidth(), 
 						$img->getHeight()))
 					throw new WideImage_GDFunctionResultException("imagecopyresampled() returned false");
 				$new->alphaBlending(true);

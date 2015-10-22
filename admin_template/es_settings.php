@@ -8,7 +8,8 @@ if(isset($_POST['es_settings_submit'])){
 	$price									= sanitize_text_field($_POST['price']);
 	$title									= sanitize_text_field($_POST['title']);
 	$address								= sanitize_text_field($_POST['address']);
-	$dare_format							= sanitize_text_field($_POST['dare_format']);
+	$date_format							= sanitize_text_field($_POST['date_format']);
+    $theme_style                            = sanitize_text_field($_POST['theme_style']);
 	$resize_method							= sanitize_text_field($_POST['resize_method']);
 	$prop_listview_list_height				= sanitize_text_field($_POST['prop_listview_list_height']);
 	$prop_listview_list_width				= sanitize_text_field($_POST['prop_listview_list_width']);
@@ -29,7 +30,8 @@ if(isset($_POST['es_settings_submit'])){
 			'price' 								=> $price,
 			'title' 								=> $title,
 			'address' 								=> $address,
-			'dare_format' 							=> $dare_format,
+			'date_format' 							=> $date_format,
+            'theme_style'                           => $theme_style,
 			'resize_method' 						=> $resize_method,
 			'prop_listview_list_height' 			=> $prop_listview_list_height,
 			'prop_listview_list_width' 				=> $prop_listview_list_width,
@@ -78,12 +80,7 @@ if(isset($_POST['es_settings_submit'])){
             </div>
             
             <?php 
-                $es_settings = new stdClass;
-                $es_settings_data = $wpdb->get_results( 'SELECT * FROM '.$wpdb->prefix.'estatik_settings');
-                $es_settings = $es_settings_data[0];
-				
-				//print_r($es_settings);
-     
+                $es_settings = $wpdb->get_row("SELECT * FROM {$wpdb->prefix}estatik_settings WHERE `setting_id`=1");
             ?>
             
             <div id="es_settings" class="es_tabs_contents  clearFix">
@@ -115,11 +112,18 @@ if(isset($_POST['es_settings_submit'])){
                     </div>
                     <div class="es_settings_field clearFix">
                         <span><?php _e('Date format', 'es-plugin'); ?>:</span>
-                        <select name="dare_format">
+                        <select name="date_format">
                             <option value=""><?php _e('Date Format', 'es-plugin'); ?></option>
-                            <option <?php if($es_settings->dare_format=='d/m/y'){ echo 'selected="selected"'; } ?> value="<?php echo "d/m/y"?>"><?php echo date("d/m/y");?></option>
-                            <option <?php if($es_settings->dare_format=='m/d/y'){ echo 'selected="selected"'; } ?> value="<?php echo "m/d/y"?>"><?php echo date("m/d/y");?></option>
-                            <option <?php if($es_settings->dare_format=='d.m.y'){ echo 'selected="selected"'; } ?> value="<?php echo "d.m.y"?>"><?php echo date("d.m.y");?></option>
+                            <option <?php if($es_settings->date_format=='d/m/y'){ echo 'selected="selected"'; } ?> value="<?php echo "d/m/y"?>"><?php echo date("d/m/y");?></option>
+                            <option <?php if($es_settings->date_format=='m/d/y'){ echo 'selected="selected"'; } ?> value="<?php echo "m/d/y"?>"><?php echo date("m/d/y");?></option>
+                            <option <?php if($es_settings->date_format=='d.m.y'){ echo 'selected="selected"'; } ?> value="<?php echo "d.m.y"?>"><?php echo date("d.m.y");?></option>
+                        </select>
+                    </div>
+                    <div class="es_settings_field clearFix">
+                        <span><?php _e( "Choose theme color style", "es-plugin" ); ?>:</span>
+                        <select name="theme_style">
+                            <option <?php if($es_settings->theme_style=='light'){ echo 'selected="selected"'; } ?> value="<?php echo "light"?>"><?php _e("Light", "es-plugin"); ?></option>
+                            <option <?php if($es_settings->theme_style=='dark'){ echo 'selected="selected"'; } ?> value="<?php echo "dark"?>"><?php _e("Dark", "es-plugin"); ?></option>
                         </select>
                     </div>
                 </div>
@@ -262,7 +266,7 @@ if(isset($_POST['es_settings_submit'])){
                      </div>
                      <div class="es_settings_field clearFix">
                      	<small></small>
-                        <span><?php _e( "PDF flayer", "es-plugin" ); ?>:</span>
+                        <span><?php _e( "PDF flyer", "es-plugin" ); ?>:</span>
                         <label><input type="radio" disabled="disabled" value="" /><?php _e('Yes', 'es-plugin'); ?></label>
                         <label><input type="radio" disabled="disabled" value="" /><?php _e('NO', 'es-plugin'); ?></label>
                      </div>
