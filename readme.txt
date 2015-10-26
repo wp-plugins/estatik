@@ -19,7 +19,7 @@ Visit [demo](http://demo.estatik.net/) of Estatik plugin on one of default WordP
  
 Estatik Pro features:
 
-* listing manager (unlimited categories/types/statuses, sorting)
+* listing manager (unlimited categories/types/statuses, sorting)* sorting listings by cities
 * frontend property management (submitting properties after admin approval)
 * responsive layouts (table/list/2 columns view - for list view; image right, left, center - single property view)
 * agents support (agent profile, ratings, contact information)
@@ -33,16 +33,16 @@ Estatik Pro features:
 * extra layout options for single property page and list (table/2 columns/list views)
 * slideshow widget (vertical/horizontal layouts, select show category, type, per id, etc.)
 * request information widget
-* search widget with 10 yes/no fields
+* search widget with 10 yes/no fields* map view (all listings displayed on map at once)
 * language files* dark/light style modes for dark or light-colored themes
 
 Shortcodes:
 
-* [es_my_listing] = All listings list
+* [es_my_listing] = All listings list (PRO & Simple)
 * [es_agents] = All agents list (PRO)
-* [es_featured_props] = Featured properties list
-* [es_latest_props] = Latest properties list
-* [es_cheapest_props] = Cheapest properties list
+* [es_featured_props] = Featured properties list (PRO & Simple)
+* [es_latest_props] = Latest properties list (PRO & Simple)
+* [es_cheapest_props] = Cheapest properties list (PRO & Simple)
 * [es_profile] = Profile of agent page (PRO)
 * [es_prop_management] = Properties management (PRO)
 * [es_register] = Agents registration (PRO)
@@ -51,13 +51,12 @@ Shortcodes:
 * [es_property_map type="for-rent"] = Properties for rent (PRO)
 * [es_property_map type="for-sale"] = Properties for sale (PRO)
 * [es_property_map prop_id="12, 24, 26"] = Specific properties (PRO)
-* [es_latest_props layout="table"] = Table listings layout 
-* [es_latest_props layout="list"] = List listing layout
-* [es_latest_props layout="2columns"] = 2 columns listing layout
-* [es_category category="for sale"] = Listings for sale 
-* [es_category type="house"] = Listings of type - house
-* [es_category status="open"] = Listings with status open
-* [es_search] = Search results* [es_city city="city name"] = Listings assigned to named city (PRO & Simple)
+* [es_latest_props layout="table"] = Table listings layout (PRO)
+* [es_latest_props layout="list"] = List listing layout (PRO)
+* [es_latest_props layout="2columns"] = 2 columns listing layout (PRO)
+* [es_category category="for sale"] = Listings for sale (PRO & Simple)
+* [es_category type="house"] = Listings of type - house (PRO & Simple)
+* [es_category status="open"] = Listings with status open (PRO & Simple)* [es_city city="city name"] = Listings assigned to named city (PRO & Simple)
 
 Visit official [Estatik Pro page](http://estatik.net/product/estatik-professional/) to get full information.
 
